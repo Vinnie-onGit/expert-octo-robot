@@ -13,6 +13,7 @@ tags:
 - **Data in-game:** non confermata
 - **Partecipanti:** Vincenzo/Vinz, Andrea/Luther Fist, Joshua/Anivar, Cristiano/Olorik, Matias/Igor Mito
 - **Fonte raw:** `raw/archive/2026-03-11 21-55-09_trascrizione.md`
+- **Scene analysis:** [[wiki/query/scene-analysis-2026-03-11-l-ombra-di-padre-danik|Scene Analysis - S03 - L'Ombra Di Padre Danik]]
 
 ## Scene Canoniche
 

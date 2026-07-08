@@ -20,7 +20,9 @@ tags:
 - Intuisce, dopo la dissoluzione di [[wiki/characters/padre-danik|Padre Danik]], che un'ombra puo forse essere strappata al [[wiki/concepts/canto|Canto]] se conserva un motivo forte per tornare.
 - Porta l'ultima volta nota la [[wiki/items/conchiglia-di-sharavin|conchiglia di Sharavin]].
 - Usa lo [[wiki/items/specchio-di-edmorin|specchio]] con la lanterna, rivelando la figura di [[wiki/characters/re-edmorin|Re Edmorin]].
+- Riconosce con Anivar i simboli di [[wiki/factions/culto-di-umberlee|Umberlee]] presso la Cattedrale.
+- Stringe la conchiglia quando Kaelira parla degli Sharavis con fastidio, percependo il giudizio come ingiusto.
 
 ## Fonti
 
-- S01-S05, trascrizioni raw archiviate in `raw/archive/`.
+- S01-S06, trascrizioni raw archiviate in `raw/archive/`.

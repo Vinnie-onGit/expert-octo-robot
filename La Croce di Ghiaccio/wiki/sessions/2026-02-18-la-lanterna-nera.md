@@ -14,6 +14,7 @@ tags:
 - **Partecipanti:** Vincenzo/Vinz, Andrea/Luther Fist, Joshua/Anivar, Cristiano/Olorik, Matias/Igor Mito
 - **Fonte raw:** `raw/archive/2026-02-18 21-47-45_trascrizione.md`
 - **Fonte raw integrativa:** `raw/archive/La_Croce_di_ghiaccio.md`
+- **Scene analysis:** [[wiki/query/scene-analysis-2026-02-18-la-lanterna-nera|Scene Analysis - S01 - La Lanterna Nera]]
 
 ## Scene Canoniche
 

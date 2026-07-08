@@ -14,6 +14,7 @@ tags:
 - **Partecipanti:** Vincenzo/Vinz, Andrea/Luther Fist, Joshua/Anivar, Cristiano/Olorik, Matias/Igor Mito
 - **Fonte raw:** `raw/archive/2026-04-01 21-46-06_trascrizione.md`
 - **Fonte raw integrativa:** `raw/archive/La_Croce_di_ghiaccio.md`
+- **Scene analysis:** [[wiki/query/scene-analysis-2026-04-01-verso-la-cattedrale-delle-ombre|Scene analysis S05]]
 
 ## Scene Canoniche
 

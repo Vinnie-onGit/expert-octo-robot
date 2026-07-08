@@ -20,7 +20,8 @@ tags:
 - Aiuta [[wiki/characters/anivar|Anivar]] a fuggire dal tempio sommerso con una corda durante il collasso.
 - Il suo ciondolo reagisce alla [[wiki/items/lanterna-nera|lanterna nera]].
 - Viene seguito da un gatto arancione dagli occhi verdi sulla nave di [[wiki/characters/kaelira|Kaelira]].
+- Parla in privato con Kaelira delle ombre del Faro e della campana runica; la capitana considera anomalo che ombre del Canto possano parlare o ricordare incanti.
 
 ## Fonti
 
-- S01-S05, trascrizioni raw archiviate in `raw/archive/`.
+- S01-S06, trascrizioni raw archiviate in `raw/archive/`.

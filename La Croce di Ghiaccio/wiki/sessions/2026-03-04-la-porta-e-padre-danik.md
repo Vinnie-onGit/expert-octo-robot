@@ -14,6 +14,7 @@ tags:
 - **Partecipanti:** Vincenzo/Vinz, Andrea/Luther Fist, Joshua/Anivar, Cristiano/Olorik, Matias/Igor Mito
 - **Fonte raw:** `raw/archive/2026-03-04 21-55-38_trascrizione.md`
 - **Fonte raw integrativa:** `raw/archive/La_Croce_di_ghiaccio.md`
+- **Scene analysis:** [[wiki/query/scene-analysis-2026-03-04-la-porta-e-padre-danik|Scene Analysis - S02 - La Porta E Padre Danik]]
 
 ## Scene Canoniche
 

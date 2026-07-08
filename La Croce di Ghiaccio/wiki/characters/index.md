@@ -20,7 +20,7 @@ tags:
 | Nome | Ruolo | Stato | Fonte |
 |---|---|---|---|
 | [[wiki/characters/padre-danik|Padre Danik]] | sacerdote di Ilmater / ombra corrotta | liberato/dissolto | S02-S04 |
-| [[wiki/characters/kaelira|Kaelira]] | capitana della flotta di Numcalad | attiva | S04-S05 |
+| [[wiki/characters/kaelira|Kaelira]] | capitana della flotta di Numcalad | attiva; ombra assente | S04-S06 |
 | [[wiki/characters/sharavin|Sharavin]] | capo degli Sharavis | alleato condizionale | S04 |
 | [[wiki/characters/seraph|Seraph]] | campione antico contro il Canto | frammento nella lanterna | S05 |
 | [[wiki/characters/re-edmorin|Re Edmorin]] | re elfico nello specchio | misterioso | S05 |

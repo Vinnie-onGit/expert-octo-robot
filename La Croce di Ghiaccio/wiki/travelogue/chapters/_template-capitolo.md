@@ -14,15 +14,22 @@ tags:
 - **Data in-game:**
 - **POV:**
 - **Stato:** bozza
-- **Target:** giocatori
+- **Target:** giocatori / DM / misto
 - **Fonti canoniche:**
 - **Fonti raw:**
+- **Scene analysis:**
+- **Export Word:**
+- **Tag:**
+  - vault/campaign
+  - type/chapter
+  - domain/travelogue
+  - status/draft
 
 ---
 
 ## Testo Narrativo
 
-Da scrivere.
+Scrivere qui il capitolo romanzato.
 
 ---
 
@@ -37,7 +44,34 @@ Da scrivere.
 
 ---
 
+## Continuita Narrativa
+
+- **Temi:**
+- **Simboli:**
+- **Callback:**
+- **Evoluzione personaggi:**
+- **Dettagli da ricordare nei capitoli futuri:**
+
+---
+
 ## Collegamenti
 
 - **Sessione:**
+- **Scene analysis:**
 - **Timeline:** [[wiki/timeline/timeline-canonica|Timeline canonica]]
+- **Personaggi:**
+- **Luoghi:**
+- **Quest:**
+- **Misteri:**
+- **Oggetti:**
+- **Fazioni:**
+
+---
+
+## Stato Revisione
+
+- **Prima bozza:**
+- **Revisione stile:**
+- **Revisione canon:**
+- **Export Word:**
+- **Approvato da:**

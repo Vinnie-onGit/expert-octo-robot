@@ -23,6 +23,8 @@ tags:
 - Ha accolto una scintilla dorata associata a [[wiki/characters/padre-danik|Padre Danik]].
 - Secondo [[wiki/characters/kaelira|Kaelira]], contiene una traccia o frammento dell'essenza di [[wiki/characters/seraph|Seraph]].
 - Al contatto con [[wiki/characters/kaelira|Kaelira]] provoca una reazione fisica intensa e richiama un retaggio celestiale.
+- Kaelira la considera abbastanza pericolosa da richiedere custodia nel [[wiki/items/sacco-antimagia|sacco antimagia]] a bordo della nave.
+- Mentre Kaelira la osserva nella propria cabina, il gruppo nota che la capitana non proietta alcuna ombra.
 
 ## Misteri
 
@@ -33,5 +35,5 @@ tags:
 
 ## Fonti
 
-- S01-S05, trascrizioni raw archiviate in `raw/archive/`.
+- S01-S06, trascrizioni raw archiviate in `raw/archive/`.
 - Diario legacy `raw/archive/La_Croce_di_ghiaccio.md`.

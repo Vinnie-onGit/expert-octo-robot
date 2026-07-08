@@ -13,6 +13,7 @@ tags:
 - **Data in-game:** non confermata
 - **Partecipanti:** Vincenzo/Vinz, Andrea/Luther Fist, Joshua/Anivar, Cristiano/Olorik, Matias/Igor Mito
 - **Fonte raw:** `raw/archive/2026-03-18 21-41-23_trascrizione.md`
+- **Scene analysis:** [[wiki/query/scene-analysis-2026-03-18-la-luce-di-padre-danik|Scene Analysis - S04 - La Luce Di Padre Danik]]
 
 ## Scene Canoniche
 

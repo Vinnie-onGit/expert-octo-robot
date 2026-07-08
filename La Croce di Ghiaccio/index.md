@@ -40,7 +40,7 @@ tags:
 
 - [[wiki/travelogue/index|Indice Travelogue]]
 - [[wiki/travelogue/chapters/capitolo-01-la-lanterna-nera|Capitolo 01 - La Lanterna Nera]]
-- [[wiki/travelogue/chapters/capitolo-05-verso-la-cattedrale-delle-ombre|Ultimo capitolo - Verso La Cattedrale Delle Ombre]]
+- [[wiki/travelogue/chapters/capitolo-06-approdo-alla-cattedrale-delle-ombre|Ultimo capitolo - Approdo Alla Cattedrale Delle Ombre]]
 - [[wiki/travelogue/style-guide|Style Guide Travelogue]]
 - [[wiki/travelogue/continuity|Continuity Travelogue]]
 - [[state/travelogue_status|Stato Travelogue]]

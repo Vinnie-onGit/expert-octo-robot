@@ -19,6 +19,7 @@ tags:
 - Nel Faro Sommerso vede ricordi del capitano grazie alla [[wiki/items/lanterna-nera|lanterna nera]].
 - Scaccia le ombre evocate da [[wiki/characters/padre-danik|Padre Danik]] e sostiene il gruppo con cure e potere divino.
 - Sotto la luce della lanterna, la sua ombra risulta assente o incompleta: dopo la liberazione di Danik, manca ancora dalla vita in giu.
+- Riconosce con Igor i simboli di [[wiki/factions/culto-di-umberlee|Umberlee]] presso la Cattedrale delle Ombre.
 
 ## Misteri Collegati
 
@@ -27,4 +28,4 @@ tags:
 
 ## Fonti
 
-- S01-S05, trascrizioni raw archiviate in `raw/archive/`.
+- S01-S06, trascrizioni raw archiviate in `raw/archive/`.

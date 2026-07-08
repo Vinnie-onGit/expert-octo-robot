@@ -16,6 +16,7 @@ tags:
 
 - Colpisce mente, sogni, ricordi, emozioni e attaccamento alla realta.
 - Produce o richiama ombre, echi, armonie e manifestazioni fredde/necrotiche.
+- Secondo Kaelira, estirpa la memoria e la traduce in energia; ombre generate in questo modo non dovrebbero parlare ne ricordare incanti appresi in vita.
 - Gli [[wiki/factions/shariti|shariti]] lo usano come strumento, ma non lo hanno creato.
 - Ha contaminato [[wiki/characters/padre-danik|Padre Danik]] e alcuni [[wiki/factions/sharavis|Sharavis]].
 - Potrebbe essere stato sigillato in passato da [[wiki/characters/seraph|Seraph]], che diede la propria essenza.
@@ -31,4 +32,4 @@ tags:
 
 ## Fonti
 
-- S01-S05, trascrizioni raw archiviate in `raw/archive/`.
+- S01-S06, trascrizioni raw archiviate in `raw/archive/`.
