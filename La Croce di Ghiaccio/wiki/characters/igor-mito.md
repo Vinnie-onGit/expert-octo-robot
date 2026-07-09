@@ -22,7 +22,8 @@ tags:
 - Usa lo [[wiki/items/specchio-di-edmorin|specchio]] con la lanterna, rivelando la figura di [[wiki/characters/re-edmorin|Re Edmorin]].
 - Riconosce con Anivar i simboli di [[wiki/factions/culto-di-umberlee|Umberlee]] presso la Cattedrale.
 - Stringe la conchiglia quando Kaelira parla degli Sharavis con fastidio, percependo il giudizio come ingiusto.
+- Nel [[wiki/locations/villaggio-dell-isola-della-cattedrale|villaggio dell'isola della Cattedrale]], tenta di mantenere una maschera positiva e conviviale nonostante l'atmosfera ostile, cercando contatto con gli abitanti e guidando il gruppo verso la [[wiki/locations/stella-solitaria|Stella Solitaria]].
 
 ## Fonti
 
-- S01-S06, trascrizioni raw archiviate in `raw/archive/`.
+- S01-S07, trascrizioni raw archiviate in `raw/archive/`.

@@ -34,3 +34,20 @@ tags:
 - Revisionati i capitoli travelogue S01-S02 con il nuovo standard Sottosuolo-quality: create le scene-analysis `wiki/query/scene-analysis-2026-02-18-la-lanterna-nera.md` e `wiki/query/scene-analysis-2026-03-04-la-porta-e-padre-danik.md`, riscritti i capitoli 01-02 scena per scena e aggiornati stato/continuity. Export Word non creato in questa revisione.
 - Revisionati i capitoli travelogue S03-S04 con il nuovo standard Sottosuolo-quality: create le scene-analysis `wiki/query/scene-analysis-2026-03-11-l-ombra-di-padre-danik.md` e `wiki/query/scene-analysis-2026-03-18-la-luce-di-padre-danik.md`, riscritti i capitoli 03-04 scena per scena e aggiornati sessioni, stato/continuity e indice travelogue. Export Word non creato in questa revisione.
 - Verificata l'assenza di `pandoc` nel PATH; gli export Word dei capitoli revisionati restano da generare quando sara disponibile uno strumento di conversione.
+
+## 2026-07-09
+
+- Ingerita la trascrizione `raw/sessions/2026-07-08 22-09-04.txt` come S07.
+- Creata la scheda canonica `wiki/sessions/2026-07-08-la-stella-solitaria.md`.
+- Creata la scene-analysis `wiki/query/scene-analysis-2026-07-08-la-stella-solitaria.md`.
+- Create le nuove pagine `wiki/locations/stella-solitaria.md` e `wiki/characters/vecchio-marinaio.md`.
+- Aggiornati timeline, overview, stati operativi, pagine naturali su villaggio, Cattedrale, Canto, Umberlee e PG.
+- Creato il capitolo travelogue `wiki/travelogue/chapters/capitolo-07-la-stella-solitaria.md` e aggiornati indice/stato/continuity travelogue.
+- Archiviata la trascrizione raw in `raw/archive/2026-07-08 22-09-04_trascrizione.txt`.
+- Export Word del Capitolo 07 non creato per assenza di `pandoc`.
+- Creato `scripts/vault-save.ps1` per salvataggio Git controllato della sottocartella del vault: verifica raw non archiviati, staged preesistenti, `git diff --check`, staging, commit e push opzionalmente disattivabile.
+- Documentata in `regole.md` e `AGENTS.md` la procedura di commit/push esplicita a fine ingest significativo.
+- Creato `scripts/export-travelogue-html.ps1` per generare un export HTML completo, responsive e player-facing del travelogue.
+- Generato `exports/travelogue/html/index.html` con i capitoli 01-07 usando solo il `## Testo Narrativo`.
+- Aggiornati `regole.md`, `AGENTS.md`, `wiki/lint/session-ingest-checklist.md`, `wiki/travelogue/index.md`, `state/travelogue_status.md` e `index.md` per includere l'export HTML nel workflow.
+- Aggiornato `scripts/vault-save.ps1` per escludere `.obsidian/` di default durante staging, salvo `-AllowObsidian`.

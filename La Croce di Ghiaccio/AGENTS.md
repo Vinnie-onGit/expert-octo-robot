@@ -102,6 +102,8 @@ Il travelogue non sostituisce il canon e non introduce automaticamente nuovi fat
 
 `exports/travelogue/docx/` export Word dei capitoli travelogue, quando richiesti o quando viene revisionato sostanzialmente un capitolo.
 
+`exports/travelogue/html/` export HTML completo e leggibile del travelogue, generato da `scripts/export-travelogue-html.ps1` usando solo il `## Testo Narrativo` dei capitoli.
+
 `wiki/lint/` report di pulizia, controlli strutturali, template e verifiche di coerenza.
 
 `state/world_state.md` snapshot aggiornato dello stato del mondo.
@@ -166,13 +168,14 @@ Definita struttura per diario di viaggio romanzato:
 
 Predisposte regole per separare raw, canon, speculazione, conoscenza riservata e travelogue.
 
-Ingerite e consolidate le sessioni canoniche S01-S06:
+Ingerite e consolidate le sessioni canoniche S01-S07:
 - `wiki/sessions/2026-02-18-la-lanterna-nera.md`;
 - `wiki/sessions/2026-03-04-la-porta-e-padre-danik.md`;
 - `wiki/sessions/2026-03-11-l-ombra-di-padre-danik.md`;
 - `wiki/sessions/2026-03-18-la-luce-di-padre-danik.md`;
 - `wiki/sessions/2026-04-01-verso-la-cattedrale-delle-ombre.md`;
-- `wiki/sessions/2026-06-17-approdo-alla-cattedrale-delle-ombre.md`.
+- `wiki/sessions/2026-06-17-approdo-alla-cattedrale-delle-ombre.md`;
+- `wiki/sessions/2026-07-08-la-stella-solitaria.md`.
 
 Aggiornati:
 - `wiki/timeline/timeline-canonica.md`;
@@ -185,7 +188,7 @@ Aggiornati:
 
 Create pagine naturali per PG, PNG, luoghi, fazioni, oggetti, concetti, quest e misteri principali.
 
-Creati capitoli travelogue 01-06 in stato bozza.
+Creati capitoli travelogue 01-07 in stato bozza.
 
 Allineato il workflow del travelogue al modello qualitativo del vault **Sottosuolo**:
 - `scene-analysis` obbligatoria in `wiki/query/` prima dei capitoli;
@@ -200,9 +203,12 @@ Allineato il workflow del travelogue al modello qualitativo del vault **Sottosuo
 
 Processare eventuali nuove fonti grezze inserite in `raw/sessions/`, `raw/lore/`, `raw/character_backgrounds/` o `raw/handouts/`.
 
-Da verificare dopo S06:
-- sbarco presso il villaggio dell'isola della Cattedrale;
-- stato reale degli abitanti;
+Da verificare dopo S07:
+- identita e ruolo del Vecchio Marinaio;
+- stato reale degli abitanti della Stella Solitaria e del villaggio;
+- motivo dell'anomalia giorno/notte, riposo e frase "e tardi";
+- affidabilita e significato della cantica della Casa delle Maree;
+- ruolo delle campane contro il Canto e dei nomi inchiodati alla memoria;
 - rapporto tra Cattedrale, Umberlee, Ilmater e Canto;
 - ombra assente di Kaelira;
 - campane runiche gia viste nella guerra;
@@ -236,6 +242,10 @@ Dopo il consolidamento canonico di ogni nuova sessione raw processata, il travel
 
 Dopo ogni creazione o revisione sostanziale di un capitolo travelogue Markdown per Obsidian, creare anche il file Word `.docx` corrispondente in `exports/travelogue/docx/`, usando solo `## Testo Narrativo` e senza includere metadati, note di adattamento o sezioni tecniche, quando lo strumento di conversione e disponibile. Se non e disponibile, registrare il mancato export in `log.md` o nella risposta finale.
 
+Dopo ogni creazione o revisione sostanziale di un capitolo travelogue, rigenerare anche `exports/travelogue/html/index.html` con `scripts/export-travelogue-html.ps1`. L'HTML deve essere player-facing, accattivante, responsive e basato solo sul `## Testo Narrativo` dei capitoli.
+
+Dopo un ingest significativo o una manutenzione strutturale, il vault puo essere salvato con `scripts/vault-save.ps1`, che controlla raw non archiviati, whitespace, staging, commit e push. Usarlo solo su richiesta esplicita del DM, per esempio con "chiudi ingest e pusha". Commit e push non sono automatici durante il lavoro.
+
 Le fonti grezze non vanno modificate, ma solo archiviate dopo l'ingest.
 
 In caso di nuova informazione, si preferisce aggiornare la pagina naturale invece di moltiplicare pagine duplicate.
@@ -268,7 +278,7 @@ Se la richiesta riguarda una nuova trascrizione raw, usa sempre `wiki/lint/sessi
 5. Scartare elementi OOC: riferimenti al DM, meccaniche di gioco, battute meta-gioco, token, mappe, problemi tecnici.
 6. Consolidare il canon: scheda sessione, timeline, pagine naturali, stati.
 7. Scrivere il travelogue scena per scena, dialoghi estesi, attribuzioni verificate.
-8. Creare il Word del travelogue in `exports/travelogue/docx/` dal solo `## Testo Narrativo`, se possibile.
+8. Creare il Word del travelogue in `exports/travelogue/docx/` dal solo `## Testo Narrativo`, se possibile, e rigenerare l'HTML in `exports/travelogue/html/`.
 
 Se la richiesta riguarda una sessione, apri prima:
 - `wiki/lint/session-ingest-checklist.md`;

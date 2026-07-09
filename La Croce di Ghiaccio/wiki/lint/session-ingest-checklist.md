@@ -61,6 +61,7 @@ Il processo parte dalla fonte raw, consolida il canon e termina sempre con aggio
 - [ ] Non estendere capitoli esistenti salvo istruzione esplicita del DM.
 - [ ] Collegare la scheda sessione al nuovo capitolo dedicato.
 - [ ] Creare o aggiornare il file Word `.docx` del capitolo in `exports/travelogue/docx/`, usando solo `## Testo Narrativo` e senza metadati o note tecniche, se lo strumento e disponibile.
+- [ ] Rigenerare l'export HTML completo in `exports/travelogue/html/index.html` con `scripts/export-travelogue-html.ps1`.
 - [ ] Aggiornare `wiki/travelogue/continuity.md` se emergono nuove voci, temi, simboli, callback o promesse narrative.
 - [ ] Aggiornare `wiki/travelogue/index.md`.
 - [ ] Aggiornare `state/travelogue_status.md`.
@@ -77,4 +78,4 @@ Il processo parte dalla fonte raw, consolida il canon e termina sempre con aggio
 
 ## Regola Sintetica
 
-Raw non e canon automatico. Ogni trascrizione va prima divisa in scene, con parlanti disambiguati tramite la mappa Giocatori-PG. Poi si crea una `scene-analysis`, poi si consolida il canon scena per scena, poi si crea sempre un nuovo capitolo travelogue dedicato con dialoghi estesi e OOC escluso, poi si crea l'export Word del capitolo se possibile, poi si aggiornano indice, archivio e log.
+Raw non e canon automatico. Ogni trascrizione va prima divisa in scene, con parlanti disambiguati tramite la mappa Giocatori-PG. Poi si crea una `scene-analysis`, poi si consolida il canon scena per scena, poi si crea sempre un nuovo capitolo travelogue dedicato con dialoghi estesi e OOC escluso, poi si crea l'export Word del capitolo se possibile, si rigenera l'export HTML completo, poi si aggiornano indice, archivio e log.

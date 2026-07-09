@@ -19,6 +19,7 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Immagini associate: metallo freddo del ciondolo, luce nera della lanterna, mano sulla cintura, peso dell'armatura.
 - Tensione attuale: custodisce la lanterna e il sacco antimagia, ma non capisce ancora il legame profondo con il ciondolo.
 - Da ricordare: non e solo portatore dell'oggetto; ne diventa guardiano morale.
+- Dopo S07: il frammento/ciondolo reagisce nel villaggio e nella Stella Solitaria; la desolazione del luogo riapre memorie di perdita e protezione fallita.
 
 ### Anivar
 
@@ -27,6 +28,7 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Immagini associate: Ilmater, sofferenza, mani che curano, ombra incompleta, peso della memoria.
 - Tensione attuale: la sua ombra resta incompleta e la Cattedrale mette in discussione il rapporto tra fede, mare e corruzione.
 - Da ricordare: cerca conseguenze e salvezza piu che colpevoli.
+- Dopo S07: assume una postura protettiva e strategica, chiedendo pazienza e recitazione; integra la presenza di Umberlee senza tradire Ilmater.
 
 ### Olorik
 
@@ -35,6 +37,7 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Immagini associate: asce, barba, legno, schegge, corda, roccia, peso fisico delle cose.
 - Tensione attuale: ha visto ombre che non obbediscono alle regole note; Kaelira gli ha lasciato addosso il peso di una guerra piu grande.
 - Da ricordare: la sua forza non cancella la capacita di osservare.
+- Dopo S07: percepisce una litania nel vento e riconosce il Canto nei corpi fasciati degli avventori prima degli altri.
 
 ### Igor Mito
 
@@ -43,6 +46,7 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Immagini associate: liuto, tazza, conchiglia, patti, maschere sociali, fastidio davanti ai giudizi facili.
 - Tensione attuale: custodisce la conchiglia di Sharavin e sente disagio davanti al disprezzo di Kaelira per gli Sharavis.
 - Da ricordare: l'ironia copre intuizioni morali vere.
+- Dopo S07: la maschera positiva si incrina nella Stella Solitaria; la voglia di essere accettato dal gruppo diventa una tensione narrativa esplicita.
 
 ## PNG Ricorrenti
 
@@ -74,23 +78,28 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Fiducia verso Kaelira alta sul piano logistico, ma incrinata dai misteri su lanterna e ombra assente.
 - Fiducia verso gli Sharavis ancora fragile: il party ha un favore, ma la nave li considera minaccia o fastidio.
 - Tensione tra fede ilmaterita e simboli di Umberlee presso la Cattedrale.
+- Tensione tra riposo e minaccia: il villaggio invita a dormire quando dovrebbe essere giorno.
 
 ### Fiducia
 
 - Dopo S04, il gruppo ha funzionato come squadra nella fuga dal Faro Sommerso.
 - Dopo S05, la lanterna e lo specchio hanno dato al party un mistero condiviso.
 - Dopo S06, il gruppo e sul punto di restare senza supporto diretto della nave per una notte.
+- Dopo S07, il gruppo e isolato nella Stella Solitaria e deve decidere se accettare le quattro camere senza separarsi davvero.
 
 ### Running Joke
 
 - Igor usa spesso teatralita e allusioni per spostare la tensione.
 - Olorik riporta il sacro e il misterioso sul piano di asce, legno, schegge e cose tangibili.
+- Alla Stella Solitaria, Anivar usa ironia asciutta per sostenere Igor e contenere Olorik, non per alleggerire davvero la minaccia.
 
 ### Ferite Emotive
 
 - Anivar porta l'ombra incompleta come ferita non spiegata.
 - Kaelira porta una guerra lunga abbastanza da spezzare la voce quando parla di cio che non capisce.
 - Luther porta la lanterna come responsabilita personale.
+- Igor mostra che la propria allegria puo essere una difesa contro il rifiuto.
+- Olorik comincia a vivere il soprannaturale come qualcosa fuori dal mestiere ordinario del soldato.
 
 ## Temi Ricorrenti
 
@@ -102,6 +111,7 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Conoscenza incompleta in una guerra antica.
 - Cose costruite per contenere: fari, sigilli, campane, lanterne, sacchi, navi, cattedrali.
 - Popoli giudicati mostruosi prima di essere compresi.
+- Riposo come resa: il Canto non forza sempre la porta, puo sedersi accanto e invitare a smettere.
 
 ## Simboli Ricorrenti
 
@@ -115,6 +125,9 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 | Campana runica | Risonanza, guerra antica, cattivo presagio | S03/S06 | Da collegare ai sigilli e alla Cattedrale se il canon lo conferma |
 | Tridente di Umberlee | Paura del mare, tributo, sopravvivenza | S06 | Segno della stratificazione religiosa della Cattedrale |
 | Scafo capovolto | Protezione fallita o trasformata | S06 | Forma visiva della Cattedrale |
+| Quattro chiavi | Accoglienza sospetta, separazione, invito al riposo | S07 | La Stella Solitaria offre camere prima che vengano richieste |
+| Stella Solitaria | Falsa ospitalita, luogo di soglia nel villaggio | S07 | Prima taverna/locanda dell'isola, carica di segni del Canto |
+| Tridente del Vecchio Marinaio | Autorita marina, vecchiaia, Umberlee o memoria locale | S07 | Da non spiegare finche il canon non chiarisce |
 
 ## Callback Da Recuperare
 
@@ -126,6 +139,8 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - La Cattedrale ha simboli di Umberlee e forma di scafo/scheletro marino.
 - Il pugnale nel relitto era conficcato sul diario o documento in corrispondenza della parola "mare".
 - Le campane runiche sono gia state viste nella guerra e non hanno mai portato conforto.
+- Il bardo gnomo canta campane suonate contro il Canto e nomi inchiodati alla memoria.
+- Il Vecchio Marinaio dice: "Siete arrivati finalmente. Siete arrivati."
 
 ## Promesse Narrative
 
@@ -136,8 +151,9 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 | Dare conseguenze all'ombra incompleta di Anivar | S02-S06 | aperta | Non risolvere senza canon |
 | Usare o preservare il favore di Sharavin | S04-S06 | aperta | Non banalizzare gli Sharavis |
 | Indagare l'ombra assente di Kaelira | S06 | aperta | Mistero ad alta priorita |
-| Scoprire lo stato del villaggio dell'isola | S06 | aperta | Luci interne, nessuna pesca, falo spento |
-| Mostrare il rapporto tra Cattedrale, Umberlee e Canto | S06 | aperta | La Cattedrale sembra scelta/reclamata, non creata dal Canto |
+| Scoprire lo stato del villaggio dell'isola | S06-S07 | aperta | Abitanti chiusi, orario anomalo, Stella Solitaria e avventori fasciati |
+| Mostrare il rapporto tra Cattedrale, Umberlee e Canto | S06-S07 | aperta | La Cattedrale sembra scelta/reclamata, non creata dal Canto; cantica su campane e memoria |
+| Capire il Vecchio Marinaio | S07 | aperta | Figura con tridente, ossa e conchiglie; sembra aspettare il party |
 
 ## Immagini Ricorrenti
 
@@ -149,6 +165,8 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Ombre sbagliate: mancanti, incomplete, assenti o troppo vive.
 - Campane, torri e fari come strumenti di richiamo o contenimento.
 - Cabine strette dove il mondo sembra piu grande di quanto dovrebbe.
+- Taverne che dovrebbero essere rifugio ma sembrano anticamere di qualcosa.
+- Chiavi, stanze e letti come inviti ambigui, non sicurezza.
 
 ## Capitoli Da Rivedere Con Il Nuovo Standard
 
@@ -165,6 +183,7 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 | [[wiki/travelogue/chapters/capitolo-04-la-luce-di-padre-danik|Capitolo 04]] | 2026-07-08 | Riscritto scena per scena con liberazione di Danik, collasso del faro, Sharavin e coda emotiva. |
 | [[wiki/travelogue/chapters/capitolo-05-verso-la-cattedrale-delle-ombre|Capitolo 05]] | 2026-07-08 | Riscritto scena per scena con Seraph, Kaelira, specchio di Edmorin, sogni anomali e cliffhanger sul mare. |
 | [[wiki/travelogue/chapters/capitolo-06-approdo-alla-cattedrale-delle-ombre|Capitolo 06]] | 2026-07-08 | Riscritto scena per scena con sacco antimagia, ombra assente di Kaelira, Umberlee, acque corrotte e villaggio. |
+| [[wiki/travelogue/chapters/capitolo-07-la-stella-solitaria|Capitolo 07]] | 2026-07-09 | Creato scena per scena con sbarco, villaggio chiuso, Stella Solitaria, cantica e Vecchio Marinaio. |
 
 ## Evoluzione Emotiva
 
@@ -175,6 +194,14 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Olorik riceve da Kaelira la conferma che le ombre affrontate non erano normali, portando la guerra su un piano meno tangibile.
 - Igor sente crescere il legame morale con gli Sharavis quando Kaelira li liquida come creature tribali e fastidiose.
 - Kaelira diventa un mistero attivo: esperta, ferita, priva di ombra.
+
+### Dopo S07
+
+- Luther sente il frammento reagire nel villaggio e nella taverna, mentre la desolazione dell'isola richiama il suo passato.
+- Anivar mette la protezione del gruppo davanti a se stesso e sceglie recitazione, preghiera e prudenza come strumenti di sopravvivenza.
+- Olorik avverte la minaccia come un animale prima del terremoto: non capisce il fenomeno, ma lo riconosce nel corpo.
+- Igor mantiene una facciata luminosa fino alla Stella Solitaria, dove la maschera inizia a creparsi.
+- Il Vecchio Marinaio diventa nuova figura-soglia tra villaggio, Umberlee, memoria locale e Canto.
 
 ## Note Di Stile Consolidate
 
@@ -189,3 +216,4 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - 2026-07-08: capitoli 05-06 revisionati con scene-analysis dedicate e dialoghi estesi; rimossi dall'elenco dei capitoli prioritari da rivedere.
 - 2026-07-08: revisionati i capitoli 03-04 secondo workflow Sottosuolo; create scene-analysis dedicate e rafforzate Danik, sigilli, liberazione, Sharavin e coda emotiva del party.
 - 2026-07-08: revisionati i capitoli S01-S02 con scene-analysis dedicate e nuovo standard Sottosuolo-quality.
+- 2026-07-09: aggiunti sviluppi S07 su Stella Solitaria, cantica, Vecchio Marinaio, maschera di Igor, istinto di Olorik, prudenza di Anivar e reazione del frammento di Luther.

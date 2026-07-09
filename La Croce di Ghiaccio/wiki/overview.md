@@ -8,11 +8,11 @@ tags:
 
 ## Stato
 
-Ingest canonico completato sulle trascrizioni dal 2026-02-18 al 2026-06-17.
+Ingest canonico completato sulle trascrizioni dal 2026-02-18 al 2026-07-08.
 
 ## Premessa
 
-La compagnia viaggia su incarico di [[wiki/characters/numcalad|Numcalad]], detto il Camminante, per investigare luoghi segnati dal [[wiki/concepts/canto|Canto]] e dai suoi effetti. Il primo obiettivo esplorato e stato il [[wiki/locations/faro-sommerso|Faro Sommerso]], raggiunto via mare con una nave della sua flotta; il gruppo e ora arrivato presso la [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]].
+La compagnia viaggia su incarico di [[wiki/characters/numcalad|Numcalad]], detto il Camminante, per investigare luoghi segnati dal [[wiki/concepts/canto|Canto]] e dai suoi effetti. Il primo obiettivo esplorato e stato il [[wiki/locations/faro-sommerso|Faro Sommerso]], raggiunto via mare con una nave della sua flotta; il gruppo e ora sbarcato presso il [[wiki/locations/villaggio-dell-isola-della-cattedrale|villaggio dell'isola della Cattedrale]] e ha raggiunto la [[wiki/locations/stella-solitaria|Stella Solitaria]].
 
 Nel faro e nel tempio sommerso collegato, il party ha scoperto che il Canto non sembra essere stato creato dagli shariti, ma viene usato da loro come strumento. La lanterna nera recuperata nel relitto porta una traccia antica collegata a [[wiki/characters/seraph|Seraph]], campione che avrebbe dato la propria essenza per sigillare il Canto.
 
@@ -27,7 +27,8 @@ Nel faro e nel tempio sommerso collegato, il party ha scoperto che il Canto non 
 
 - [[wiki/locations/faro-sommerso|Faro Sommerso]] - primo sito investigato; tempio/faro sommerso collassato dopo la liberazione di Padre Danik.
 - [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]] - sito antichissimo sull'isola, con stratificazione marittima e simboli di Umberlee; gia collegato a Ilmater/Targos da informazioni precedenti.
-- [[wiki/locations/villaggio-dell-isola-della-cattedrale|Villaggio dell'isola della Cattedrale]] - piccolo villaggio costiero ai piedi della Cattedrale, da investigare.
+- [[wiki/locations/villaggio-dell-isola-della-cattedrale|Villaggio dell'isola della Cattedrale]] - piccolo villaggio costiero ai piedi della Cattedrale, abitato ma chiuso, con orario e abitudini anomale.
+- [[wiki/locations/stella-solitaria|Stella Solitaria]] - taverna/locanda del villaggio, falsa accoglienza e primo incontro con segni locali del Canto.
 - [[wiki/locations/targos|Targos]] - citta collegata a Padre Danik, Ilmater e alla storia precedente del gruppo.
 
 ## Fazioni Note
@@ -46,4 +47,6 @@ Nel faro e nel tempio sommerso collegato, il party ha scoperto che il Canto non 
 - Motivo dell'ombra incompleta di Anivar.
 - Ruolo dello [[wiki/items/specchio-di-edmorin|specchio]] e di Re Edmorin.
 - Perche Kaelira non proietta ombra.
-- Stato reale del villaggio dell'isola e degli abitanti.
+- Stato reale degli abitanti del villaggio e della Stella Solitaria.
+- Identita e ruolo del [[wiki/characters/vecchio-marinaio|Vecchio Marinaio]].
+- Significato della cantica sulla Casa delle Maree, sulle campane e sui nomi inchiodati alla memoria.

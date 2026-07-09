@@ -25,3 +25,4 @@ tags:
 | [[wiki/characters/seraph|Seraph]] | campione antico contro il Canto | frammento nella lanterna | S05 |
 | [[wiki/characters/re-edmorin|Re Edmorin]] | re elfico nello specchio | misterioso | S05 |
 | [[wiki/characters/numcalad|Numcalad]] | patrono della missione, detto il Camminante | attivo, fuori scena | S01-S05 |
+| [[wiki/characters/vecchio-marinaio|Vecchio Marinaio]] | figura marina del villaggio | attivo; natura ignota | S07 |

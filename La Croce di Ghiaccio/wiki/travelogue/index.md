@@ -10,7 +10,8 @@ tags:
 
 - **Stato del progetto:** avviato
 - **POV principale:** narratore esterno corale
-- **Ultimo capitolo scritto:** [[wiki/travelogue/chapters/capitolo-06-approdo-alla-cattedrale-delle-ombre|Capitolo 06 - Approdo Alla Cattedrale Delle Ombre]]
+- **Ultimo capitolo scritto:** [[wiki/travelogue/chapters/capitolo-07-la-stella-solitaria|Capitolo 07 - La Stella Solitaria]]
+- **Export HTML:** `exports/travelogue/html/index.html`
 
 ## Capitoli
 
@@ -22,6 +23,14 @@ tags:
 | [[wiki/travelogue/chapters/capitolo-04-la-luce-di-padre-danik|04]] | La Luce Di Padre Danik | S04 | bozza riveduta | corale | Scene-analysis, liberazione di Danik, Sharavin |
 | [[wiki/travelogue/chapters/capitolo-05-verso-la-cattedrale-delle-ombre|05]] | Verso La Cattedrale Delle Ombre | S05 | bozza revisionata | corale | Seraph, Edmorin, cliffhanger mare; scene-analysis presente |
 | [[wiki/travelogue/chapters/capitolo-06-approdo-alla-cattedrale-delle-ombre|06]] | Approdo Alla Cattedrale Delle Ombre | S06 | bozza revisionata | corale | Umberlee, Kaelira senza ombra, villaggio; scene-analysis presente |
+| [[wiki/travelogue/chapters/capitolo-07-la-stella-solitaria|07]] | La Stella Solitaria | S07 | bozza | corale | Villaggio, taverna, cantica, Vecchio Marinaio; scene-analysis presente |
+
+## Export
+
+| Formato | Percorso | Stato | Note |
+|---|---|---|---|
+| HTML completo | `exports/travelogue/html/index.html` | generato | Include solo il testo narrativo dei capitoli, con navigazione e stile responsive. |
+| Word capitoli | `exports/travelogue/docx/` | non generato | Richiede `pandoc` o altro convertitore disponibile. |
 
 ## Interludi
 

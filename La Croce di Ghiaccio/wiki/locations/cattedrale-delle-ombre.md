@@ -11,8 +11,8 @@ tags:
 
 - **Tipo:** cattedrale/osservatorio marittimo antichissimo
 - **Culto o stratificazione nota:** Ilmater/Targos da informazioni precedenti; simboli di Umberlee osservati sul sito
-- **Stato:** raggiunta; sbarco imminente
-- **Fonte:** S05-S06
+- **Stato:** raggiunta; villaggio ai piedi in esplorazione
+- **Fonte:** S05-S07
 
 ## Canon Consolidato
 
@@ -25,7 +25,8 @@ tags:
 - Dalla nave appare come uno scafo capovolto o uno scheletro marino: contrafforti simili a costole, vetrate dedicate a maree, tempeste, cicli lunari, correnti e stagioni del mare.
 - La torre principale sembra piu un osservatorio del mare che un campanile.
 - Le acque circostanti sono contaminate e accelerano il marciume dello scafo della nave.
+- La cantica ascoltata alla [[wiki/locations/stella-solitaria|Stella Solitaria]] parla della Casa delle Maree, di campane suonate contro il Canto e di nomi inchiodati alla memoria. Non e ancora confermato quanto sia storia, rito o leggenda locale.
 
 ## Stato Attuale
 
-La nave di [[wiki/characters/kaelira|Kaelira]] ha raggiunto l'isola e si prepara a lasciare il gruppo presso il villaggio costiero prima di tornare a Targos per rifornimenti.
+La nave di [[wiki/characters/kaelira|Kaelira]] ha lasciato il gruppo presso il villaggio costiero ed e ripartita verso Targos per rifornimenti. Il party sta investigando la Stella Solitaria e gli abitanti del villaggio.

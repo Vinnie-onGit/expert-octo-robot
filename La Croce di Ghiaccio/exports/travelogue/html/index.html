@@ -1,0 +1,1169 @@
+﻿<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La Croce di Ghiaccio - Diario di Viaggio</title>
+  <style>
+    :root {
+      --ink: #e8edf2;
+      --muted: #aeb9c6;
+      --dim: #7d8998;
+      --paper: rgba(9, 17, 27, 0.82);
+      --paper-strong: rgba(12, 24, 38, 0.94);
+      --gold: #c9a764;
+      --blue: #6fb6c8;
+      --deep: #061019;
+      --shadow: rgba(0, 0, 0, 0.55);
+      --line: rgba(201, 167, 100, 0.32);
+      --max: 78ch;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 20% 0%, rgba(111, 182, 200, 0.18), transparent 32rem),
+        radial-gradient(circle at 85% 12%, rgba(201, 167, 100, 0.14), transparent 26rem),
+        linear-gradient(160deg, #03070d 0%, #081522 46%, #03070d 100%);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+      background-size: 44px 44px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0.7), transparent 75%);
+    }
+
+    .shell {
+      display: grid;
+      grid-template-columns: 18rem minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    aside {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      padding: 2rem 1.25rem;
+      background: linear-gradient(180deg, rgba(3, 7, 13, 0.96), rgba(8, 21, 34, 0.88));
+      border-right: 1px solid rgba(201, 167, 100, 0.22);
+      box-shadow: 0 0 4rem var(--shadow);
+      overflow: auto;
+    }
+
+    .brand {
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-size: 0.78rem;
+      margin-bottom: 0.7rem;
+    }
+
+    aside h1 {
+      margin: 0 0 1rem;
+      font-size: 1.45rem;
+      line-height: 1.15;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+    }
+
+    nav {
+      display: grid;
+      gap: 0.45rem;
+    }
+
+    nav a {
+      color: var(--ink);
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 999px;
+      padding: 0.55rem 0.75rem;
+      background: rgba(255,255,255,0.035);
+      transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+      font-size: 0.92rem;
+    }
+
+    nav a:hover {
+      border-color: var(--gold);
+      background: rgba(201, 167, 100, 0.12);
+      transform: translateX(0.15rem);
+    }
+
+    nav span {
+      display: inline-grid;
+      place-items: center;
+      width: 1.6rem;
+      height: 1.6rem;
+      margin-right: 0.45rem;
+      border-radius: 50%;
+      background: rgba(111, 182, 200, 0.16);
+      color: var(--blue);
+      font-size: 0.76rem;
+    }
+
+    main { min-width: 0; }
+
+    .cover {
+      min-height: 90vh;
+      display: grid;
+      align-content: center;
+      padding: 8vw 8vw 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cover::after {
+      content: "";
+      position: absolute;
+      right: -8rem;
+      bottom: -10rem;
+      width: 32rem;
+      height: 32rem;
+      border: 1px solid rgba(201, 167, 100, 0.22);
+      border-radius: 50%;
+      box-shadow: inset 0 0 4rem rgba(111, 182, 200, 0.12);
+    }
+
+    .cover-card {
+      position: relative;
+      z-index: 1;
+      max-width: 58rem;
+      padding: clamp(2rem, 5vw, 4rem);
+      background: linear-gradient(145deg, rgba(9, 17, 27, 0.84), rgba(8, 21, 34, 0.56));
+      border: 1px solid var(--line);
+      border-radius: 2rem;
+      box-shadow: 0 2rem 7rem var(--shadow);
+    }
+
+    .cover h1 {
+      margin: 0;
+      font-size: clamp(3rem, 8vw, 7rem);
+      line-height: 0.92;
+      letter-spacing: -0.06em;
+    }
+
+    .subtitle {
+      margin-top: 1.25rem;
+      color: var(--muted);
+      max-width: 42rem;
+      font-size: clamp(1rem, 1.8vw, 1.25rem);
+    }
+
+    .seal {
+      display: inline-flex;
+      gap: 0.65rem;
+      align-items: center;
+      margin-top: 2rem;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.78rem;
+    }
+
+    .seal::before, .seal::after {
+      content: "";
+      width: 3rem;
+      height: 1px;
+      background: var(--line);
+    }
+
+    .chapter {
+      max-width: calc(var(--max) + 8rem);
+      margin: 0 auto 7rem;
+      padding: 0 clamp(1.25rem, 5vw, 4rem);
+      scroll-margin-top: 2rem;
+    }
+
+    .chapter-kicker {
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.78rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .chapter h2 {
+      margin: 0;
+      font-size: clamp(2.2rem, 5vw, 4.4rem);
+      line-height: 1;
+      letter-spacing: -0.045em;
+    }
+
+    .ornament {
+      width: min(18rem, 60%);
+      height: 1px;
+      margin: 1.4rem 0 2.4rem;
+      background: linear-gradient(90deg, var(--gold), rgba(111, 182, 200, 0.55), transparent);
+    }
+
+    .prose {
+      max-width: var(--max);
+      padding: clamp(1.25rem, 3vw, 2.5rem);
+      background: var(--paper);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 1.25rem;
+      box-shadow: 0 1.5rem 5rem rgba(0,0,0,0.34);
+      backdrop-filter: blur(8px);
+    }
+
+    .prose p {
+      margin: 0 0 1.08rem;
+      font-size: clamp(1.04rem, 1.4vw, 1.18rem);
+    }
+
+    .prose p:first-child::first-letter {
+      float: left;
+      color: var(--gold);
+      font-size: 4.7rem;
+      line-height: 0.82;
+      padding: 0.12rem 0.5rem 0 0;
+    }
+
+    .prose strong { color: #f2d28c; }
+    .prose em { color: #b8dce6; }
+
+    footer {
+      color: var(--dim);
+      padding: 3rem 8vw 5rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 920px) {
+      .shell { display: block; }
+      aside {
+        position: static;
+        height: auto;
+        border-right: 0;
+        border-bottom: 1px solid rgba(201, 167, 100, 0.22);
+      }
+      nav { grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); }
+      .cover { min-height: auto; padding-top: 4rem; }
+    }
+
+    @media print {
+      body { background: white; color: #111; }
+      aside, .cover, footer { display: none; }
+      .chapter { margin: 0 0 2rem; break-after: page; }
+      .prose { border: 0; box-shadow: none; padding: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <div class="brand">La Croce di Ghiaccio</div>
+      <h1>Diario di Viaggio</h1>
+      <div class="meta">7 capitoli esportati<br>Generato: 2026-07-09 09:38</div>
+      <nav aria-label="Indice capitoli">
+<a href="#capitolo-01-la-lanterna-nera"><span>01</span>La Lanterna Nera</a>
+<a href="#capitolo-02-la-porta-degli-amici"><span>02</span>La Porta Degli Amici</a>
+<a href="#capitolo-03-l-ombra-di-padre-danik"><span>03</span>L&#39;Ombra Di Padre Danik</a>
+<a href="#capitolo-04-la-luce-di-padre-danik"><span>04</span>La Luce Di Padre Danik</a>
+<a href="#capitolo-05-verso-la-cattedrale-delle-ombre"><span>05</span>Verso La Cattedrale Delle Ombre</a>
+<a href="#capitolo-06-approdo-alla-cattedrale-delle-ombre"><span>06</span>Approdo Alla Cattedrale Delle Ombre</a>
+<a href="#capitolo-07-la-stella-solitaria"><span>07</span>La Stella Solitaria</a>
+      </nav>
+    </aside>
+    <main>
+      <section class="cover">
+        <div class="cover-card">
+          <div class="brand">Travelogue</div>
+          <h1>La Croce di Ghiaccio</h1>
+          <p class="subtitle">Un diario romanzato di mare, ombre, fede ferita e memoria sottratta. Questo export contiene solo il testo narrativo dei capitoli, senza metadati tecnici.</p>
+          <div class="seal">Cattedrali, campane, lanterne</div>
+        </div>
+      </section>
+<article class="chapter" id="capitolo-01-la-lanterna-nera">
+  <div class="chapter-kicker">Capitolo 01</div>
+  <h2>La Lanterna Nera</h2>
+  <div class="ornament"></div>
+  <div class="prose">
+<p>Il relitto del Faro Sommerso non sembrava piu una nave.</p>
+<p>Era legno stanco, sale rappreso, corallo cresciuto dove un tempo c&#39;erano chiodi, corde e ordini urlati nel vento. Sopra, tra le assi spezzate e la flora marina, i morti avevano gia mostrato i denti. Sotto, nei quartieri del capitano, la rovina prendeva una forma diversa: non abbandono, non furia, ma attesa.</p>
+<p>La cabina era troppo composta.</p>
+<p>Fu questo, prima ancora della lanterna, a far serrare la mascella a Luther. Fuori dalla soglia l&#39;odore di non morte saliva dal fasciame come fiato marcio; dentro, invece, l&#39;aria sapeva di sale secco e carta bagnata. Nessun lezzo di cadavere veniva dalla scrivania. Nessuna putrefazione. Soltanto un ordine innaturale, fissato in mezzo alla rovina come un chiodo in una bara.</p>
+<p>Sul piano massiccio, ancorato al pavimento da bulloni ormai rossi di ruggine, stavano una mappa nautica, una bussola, una pergamena consumata e un coltello piantato nella carta. Sopra tutto pendeva una lanterna di acciaio scuro. Il vetro era nero, ma non spento. Dentro, un nucleo violaceo tremava come qualcosa che ricordasse la fiamma senza essere fuoco.</p>
+<p>&quot;E accesa?&quot; chiese qualcuno, piano.</p>
+<p>La risposta non ebbe bisogno di parole. Quella luce non scaldava. Non riempiva la cabina. Si fermava prima delle pareti, quasi non volesse toccarle.</p>
+<p>Igor si avvicino con il capo inclinato, la curiosita piu forte della prudenza. Il metallo che portava con se vibro contro il petto, una chiamata sottile e insistente. Lui si fermo soltanto per un battito, poi sorrise come se quel tremito fosse un invito personale.</p>
+<p>Luther allungo lo scudo di lato, non abbastanza da bloccarlo, abbastanza da ricordargli che alcune cose mordono anche quando sembrano ferme.</p>
+<p>&quot;Attento a quello che tocchi.&quot;</p>
+<p>&quot;Attento lo sono sempre,&quot; rispose Igor. La sua voce aveva quella leggerezza che usava quando il buio chiedeva silenzio. &quot;Ma dovremmo portarla con noi.&quot;</p>
+<p>Olorik, poco dietro, guardo la lanterna come avrebbe guardato una trappola appena nascosta male. &quot;Una luce nera. In questo posto.&quot;</p>
+<p>&quot;Emana onde positive.&quot;</p>
+<p>Il nano volto lentamente la testa verso di lui. &quot;Le uniche onde che sento sono quelle del mare che batte su questo relitto dimenticato dagli dei.&quot;</p>
+<p>Igor non perse il sorriso. &quot;Mio buon zio era un ricercatore di lanterne. Ne aveva vista una portafortuna, molto simile a questa.&quot;</p>
+<p>&quot;Tuo zio,&quot; ripete Olorik.</p>
+<p>&quot;Stimato uomo. Memoria irreprensibile.&quot;</p>
+<p>Anivar non rise. Aveva gli occhi sulla scrivania. Il fetore dei morti gli serrava ancora la gola, ma davanti alla lanterna quella morsa si allentava. Non era conforto. Era assenza di qualcosa. E l&#39;assenza, in un luogo simile, poteva essere piu pericolosa della presenza.</p>
+<p>Sulla pergamena Igor riconobbe note di bordo, appunti di rotta, frammenti di una mano che aveva scritto in fretta. Il coltello trapassava una parola semplice, terribile nella sua ordinarieta: mare. Non sangue, ma inchiostro rosso sporcava il foglio. Sul bordo, vergata con tratto tremante, restava una frase.</p>
+<p>&quot;Ho legato la luce,&quot; lesse Igor, e per una volta non infiore il tono, &quot;che il mare mi perdoni.&quot;</p>
+<p>La bussola accanto alla pergamena non puntava a nord. L&#39;ago cercava il sud, ma non un sud di carta e orizzonte. Puntava giu, verso il basso, come se il mondo avesse inclinato il proprio centro.</p>
+<p>Olorik studio la stanza. Luther fece lo stesso. Nessuno dei due aveva bisogno di conoscere le preghiere di un capitano per capire la forma di una resa. Quella non era la cabina di un uomo che aveva perso la nave. Era la cabina di un uomo che aveva capito che la nave non voleva essere salvata.</p>
+<p>Anivar stacco infine la lanterna dal gancio. La catena cedette con un gemito sottile. Quando la aggancio alla cintura, la luce cambio. Non divenne chiara, non divenne buona. Parve solo piu leggera, come se un peso invisibile si fosse spostato da un luogo all&#39;altro.</p>
+<p>Oltre la scrivania, sotto una porta sul fondo, filtrava una luce azzurrognola e malata.</p>
+<p>&quot;Li,&quot; disse Anivar.</p>
+<p>Fece un passo. La lanterna oscillo. La sua luce passo sul piano della scrivania, sulla pergamena, sulle incisioni lasciate dalla lama. E il presente si apri.</p>
+<p>Il capitano era li.</p>
+<p>Non in carne. Non vivo. Un ricordo, forse, o qualcosa che aveva la forma della memoria. Vecchio, stanco, con gli occhi di chi aveva smesso da tempo di chiedere al mare una risposta gentile. Era chino sulla stessa scrivania, uno strumento appuntito tra le dita. Non scriveva davvero: pungeva la carta, la bucava, lasciando segni come ferite ordinate.</p>
+<p>La sua voce arrivo spezzata, portata da una distanza impossibile.</p>
+<p>&quot;La campana sotto non smette.&quot;</p>
+<p>Anivar trattenne il respiro.</p>
+<p>&quot;Non e il mare che risponde.&quot; Il capitano chiuse gli occhi, esausto. &quot;Se la luce scende ancora, non tornera.&quot;</p>
+<p>Poi incise di nuovo la frase, con la lentezza di una condanna.</p>
+<p>&quot;Ho legato la luce, che il mare mi perdoni.&quot;</p>
+<p>La visione svani. La cabina torno a essere sale, legno, pergamena e buio. Anivar abbasso appena la lanterna, come se temesse di costringere il ricordo a ripetersi.</p>
+<p>&quot;Che faccia hai fatto?&quot; chiese Igor, meno brillante di prima.</p>
+<p>&quot;Non paura,&quot; rispose Anivar. &quot;Stranezza. Ho visto il capitano. Parlava di una campana sotto. Diceva che non era il mare a rispondere. Diceva che, se la luce fosse scesa ancora, non sarebbe tornata.&quot;</p>
+<p>Luther guardo la porta azzurra. &quot;E poi?&quot;</p>
+<p>&quot;Ha inciso la stessa frase.&quot; Anivar tocco con due dita il bordo della lanterna. &quot;Ho legato la luce, che il mare mi perdoni.&quot;</p>
+<p>Olorik sputo un respiro dalle narici. &quot;Quindi sotto c&#39;e una campana che non dovrebbe suonare e una luce che non dovrebbe scendere.&quot;</p>
+<p>&quot;E una parola che continua a tornare,&quot; disse Anivar. &quot;Inferium.&quot;</p>
+<p>Il silenzio che segui non fu vuoto. Era pieno del mare che premeva contro lo scafo.</p>
+<p>La porta azzurrognola conduceva a una stiva personale. Anche li il legno marciva, anche li l&#39;acqua entrava a sprazzi, ma su una parete il relitto finiva e cominciava qualcos&#39;altro: pietra. Un passaggio, una scala che saliva appena, poi piegava verso il basso, come un pensiero che avesse cambiato idea a meta.</p>
+<p>Dal buio arrivo un sussurro.</p>
+<p>Non una voce sola. Piu voci sovrapposte, impastate dall&#39;umidita, ripetevano la stessa parola.</p>
+<p>&quot;Inferium.&quot;</p>
+<p>Luther strinse l&#39;impugnatura dell&#39;arma. &quot;Lo sentite?&quot;</p>
+<p>&quot;Lo sento,&quot; disse Olorik.</p>
+<p>&quot;Andiamo?&quot; chiese qualcuno.</p>
+<p>Il nano guardo il passaggio. &quot;Anche per forza.&quot;</p>
+<p>Scesero.</p>
+<p>La scala a chiocciola li porto lontano dal relitto e sempre piu dentro la pietra. L&#39;odore di salsedine divenne piu forte, quasi una cosa solida. Gocce fredde cadevano dall&#39;alto e si infilavano sotto i colletti, lungo le braccia, tra le dita. Ogni passo sembrava scendere non soltanto nello spazio, ma in un tempo piu antico della nave stessa.</p>
+<p>Alla fine della scala trovarono una sala. Al centro, un altare di pietra rovinato. Intorno, pareti coperte da alghe, coralli e increspature che riflettevano male la luce nera. Non erano soli. Figure morte restavano ferme ai margini, incastrate nella penombra, gli occhi opachi fissi su di loro.</p>
+<p>Anivar sollevo la lanterna e la pose vicino all&#39;altare.</p>
+<p>Per un istante, il passato torno intero.</p>
+<p>La pietra era azzurra, traslucida, pulita. Intorno ai bordi stavano offerte: cibo, arnesi, piccole asce di pietra simile a corallo. Mani vive le avevano portate li. Mani devote o spaventate. Igor allungo le dita verso una mela sospesa in quel ricordo, ma la sua mano la attraverso senza incontrare nulla.</p>
+<p>&quot;Non e qui,&quot; mormoro.</p>
+<p>&quot;E stato qui,&quot; disse Anivar. &quot;La lanterna ci mostra cio che e stato.&quot;</p>
+<p>Olorik osservo la forma dell&#39;altare. &quot;Somiglia a una bussola.&quot;</p>
+<p>&quot;A una rosa dei venti,&quot; aggiunse Luther.</p>
+<p>Il sud, ancora una volta, indicava giu.</p>
+<p>Le figure morte seguirono la lanterna con gli occhi.</p>
+<p>Anivar se ne accorse e la riprese con cautela. &quot;Muoviamoci piano.&quot;</p>
+<p>Poi guardo Olorik. &quot;Se fanno un passo di troppo, sai cosa fare.&quot;</p>
+<p>Il nano sfodero le asce. &quot;Lo so.&quot;</p>
+<p>Attraversarono il limite della sala.</p>
+<p>Un urlo sali dal profondo.</p>
+<p>Non fu un grido di gola. Venne dalla pietra, dall&#39;acqua, dalle ossa stesse del luogo. Le figure morte si accesero di fame. Da una grata, o forse da una ferita del pavimento, emerse un abominio livido. Camminava su due gambe con lo stomaco aperto e le viscere esposte; da cio che gli colava addosso il pavimento sembrava corrodersi. La mandibola pendeva storta, trattenuta al volto per miracolo, e una lingua lunga si muoveva dove non avrebbe dovuto esserci piu niente di vivo.</p>
+<p>La sala esplose in movimento.</p>
+<p>Olorik fu il primo a trasformare la paura in ferro. Le sue asce salirono e scesero con la brutalita esatta di chi non spreca colpi. Un ghoul perse equilibrio, poi gamba, poi testa. Il nano sbatte le lame tra loro e ruggisce contro il ghast, non per parlargli, ma per obbligarlo a scegliere un bersaglio.</p>
+<p>&quot;Ehi! Qui!&quot;</p>
+<p>La creatura volto la lingua e gli occhi morti verso di lui.</p>
+<p>Igor, sull&#39;altare, suonava come se il terrore avesse bisogno di ritmo per non vincere. Una nota stridette contro la pietra.</p>
+<p>&quot;Le tue azioni sono piu lente del tuo cervello, amico mio!&quot;</p>
+<p>Il morto non capi le parole. Ma qualcosa nella voce del bardo gli incrino il gesto. L&#39;artiglio passo dove Igor non era piu.</p>
+<p>Anivar non ebbe la stessa fortuna. Gli artigli del ghast trovarono la carne sotto l&#39;armatura e il veleno gli irrigidi il corpo. Un morso gli apri il collo. Il sangue scese caldo sul metallo freddo.</p>
+<p>Luther gli fu addosso prima che il vecchio chierico cadesse del tutto.</p>
+<p>&quot;Resta con noi.&quot;</p>
+<p>La sua mano si poso sulla ferita. La luce sacra non fu un lampo trionfale, ma calore ostinato, una cucitura di fede e volonta. Il sangue rallento. La carne si richiuse quanto bastava.</p>
+<p>Anivar inspiro come chi torna da sott&#39;acqua. &quot;Ilmater mi proteggera,&quot; disse, e nella sua voce non c&#39;era certezza facile. C&#39;era testardaggine.</p>
+<p>Poi alzo la mano e prego.</p>
+<p>Il dolore subito non svani. Prese forma. Un&#39;arma di luce si accese accanto al ghast, pallida e severa, e quando calo sul mostro lo attraverso come una sentenza. La carne morta si piego, la pelle brucio, il volto affamato si deformo in qualcosa che non apparteneva piu neppure alla fame.</p>
+<p>Olorik colpi ancora. Luther resse la linea. Igor continuo a suonare e a parlare, dando coraggio dove poteva e fastidio dove serviva. Alla fine, l&#39;arma spirituale di Anivar trancio il ghast dal petto in giu. La creatura si accascio lasciando dietro di se una nube fetida che fece tremare ginocchia e stomaci.</p>
+<p>Il silenzio torno piano, come acqua che riempie una crepa.</p>
+<p>Per qualche istante nessuno si mosse. Il veleno abbandono i muscoli paralizzati. Il mare, oltre le feritoie, batteva ancora contro la pietra.</p>
+<p>Olorik ansimava con le asce basse. &quot;Tutto a posto?&quot;</p>
+<p>&quot;Meglio,&quot; disse Anivar, usando la mazza come bastone. Non sembrava vero fino in fondo.</p>
+<p>Guardava la lanterna alla sua cintura. Poi guardo il nano.</p>
+<p>&quot;Questa deve andare a te, Olorik. Non posso rischiare di stare davanti.&quot;</p>
+<p>Olorik annui senza cerimonie. Prese la lanterna e se la lego alla cintura. La luce nera bagno le sue mani, la barba, il ferro delle asce.</p>
+<p>&quot;Allora la retroguardia sta a te,&quot; disse a Luther.</p>
+<p>&quot;Ci sto io dietro.&quot;</p>
+<p>Anivar chiamo Igor piu vicino. &quot;Lascia che Ilmater prenda un po&#39; del tuo dolore.&quot;</p>
+<p>Il bardo sollevo le mani in un gesto teatrale, ma non si tiro indietro. La guarigione passo da Anivar a lui con una dolcezza stanca.</p>
+<p>&quot;Grazie,&quot; disse Igor. Poi, per non lasciare il momento troppo pulito, aggiunse: &quot;Ora che abbiamo sconfitto probabilmente il capo di tutto cio che sta qui sotto, non dovremmo avere altri problemi.&quot;</p>
+<p>Olorik lo guardo.</p>
+<p>Luther pure.</p>
+<p>Anivar sospiro. &quot;Sei molto ottimista.&quot;</p>
+<p>Andarono avanti.</p>
+<p>Oltre una porta e un corridoio circolare, la pietra si apri su una grande pozza. L&#39;acqua era scura, collegata al mare, e si increspava senza vento. La luce della lanterna scivolo sulla superficie e non la illumino davvero. La feri.</p>
+<p>Anivar vide l&#39;ombra prima del corpo.</p>
+<p>Poi l&#39;odore arrivo anche attraverso l&#39;acqua: metallo dolciastro, carne lasciata troppo a lungo in una stiva umida. Qualcosa si mosse sotto la superficie. Enorme. Muscoloso. Gonfio. La pelle non era integra, ma tirata in alcuni punti e lacerata in altri, con placche di carne scollate che lasciavano intravedere strati piu scuri. L&#39;acqua entrava e usciva dalle ferite come se la creatura respirasse attraverso di esse.</p>
+<p>Catene arrugginite pendevano dalle sue braccia. Non ornamenti. Resti di prigionia strappati via.</p>
+<p>Anivar alzo una mano verso Olorik e pronuncio una protezione. Le parole sacre caddero sul nano un istante prima che la pozza si spezzasse.</p>
+<p>Il Merrow emerse.</p>
+<p>E il mare, sotto il Faro Sommerso, mostro di avere ancora fame.</p>
+<p>---</p>
+  </div>
+</article>
+<article class="chapter" id="capitolo-02-la-porta-degli-amici">
+  <div class="chapter-kicker">Capitolo 02</div>
+  <h2>La Porta Degli Amici</h2>
+  <div class="ornament"></div>
+  <div class="prose">
+<p>Il Merrow emerse dall&#39;acqua come se il mare avesse deciso di bestemmiare con un corpo.</p>
+<p>La creatura era enorme, gonfia, lacerata. L&#39;acqua le entrava dalle ferite e ne usciva con lentezza, come un respiro sbagliato. Le branchie slabbrate si aprivano sul collo in tagli bianchi di sale e carne infiammata. Tra le mani stringeva un forcone di corallo e metallo, troppo grande per un uomo, troppo vivo per sembrare soltanto un&#39;arma.</p>
+<p>Olorik non attese che il mostro scegliesse il primo morto.</p>
+<p>Il nano avanzo sul limitare della pozza, pianto i piedi sulla pietra umida e calo l&#39;ascia sul braccio della creatura. La lama apri la carne. Non usci sangue. Le fibre si separarono come corde fradice, lembi morti che non ricordavano piu il calore.</p>
+<p>&quot;Gia spaccato,&quot; ringhio Olorik.</p>
+<p>Il Merrow rispose con il forcone. La punta gli strappo la spalla, ma il nano rimase dov&#39;era, i muscoli tesi, gli occhi accesi da una furia che non chiedeva permesso.</p>
+<p>Luther gli si affianco e traccio sul mostro una promessa di caccia. La sua lama trovo un varco, poco profondo ma vero. Igor, alle loro spalle, mise mano al liuto e fece vibrare una nota che parve troppo allegra per quel luogo.</p>
+<p>&quot;Finalmente,&quot; disse, &quot;una storia che potremo raccontare senza troppe distorsioni. Anche se, devo ammetterlo, avrei preferito una sirena.&quot;</p>
+<p>Luther non distolse gli occhi dal Merrow.</p>
+<p>Igor gli poso una mano sulla spalla. &quot;Mi raccomando le tue mani. Le storie hanno bisogno di finali brillanti.&quot;</p>
+<p>Anivar arrivo al bordo con la mazza stretta tra le dita. Il pavimento era bagnato, scivoloso, vivo di alghe e salsedine. Fece per colpire. Il peso dell&#39;arma lo trascino un passo oltre l&#39;equilibrio.</p>
+<p>Cadde.</p>
+<p>L&#39;acqua nera si chiuse su di lui fino al petto. Olorik si volto d&#39;istinto e allungo la mano. Per un attimo parve riuscire a trattenerlo. Poi anche lui scivolo. Il giavellotto che portava dietro la schiena si pianto in una crepa della parete con un colpo secco; il nano rimase appeso a meta, ringhiando contro la pietra, contro l&#39;acqua e contro la propria scelta.</p>
+<p>&quot;Reggi!&quot; grido Luther.</p>
+<p>&quot;Sto reggendo!&quot; sputo Olorik. &quot;Non sembra?&quot;</p>
+<p>Anivar, nell&#39;acqua, sollevo una mano. La sua voce usci spezzata ma ferma. La creatura davanti a lui perse la vista per un istante, investita da un potere che non era luce della lanterna ma fede, fatica e rabbia compressa. Il Merrow colpi alla cieca, agitando il forcone nella pozza.</p>
+<p>Olorik risali con uno sforzo brutale, lasciando il giavellotto incastrato nella pietra. Quando torno al bordo aveva perso parte della furia, ma non la voglia di usare le asce. Il primo Merrow gia cedeva. Il nano gli taglio un braccio, poi l&#39;altro, poi la testa. Il cranio cadde nell&#39;acqua con un tonfo pesante.</p>
+<p>Il secondo urlo.</p>
+<p>Non era dolore soltanto. L&#39;urlo entro nelle pareti, fece tremare l&#39;acqua, scosse le braccia e le costole del gruppo. Era un richiamo e una maledizione, un suono che sembrava ricordare a quel tempio che il mare poteva ancora reclamare tutto.</p>
+<p>Luther strinse i denti e rispose con luce sacra.</p>
+<p>Il colpo raggiunse il cranio del Merrow. La luce esplose in modo sporco, non dorato e pulito come nelle storie, ma feroce, necessaria. La pelle corrotta si carbonizzo, si sbriciolo, sali in polvere umida lasciando odore di marcio e bruciato. Igor tossi, perse una nota, poi la ritrovo.</p>
+<p>Il bardo guardo il mostro, si sfioro i baffi e pizzico una corda.</p>
+<p>&quot;Sento puzza di morto,&quot; disse. &quot;Eppure ancora sei in piedi.&quot;</p>
+<p>La frase colpi dove la lama non aveva ancora finito il lavoro. Il Merrow lo fisso con occhi opachi, quasi feriti da un insulto piu che dalla magia. Poi si accascio e scivolo nell&#39;acqua, dissolvendosi insieme all&#39;altro.</p>
+<p>Per un istante parve finita.</p>
+<p>Poi la pozza comincio a ribollire.</p>
+<p>Igor smise di sorridere. Olorik vide la superficie accelerare in modo innaturale, gonfiarsi e contrarsi come una pentola di veleno. Non sapeva dare un nome a quella reazione, ma il corpo capi prima della testa: quella roba non voleva restare li.</p>
+<p>&quot;Via,&quot; disse.</p>
+<p>Anivar si volto. &quot;Quanto tempo abbiamo?&quot;</p>
+<p>&quot;Meno di quello che serve per chiederlo. Correte.&quot;</p>
+<p>Salirono, scesero, si infilarono nel corridoio successivo mentre il ribollire cresceva alle loro spalle. Poi venne il silenzio. Non un silenzio buono: il tipo di silenzio che arriva quando qualcosa trattiene il fiato. Subito dopo, l&#39;intera struttura tremo.</p>
+<p>Anivar appoggio una mano alla parete per non cadere. Senti un&#39;eco di potere, qualcosa che somigliava allo scacciare cio che non vive, ma amplificato fino a diventare terremoto.</p>
+<p>&quot;Qualcuno ha chiamato un potere divino,&quot; disse.</p>
+<p>Olorik, ancora sporco di acqua e sangue, torno a controllare quando il borbottio cesso. La pozza non c&#39;era piu.</p>
+<p>Al suo posto si apriva un vuoto.</p>
+<p>In un tempio sommerso, l&#39;assenza d&#39;acqua era piu innaturale di qualsiasi cadavere ambulante. Il nano accese una torcia e la getto nel buio. La fiamma cadde, piccola, sempre piu piccola, fino a fermarsi quattordici metri piu in basso. Sul fondo, la pietra mostrava cicatrici d&#39;acido. Non cenere, non bruciature. Ferite.</p>
+<p>&quot;Qua non c&#39;e piu acqua,&quot; disse Olorik.</p>
+<p>&quot;Come sarebbe?&quot; chiese Igor.</p>
+<p>&quot;Quello che ho detto. Vuoto.&quot;</p>
+<p>Anivar guardo il foro, poi la lanterna, poi le proprie mani. &quot;Qualsiasi cosa sia successa, ho sentito un potere divino agire. Non so da dove. Non so da chi.&quot;</p>
+<p>Igor sollevo un dito. &quot;Potrebbe essere stato il mio insulto.&quot;</p>
+<p>Il chierico gli rivolse uno sguardo stanco. &quot;A meno che tu non insulti in modo divino, non credo sia stato tu.&quot;</p>
+<p>&quot;Non ancora,&quot; disse Igor.</p>
+<p>Si curarono come potevano. Anivar richiamo la vita nelle carni dei compagni; Luther impose le mani su Olorik e la ferita alla spalla smise di reclamare attenzione a ogni respiro. Non c&#39;era tempo per sentirsi al sicuro. Sotto il Faro Sommerso, ogni tregua sembrava concessa da qualcosa che poteva ripensarci.</p>
+<p>La porta arrivo poco dopo.</p>
+<p>Era di legno spesso, corrosa ma ancora solida, incastrata nella pietra come un rifiuto. Non mostrava cardini evidenti. Da alcune fessure filtrava soltanto buio. Olorik la studio con la pazienza di chi sta per finirla.</p>
+<p>&quot;Vado?&quot;</p>
+<p>&quot;Vai,&quot; disse Luther.</p>
+<p>L&#39;ascia colpi.</p>
+<p>Il primo impatto entro nel legno ma non lo attraverso. Il secondo fece vibrare il manico fino alle spalle del nano. Il dolore che ne segui non apparteneva alle braccia. Risali dallo stomaco alla testa, una coltellata senza lama, fredda e mentale. Olorik si blocco con le dita serrate sull&#39;arma.</p>
+<p>Igor gli fu accanto in un passo. &quot;Che succede?&quot;</p>
+<p>&quot;Non e una porta normale,&quot; disse Olorik. La voce era bassa, tesa. &quot;E non lo dico solo perche ha respinto la mia ascia.&quot;</p>
+<p>Il bardo si chino sulla serratura. &quot;Non ti preoccupare. Sono un esperto.&quot;</p>
+<p>Olorik lo guardo. &quot;Di porte?&quot;</p>
+<p>&quot;Di molte cose. Alcune includono le porte.&quot;</p>
+<p>Le dita di Igor si mossero leggere. Il grimaldello trovo resistenza, poi una serie di piccoli scatti. Uno. Due. Tre. La serratura cedette con un suono quasi musicale.</p>
+<p>&quot;Musica per le mie orecchie,&quot; disse Igor, facendosi da parte.</p>
+<p>Olorik provo ad aprire.</p>
+<p>Un fascio azzurro scatto dalla maniglia verso il palmo. Il nano ritrasse la mano appena in tempo; l&#39;odore di bruciato rimase per un istante nell&#39;aria.</p>
+<p>&quot;C&#39;era una trappola,&quot; disse.</p>
+<p>Igor alzo entrambe le mani. &quot;Non guardare me. Io l&#39;ho sbloccata. Il mio lavoro e finito.&quot;</p>
+<p>Anivar si avvicino, osservo la maniglia senza toccarla. Anche da lontano i filamenti azzurri sembravano cercare la pelle.</p>
+<p>Luther rimase qualche passo indietro. Guardava non la serratura, ma la lanterna alla cintura di Olorik. Quando il nano si era avvicinato alla porta, la luce nera aveva sfiorato il buco della serratura e qualcosa era cambiato. Non abbastanza per aprirla. Abbastanza per essere notato.</p>
+<p>&quot;Ho un dubbio,&quot; disse Luther.</p>
+<p>Olorik si volto, ancora contrariato.</p>
+<p>&quot;La lanterna,&quot; continuo il paladino. &quot;Forse non ci sta impedendo di entrare. Forse l&#39;apertura e legata a lei.&quot;</p>
+<p>&quot;Tentare non nuoce,&quot; disse Anivar.</p>
+<p>Olorik prese la lanterna e la avvicino alla cornice della porta.</p>
+<p>La luce nera non illumino il legno: rivelo cio che vi era nascosto. Segni antichi comparvero lungo l&#39;arco, incisi dove prima c&#39;era solo rovina. Nanico antico. Olorik li fisso, aggrottando la fronte. Non tutto era chiaro. Non tutto era intero. Ma il senso si muoveva nella memoria come una parola sentita da bambini.</p>
+<p>&quot;Non e una chiave,&quot; disse.</p>
+<p>&quot;Allora cos&#39;e?&quot; chiese Igor.</p>
+<p>&quot;Una parola.&quot;</p>
+<p>&quot;Una parola forte?&quot; Olorik non rispose subito. Igor aggiunse: &quot;Tipo apriti, cedi, inginocchiati davanti a noi?&quot;</p>
+<p>Il nano scosse la testa. La porta aveva respinto la forza. Aveva punito la pretesa. Ora, sotto la luce della lanterna, chiedeva qualcosa di piu semplice e piu difficile.</p>
+<p>&quot;Amici,&quot; disse infine.</p>
+<p>La parola in nanico gli usci ruvida, antica.</p>
+<p>&quot;Mellon.&quot;</p>
+<p>La porta si apri.</p>
+<p>Non cedette. Non si ruppe. Si mosse come se non fosse mai stata ferita, come se tutto il ferro, il dolore e la corrente non fossero stati che incomprensioni. Dietro, l&#39;aria era piu fredda.</p>
+<p>La stanza oltre la soglia era circolare, chiusa da pareti di pietra. Una scalinata scendeva verso il centro, dove una struttura ricordava un faro in miniatura o un falo spento, ingabbiato da vetro nero simile a quello della lanterna. Non c&#39;erano ceneri. Non c&#39;era fuoco. Soltanto una forma pensata per contenere qualcosa.</p>
+<p>Sulla sommita sedeva una figura d&#39;ombra.</p>
+<p>Aveva gambe incrociate e mani aperte davanti a se. Ogni tanto muoveva le dita come se sfogliasse pagine, ma tra quelle mani non c&#39;era alcun libro. Il volto era grigio e nero, deformato, umanoide solo per memoria della forma.</p>
+<p>&quot;Era ora che qualcuno arrivasse,&quot; disse.</p>
+<p>Il gruppo si fermo lungo i gradini.</p>
+<p>Anivar fece un passo avanti. &quot;Con chi ho il piacere di parlare?&quot;</p>
+<p>La figura inclino appena la testa. &quot;La capacita di proferire parola non dice nulla delle intenzioni di chi ascolta. Molti di noi preferiscono parole, signor nano.&quot;</p>
+<p>Olorik allargo le braccia, l&#39;ascia non lontana. &quot;Vuoi attaccarci?&quot;</p>
+<p>Igor, alle sue spalle, mormoro: &quot;Diplomazia nanica. Diretta.&quot;</p>
+<p>Luther gli lancio un&#39;occhiata. &quot;Fermo.&quot;</p>
+<p>La figura d&#39;ombra non rise. &quot;Ho rinunciato alla violenza. Questo non significa che io non sappia riconoscere un nemico da un ospite.&quot;</p>
+<p>Anivar scese un altro gradino, lentamente. &quot;Abbiamo percepito un potere divino poco fa. Sei stato tu?&quot;</p>
+<p>Le mani della figura si fermarono sul libro invisibile.</p>
+<p>&quot;Forse un tempo,&quot; disse. &quot;Ora sono un ricordo. Un eco. O quello che ne rimane.&quot;</p>
+<p>La frase rimase nella sala come polvere sospesa.</p>
+<p>&quot;Perche ti trovi qui?&quot; chiese Anivar.</p>
+<p>&quot;E l&#39;ultimo posto nel quale io abbia messo piede.&quot; La voce non tremo, ma qualcosa in essa sembrava lontano. &quot;Ed e l&#39;ultimo posto in cui io abbia desiderato di essere.&quot;</p>
+<p>Anivar esito. &quot;Siamo stati mandati qui per cercare qualcosa. Non sappiamo ancora cosa. Qualcosa legato al coro. Al Canto. E una missione che riguarda anche i chierici di Ilmater.&quot;</p>
+<p>La luce della lanterna, portata da Olorik, sali lungo i gradini. Prima tocco Anivar.</p>
+<p>Luther lo vide.</p>
+<p>Igor lo vide.</p>
+<p>La luce nera cadeva sul corpo del chierico, ma dietro di lui non si disegnava nulla. Nessuna ombra sugli scalini. Nessuna sagoma piegata dalla fiamma. Il mondo, per un istante, manco di una risposta che avrebbe dovuto dare.</p>
+<p>Anivar se ne accorse dai loro volti. &quot;Che c&#39;e?&quot;</p>
+<p>Igor apri la bocca, la richiuse, poi provo a salvare il tono. &quot;Io non direi subito vampiro.&quot;</p>
+<p>Luther non sorrise. &quot;Non proietti ombra.&quot;</p>
+<p>Anivar resto immobile. La fede, il freddo e l&#39;acqua sembrarono pesargli addosso tutti insieme.</p>
+<p>La lanterna continuo ad avanzare.</p>
+<p>Quando la luce raggiunse la figura sulla struttura di vetro nero, l&#39;ombra cambio. I bordi grigi si fecero carne. Il volto, prima deformato, acquisto lineamenti conosciuti. Apparve una tunica bianca, consunta ma ancora dignitosa, rovinata dal tempo eppure pulita come una memoria che si rifiutava di marcire.</p>
+<p>Il libro invisibile rimase tra le mani.</p>
+<p>Il nome arrivo prima della spiegazione.</p>
+<p>Padre Danik.</p>
+<p>---</p>
+  </div>
+</article>
+<article class="chapter" id="capitolo-03-l-ombra-di-padre-danik">
+  <div class="chapter-kicker">Capitolo 03</div>
+  <h2>L&#39;Ombra Di Padre Danik</h2>
+  <div class="ornament"></div>
+  <div class="prose">
+<p>Padre Danik sedeva sopra il faro spento come un santo dimenticato da una chiesa che non esisteva piu.</p>
+<p>Non era seduto davvero. Non nel modo in cui un corpo occupa una pietra, pesa sul legno, lascia il segno della propria presenza. La sua sagoma d&#39;ombra si teneva sulla campana di vetro con una precisione troppo fragile, intenta a sfogliare un libro che nessuno riusciva a vedere. La lanterna nera, nelle mani di Luther, lo aveva gia tradito per un istante: veste bianca, volto martoriato, occhi di un uomo stanco, sangue dove avrebbe dovuto esserci solo luce.</p>
+<p>Ora restava l&#39;ombra.</p>
+<p>Olorik strinse le dita intorno all&#39;impugnatura dell&#39;ascia. Targos gli torno addosso come un odore di fumo vecchio.</p>
+<p>&quot;Ma non eri a Targos?&quot; chiese. La voce gli usci bassa, ruvida, meno sicura di quanto avrebbe voluto. &quot;Che ci fai in questo posto?&quot;</p>
+<p>La testa di Danik si mosse appena. Quando rispose, la voce non venne dalla cima del faro. Venne da lontano. Da sotto la pietra. Da una strada percorsa troppo tempo prima.</p>
+<p>&quot;Ero a Targos. Ero a Targos quando serviva.&quot;</p>
+<p>La sagoma tremo.</p>
+<p>&quot;Ero a Targos quando sono stato spezzato.&quot;</p>
+<p>Per un attimo i contorni dell&#39;ombra si agitarono come fiamma in una stanza senza vento. Poi tornarono fermi, disegnati dal buio. Anivar guardo quella forma e senti qualcosa stringergli lo stomaco. Non era soltanto paura. Era riconoscimento: un uomo di fede davanti alla rovina di un altro uomo di fede.</p>
+<p>Luther sollevo la lanterna.</p>
+<p>La luce non si comporto come luce. Non scaccio la penombra, non riempi la sala. La taglio. Un semicerchio nero e violaceo scivolo sul pavimento e raggiunse la base del faro. Dove avrebbe dovuto trovare le ombre dei compagni, Luther vide soltanto assenza. Igor, Olorik, Anivar: corpi presenti, respiri vivi, nessun segno scuro proiettato dietro di loro.</p>
+<p>&quot;Non vedo le vostre ombre,&quot; disse.</p>
+<p>Igor fece per voltarsi, pronto forse a cercare una battuta o una spiegazione migliore della paura, ma la stanza sembrava aver deciso che non ci fosse spazio per nessuna delle due.</p>
+<p>La campana di vetro del faro rispose alla lanterna.</p>
+<p>Prima fu un riflesso. Poi un azzurro freddo, liquido, impossibile. La sala circolare si allontano da loro senza muoversi e al suo posto comparve un ricordo. Padre Danik non era piu ombra. Era uomo. Era inginocchiato, la veste candida sporca del proprio sangue, il volto spezzato non da un colpo ma da parole che lo consumavano mentre uscivano dalla sua bocca. Rivoli scuri gli bagnarono le guance. Il respiro gli si ruppe nel petto.</p>
+<p>Poi il ricordo svani.</p>
+<p>La sala torno. Il faro torno. L&#39;ombra di Danik torno, piu sottile di prima, come se una parte di lei fosse rimasta incastrata in quella visione.</p>
+<p>&quot;Questa e la storia,&quot; disse Danik. Sfoglio una pagina invisibile. &quot;Voi siete in quattro. Io ero solo.&quot;</p>
+<p>Nessuno rispose subito.</p>
+<p>Anivar fece un passo verso il faro. Il simbolo di Ilmater gli pesava contro il petto come una domanda.</p>
+<p>&quot;Quindi non ti sei fatto corrompere?&quot; chiese. &quot;Hai assorbito la corruzione?&quot;</p>
+<p>Danik lo guardo. O almeno cosi parve: non c&#39;erano occhi veri in quella sagoma, eppure Anivar senti lo sguardo arrivargli addosso con la precisione di una mano.</p>
+<p>&quot;No,&quot; disse il sacerdote. &quot;Mi sono fatto corrompere. Non sono stato in grado di assorbire.&quot;</p>
+<p>La parola assorbire rimase sospesa nella sala come una cosa troppo grande per il luogo che la conteneva.</p>
+<p>&quot;Il Canto ha un nome,&quot; continuo Danik. &quot;Ed e un nome molto, molto antico.&quot;</p>
+<p>Igor inclino appena il capo. Dietro la teatralita, dietro il fastidio quasi fisico per ogni momento in cui non poteva dominare una stanza, qualcosa in lui ascolto davvero. Luther senti la mano stringersi sulla lanterna. Olorik non stacco gli occhi dalla figura sul faro.</p>
+<p>Danik parlo ancora.</p>
+<p>&quot;Chi tra tutti gioisce della propria oscurita? Chi piu di tutti teme la luce della luna?&quot;</p>
+<p>La risposta non arrivo come rivelazione gloriosa. Arrivo come un nome sgradevole che tutti, in modi diversi, avevano gia incontrato nei margini della propria conoscenza.</p>
+<p>Selune era la luna, la guida dei viaggiatori di notte, la luce per chi attraversava il buio senza voler appartenere al buio. L&#39;opposto aveva un altro volto. Un&#39;altra fame. Oscurita, perdita, memoria tolta invece che custodita.</p>
+<p>&quot;Shar,&quot; disse Igor, e per una volta non cerco applausi.</p>
+<p>Anivar abbasso lo sguardo. Luther senti la rabbia salire, non calda ma fredda, ordinata, piu pericolosa. Se Danik, un sacerdote di Ilmater, era caduto in quella direzione, allora nessun voto era solo parola. Nessuna fede era al sicuro per il fatto di essere fede.</p>
+<p>Danik chiuse il libro.</p>
+<p>Il suono non avrebbe dovuto esistere, perche il libro non si vedeva. Eppure si senti. Un colpo secco, come una porta.</p>
+<p>&quot;Quando fui spezzato,&quot; disse, &quot;ho cercato con tutto me stesso di tornare in superficie. Ho cercato qualcuno che portasse sulle proprie spalle le mie colpe.&quot;</p>
+<p>Il volto d&#39;ombra si inclino verso Anivar.</p>
+<p>&quot;Non ho mai avuto la forza. Ne quando ero intero, ne in superficie. Il Canto e Shar devono essere trattenuti. Faro di tutto affinche voi veniate allontanati da questi sigilli.&quot;</p>
+<p>&quot;Danik...&quot; comincio Anivar.</p>
+<p>Ma l&#39;ombra aveva gia scelto.</p>
+<p>Si stacco dalla campana di vetro e scivolo lungo la superficie del faro. Non cadde: discese come inchiostro su una parete. Quando tocco il piano inferiore, le braccia si distesero, le gambe presero forma, i pugni si serrarono. Intorno a lui la stanza condenso buio.</p>
+<p>Non fu semplice oscurita. Fu materia.</p>
+<p>Dal pavimento, dagli angoli, dalle ferite della pietra, salirono figure sottili e fredde. Avevano mani abbastanza vere da stringere una gola e volti troppo vuoti per provare odio. Eppure cantavano. Non con bocche vive: con eco, armonie basse, una memoria di suono che sembrava gia aver attraversato il mare.</p>
+<p>Una delle ombre si avvento su Igor.</p>
+<p>Il bardo alzo un braccio, forse per difendersi, forse per accompagnare una frase che non ebbe tempo di nascere. La mano dell&#39;ombra gli afferro la gola. Il freddo gli entro nella trachea come acqua nera. Igor spalanco la bocca.</p>
+<p>Non usci nulla.</p>
+<p>Luther si mosse d&#39;istinto, ma Olorik fu gia avanti, il corpo basso e le asce pronte. Non vedeva piu Padre Danik. Vedeva qualcosa che indossava il ricordo di un uomo buono come una pelle rubata.</p>
+<p>&quot;Getta giu quella maschera,&quot; ringhio. &quot;Non impersonare una persona buona.&quot;</p>
+<p>Poi colpi.</p>
+<p>Il ferro attraverso l&#39;ombra con una resistenza sbagliata, come fendesse acqua gelata piena di ossa. Danik arretrava e non arretrava, si apriva e si richiudeva, ma ogni colpo lasciava per un battito un bordo irregolare nella sua forma.</p>
+<p>Anivar sollevo il simbolo sacro.</p>
+<p>Le mani gli tremarono appena. Non per paura del buio: per cio che quel buio portava addosso. Ilmater non prometteva che la sofferenza sparisse. Chiedeva di sostenerla senza lasciare che diventasse crudelta. Davanti a Danik, quella distinzione sembrava sottile come pelle bagnata.</p>
+<p>&quot;Nella notte piu profonda,&quot; mormoro Anivar, e la voce gli crebbe insieme alla luce, &quot;nessun male trovi riparo. Chi si perde nell&#39;oscurita guardi al peso della misericordia. Fuggite.&quot;</p>
+<p>La luce scese nella sala.</p>
+<p>Non vinse. Non ancora. L&#39;oscurita di Danik non si dissolse, e il Canto non tacque. Ma le ombre indietreggiarono come animali sorpresi dal fuoco. Una si schiaccio contro la parete, cercando di attraversarla. Non ci riusci. La pietra la respinse. Un&#39;altra striscio sul pavimento e si spezzo in filamenti neri, poi torno a raccogliersi, prigioniera quanto loro.</p>
+<p>Il faro le teneva dentro.</p>
+<p>O forse teneva dentro tutto.</p>
+<p>Il pavimento vibro.</p>
+<p>All&#39;inizio fu quasi nulla, un tremore nelle suole, un battito sotto la pietra. Poi divenne richiamo. Olorik lo senti nelle ginocchia e nei denti. Qualcosa lo voleva vicino al faro. Non gli parlava con parole; tirava. Il nano pianto i piedi nel terreno, ma il corpo rispose per un istante a una volonta che non era la sua.</p>
+<p>Danik allungo una mano verso di lui.</p>
+<p>L&#39;ombra gli entro nel petto.</p>
+<p>Olorik senti il freddo chiudersi intorno al cuore, non come lama ma come pugno. Strinse i denti, fece forza sulle gambe, sulle braccia, sul ricordo semplice e concreto del peso delle sue asce. Non avrebbe voltato le spalle a Danik. Non a quella cosa. Non mentre portava quel volto.</p>
+<p>Luther intanto aveva raggiunto un&#39;altra ombra. La sua arma traccio un arco duro, illuminato da una scintilla sacra che non aveva nulla della luce quieta di una cappella. Era rabbia disciplinata. Dovere. La risposta piu pulita che riuscisse a dare a una profanazione.</p>
+<p>Igor, ancora senza voce, si trascino indietro con una mano alla gola. Il silenzio imposto gli stava addosso peggio della ferita. Per lui la voce non era ornamento. Era lama, scudo, moneta, maschera, memoria. Essere muto in quella stanza significava sentirsi derubato di una parte del corpo.</p>
+<p>Sopra di loro, la campana di vetro del faro comincio a pulsare.</p>
+<p>Danik alzo le braccia.</p>
+<p>Dal soffitto nacque una sfera d&#39;oscurita. Piccola all&#39;inizio, densa come pece sospesa. Ogni parola del sacerdote la gonfio. Ogni nota del Canto le diede peso. La sala intera guardo verso l&#39;alto, e per un battito parve che il mare fosse tornato sopra di loro, non come acqua ma come notte.</p>
+<p>Poi il braccio di Danik scese.</p>
+<p>La sfera precipito sul faro.</p>
+<p>L&#39;oscurita si infranse sul pavimento come una marea nera. Onde senza schiuma si allargarono tra le pietre, coprirono i gradini, lambirono stivali e ginocchia, resero ogni passo piu lento. Non bagnavano come acqua, ma lasciavano addosso la stessa certezza: qualcosa di piu grande stava entrando e non avrebbe chiesto permesso.</p>
+<p>Un&#39;ombra colpi Luther alla corazza. Le dita passarono attraverso il metallo e toccarono pelle, ossa, respiro. Per un istante anche la sua voce venne strappata via. Il paladino serro la mascella e rimase in piedi.</p>
+<p>Non c&#39;era piu spazio per capire tutto.</p>
+<p>C&#39;era il faro che chiamava.</p>
+<p>C&#39;era Danik che non voleva lasciarli raggiungere i sigilli.</p>
+<p>C&#39;erano ombre incapaci di fuggire dal luogo che le aveva generate.</p>
+<p>E poi, dal fondo della propria gola, Igor riusci finalmente a cavare un suono. Prima un colpo di tosse, poi un accordo sporco, tremante, vivo. Non era ancora una canzone degna di una taverna, ne di un pubblico. Era abbastanza. La voce torno come torna il sangue in una mano gelata: dolorosa, imperfetta, necessaria.</p>
+<p>Le ombre risposero con un&#39;armonia malinconica.</p>
+<p>Per alcuni di loro il mondo si svuoto. Non caddero ricordi precisi, non volti, non nomi. Cadde la sicurezza che quei ricordi sarebbero stati li quando ne avessero avuto bisogno. Il Canto passo sopra le loro teste come una mano che cerca cosa portare via.</p>
+<p>Olorik sollevo di nuovo l&#39;ascia.</p>
+<p>Anivar tenne alto il simbolo.</p>
+<p>Luther strinse la lanterna.</p>
+<p>Igor respiro, e la voce gli brucio ancora in gola.</p>
+<p>Padre Danik, o cio che il Canto aveva fatto di lui, li aspettava davanti al faro.</p>
+<p>Nessuno era ancora caduto.</p>
+<p>Nessuno era ancora salvo.</p>
+<p>---</p>
+  </div>
+</article>
+<article class="chapter" id="capitolo-04-la-luce-di-padre-danik">
+  <div class="chapter-kicker">Capitolo 04</div>
+  <h2>La Luce Di Padre Danik</h2>
+  <div class="ornament"></div>
+  <div class="prose">
+<p>Il libro nelle mani di Padre Danik non era piu soltanto un&#39;assenza.</p>
+<p>Luther e Anivar lo riconobbero nel mezzo del caos, tra una lama d&#39;ombra e un respiro mozzato. Non ne videro le pagine, non il cuoio, non l&#39;inchiostro. Ne riconobbero il peso. Era un libro di preghiera di Ilmater. Una cosa nata per insegnare a portare dolore senza trasformarlo in vendetta, ora chiusa tra dita che non erano piu dita.</p>
+<p>La sala del faro tremava ancora. La marea nera lasciata da Danik si trascinava sul pavimento, rallentando i passi. Le ombre, scacciate dalla luce di Anivar, cercavano uscite che il faro negava loro. Una si schiaccio contro la pietra come fumo contro vetro. Non passo.</p>
+<p>Igor aveva riavuto la voce a pezzi, ma non la sicurezza. Ogni respiro gli raschiava la gola. Una delle ombre gli giro attorno, disperata e famelica insieme. Quando Luther lo vide piegarsi, lascio per un istante la propria linea di combattimento e raggiunse il bardo.</p>
+<p>&quot;Non muoverti,&quot; disse, anche se la sua voce era poco piu di un ordine spezzato dal freddo.</p>
+<p>La mano del paladino tocco Igor e una stilla di forza torno nel corpo del tiefling. Non abbastanza per cancellare la paura. Abbastanza per restare in piedi.</p>
+<p>Igor degluti. &quot;La prossima volta,&quot; riusci a sussurrare, &quot;cura anche il mio orgoglio.&quot;</p>
+<p>Luther non sorrise. Ma il fatto che Igor potesse parlare di nuovo, per quanto male, era gia una piccola vittoria contro quella stanza.</p>
+<p>In alto, un&#39;altra ombra si era sollevata verso il soffitto. La sua figura ribolliva dall&#39;interno. Le labbra, o cio che ne imitava il movimento, ripetevano una parola con ostinazione.</p>
+<p>&quot;Inferio. Inferio. Inferio.&quot;</p>
+<p>Igor la senti piu che capirla. Il suono non entrava dall&#39;orecchio: si appoggiava alle ossa. L&#39;ombra guardava Danik mentre mormorava, e intorno a lei piccoli schizzi di oscurita si attaccavano alle pareti come muffa viva.</p>
+<p>&quot;Quella cosa sta facendo qualcosa per lui,&quot; disse Igor, indicando la figura in alto. &quot;Non sta solo cantando. Lo sta tenendo insieme. O ci sta provando.&quot;</p>
+<p>Olorik non aveva bisogno di altre ragioni.</p>
+<p>Il nano era davanti a Danik, il petto ancora segnato dal punto in cui la mano dell&#39;ombra gli era entrata dentro. Ogni respiro gli tirava i muscoli come corde bagnate. Ma restava li. Con le asce alzate. Con la rabbia non come incendio, ma come strumento.</p>
+<p>&quot;Perche diavolo sei ancora in piedi?&quot; ringhio.</p>
+<p>Danik non rispose.</p>
+<p>Olorik colpi.</p>
+<p>L&#39;ascia attraverso la sagoma del sacerdote e la fece sussultare. Un altro colpo manco il centro, deviato dalla marea scura che gli scivolava attorno. Anivar raggiunse il nano, posandogli una mano sulla spalla. La luce di Ilmater gli passo dal palmo alla carne ferita.</p>
+<p>&quot;Respira,&quot; disse il chierico. &quot;Non gli concedere anche quello.&quot;</p>
+<p>L&#39;arma spirituale di Anivar, dorata e severa, calo su Danik. Questa volta l&#39;ombra non si richiuse del tutto. Rimase uno squarcio luminoso, sporco d&#39;oro, come se qualcosa dentro quella tenebra ricordasse ancora il colore della preghiera.</p>
+<p>Luther vide lo squarcio.</p>
+<p>Vide Danik attingere alle ombre intorno a se per rimarginarsi. Vide il libro di Ilmater. Vide l&#39;uomo dietro la corruzione, e proprio per questo provo piu rabbia, non meno. Una cosa sacra usata male non diventava meno sacra. Diventava piu dolorosa da guardare.</p>
+<p>Si stacco dall&#39;ombra laterale e corse verso il faro.</p>
+<p>La sua arma traccio una linea di luce nel buio. Il primo colpo discese dall&#39;alto, pesante, trascinando scintille dalla pietra. L&#39;aria si apri davanti alla lama e per un istante tutti dovettero chiudere gli occhi. La luce non era morbida. Bruciava.</p>
+<p>Danik arse dall&#39;interno.</p>
+<p>L&#39;ombra cerco di ricucirsi ancora, prendendo materia dalle creature residue, dalla marea nera, dal Canto stesso. Luther non gli lascio il tempo.</p>
+<p>Il secondo colpo arrivo senza parola.</p>
+<p>In quel momento il paladino non ne aveva bisogno. Il linguaggio era il metallo. Era la promessa che nessuna fede spezzata avrebbe avuto il diritto di trascinare altri nei propri sigilli.</p>
+<p>La lama calo sul capo di Danik.</p>
+<p>Per un battito non accadde nulla. L&#39;arma rimase ferma nella sagoma. Le braccia di Luther vibrarono, l&#39;armatura gemette, il buio si tese come pelle.</p>
+<p>Poi l&#39;ombra cedette.</p>
+<p>Non esplose. Non urlo. Sbiadi.</p>
+<p>Il ghigno freddo e neutrale si sciolse, e sotto apparve un volto umano. Un volto che avrebbe potuto guardare dalla finestra di una chiesa rovinata una piazza piena di persone smarrite. Un volto stanco, compassionevole, grato. Non grato per la violenza. Grato per la fine.</p>
+<p>Padre Danik torno abbastanza uomo da morire come tale.</p>
+<p>&quot;Ora,&quot; disse Anivar piano, &quot;se puoi ancora rispondere, fallo.&quot;</p>
+<p>Luther respiro a fondo. &quot;Cosa c&#39;entrano gli shariti con il Canto?&quot;</p>
+<p>Danik sorrise appena. Si vedeva gia attraverso di lui.</p>
+<p>&quot;Per loro e uno strumento di cui stanno abusando,&quot; disse. &quot;Uno strumento che non hanno forgiato loro. Dove c&#39;e del miele, un orso affondera sempre la zampa.&quot;</p>
+<p>Il nome di Shar non venne pronunciato in quel momento, ma rimase nella stanza come una macchia sotto l&#39;acqua.</p>
+<p>Olorik fece un passo avanti. Il suo respiro era pesante. &quot;Quindi qual era la verita in tutto cio?&quot;</p>
+<p>&quot;Non c&#39;e una verita, figliolo.&quot; La voce di Danik era flebile, eppure piu umana di prima. &quot;Ci sono percorsi che sono stati tracciati e persone che devono seguirli o creare altre strade. Non e un cammino nel quale esiste una via soltanto.&quot;</p>
+<p>&quot;E tu?&quot; chiese Anivar. &quot;Tu quale hai seguito?&quot;</p>
+<p>Danik abbasso lo sguardo sul libro che non si vedeva piu.</p>
+<p>&quot;Ho creato una nuova strada. Ho resistito, ma non abbastanza. E probabilmente nella direzione sbagliata.&quot; Un&#39;ombra di sorriso gli attraverso il volto. &quot;Ma era mio compito farlo.&quot;</p>
+<p>Le creature intorno a loro persero forma.</p>
+<p>Caddero al suolo non come corpi, ma come otri pieni d&#39;acqua scura. Si infransero sul pavimento e strisciarono verso il faro, animate da un istinto ultimo. Quando raggiunsero la base della campana, il vetro vibro. Una luce viola scura ne usci e le respinse.</p>
+<p>Il liquido nero ribolli.</p>
+<p>Evaporo.</p>
+<p>Il faro non le accetto.</p>
+<p>Danik, invece, continuo a dissolversi senza ribollire. Luther sollevo la lanterna e vide finalmente cio che gli serviva vedere: Padre Danik proiettava un&#39;ombra. Spezzata, fragile, quasi gia perduta, ma sua.</p>
+<p>Il paladino abbasso appena l&#39;arma.</p>
+<p>Padre Danik sorrise.</p>
+<p>Poi smise di essere tra loro.</p>
+<p>Il silenzio duro poco.</p>
+<p>La campana di vetro del faro si illumino sempre di piu, rivelando la sala per quello che era: pietra antica, abbandonata, ferita dall&#39;acqua e da qualcosa di peggiore. Dal centro del vetro si stacco una particella dorata. Piccola come una scintilla sfuggita a un braciere. Attraverso l&#39;aria e scivolo nella lanterna di Luther.</p>
+<p>Tutti la videro.</p>
+<p>Luther guardo gli altri. &quot;Lo avete visto anche voi?&quot;</p>
+<p>Igor annui lentamente. &quot;E strano da dire. E entrata una luce nella lanterna.&quot;</p>
+<p>&quot;Trovare qualcosa di normale qui dentro sarebbe piu strano,&quot; borbotto Olorik.</p>
+<p>Luther giro la lanterna verso i compagni.</p>
+<p>Le ombre erano tornate. Igor ne aveva una, lunga e netta dietro la sua figura elegante e malconcia. Olorik ne proiettava una compatta, tozza, con le asce che la deformavano sul muro. Poi la luce raggiunse Anivar.</p>
+<p>Dal busto in su, l&#39;ombra c&#39;era.</p>
+<p>Dalla vita in giu, nulla.</p>
+<p>Luther non disse subito niente. Quel silenzio fu quasi una gentilezza.</p>
+<p>Il mare, invece, non ebbe gentilezze.</p>
+<p>Un colpo sordo risuono oltre le pareti. Poi un altro. Dal soffitto cominciarono a cadere gocce, poche all&#39;inizio, poi sempre piu fitte. L&#39;acqua premeva da fuori, e ora che il faro aveva smesso di trattenere cio che tratteneva, il tempio sembrava ricordarsi di essere sott&#39;acqua.</p>
+<p>Olorik guardo verso l&#39;alto.</p>
+<p>&quot;Credo sia il momento di risalire in superficie,&quot; disse. &quot;Qui sta arrivando acqua. E io non so nuotare.&quot;</p>
+<p>Non ci fu bisogno di discutere.</p>
+<p>Corsero.</p>
+<p>Le pareti si piegarono sotto la pressione del mare. Dalle fessure entrarono getti d&#39;acqua e sabbia, trasformando la pietra in fango. Gli scalini tremavano. Il relitto sopra di loro gemeva come un animale troppo vecchio per sostenere ancora il proprio scheletro.</p>
+<p>Olorik raggiunse le scale per primo. Anivar scivolo quando una corrente lo prese alle gambe e lo spinse indietro. Il chierico affondo una mano nella pietra, ma il fango gli sfuggi sotto le dita.</p>
+<p>&quot;Anivar!&quot; grido Luther.</p>
+<p>Il nano aveva gia preso la corda.</p>
+<p>Se la avvolse intorno al braccio e lancio l&#39;altro capo verso il chierico. La corda frusto l&#39;aria umida e cadde quasi nelle sue mani.</p>
+<p>&quot;Prendila!&quot;</p>
+<p>Anivar la afferro. &quot;Presa!&quot;</p>
+<p>Olorik pianto i piedi. L&#39;acqua gli spinse contro le gambe, la schiena gli si piego, i muscoli delle braccia si gonfiarono. Per un momento parve che la corrente fosse piu forte di lui. Poi il nano tiro.</p>
+<p>Anivar venne sollevato a strappi, il corpo sbattuto contro il bordo della scala, le mani graffiate sulla pietra. Luther si sporse per aiutarlo, Igor dall&#39;alto riusci a mettere una nota stonata e ostinata sopra il boato dell&#39;acqua, come se anche quella potesse diventare una corda.</p>
+<p>Alla fine Anivar rotolo sugli scalini.</p>
+<p>&quot;Grazie,&quot; ansimo.</p>
+<p>&quot;Ringraziami quando saremo su qualcosa che galleggia,&quot; rispose Olorik.</p>
+<p>Raggiunsero il relitto con il fiato spezzato e il sapore di sale sulle labbra. La cabina del capitano, attraversata prima come una tomba marcia, sembrava diversa. Non pulita, non viva, ma meno ostile. L&#39;odore di morte era stato sporcato da qualcosa di piu leggero, quasi un profumo rimasto dopo il passaggio di una preghiera.</p>
+<p>Nessuno volle restare a capirlo.</p>
+<p>Arrivarono al ponte e alla scialuppa. Olorik mise piede sul legno e afferro il remo. Il relitto scricchiolava sopra di loro; sotto, l&#39;acqua era nera e troppo calma.</p>
+<p>Poi una grande ombra si mosse sotto la superficie.</p>
+<p>L&#39;onda colpi la scialuppa di lato. Tutti si aggrapparono a cio che potevano. La barca si inclino, si riempi di spruzzi, poi ricadde sul mare con un tonfo.</p>
+<p>Dall&#39;acqua emerse una figura alta, squamosa, verde come profondita illuminate da una luce malata. Cicatrici correvano sui muscoli. Una collana di teschi di pesce gli pendeva sul petto. Nella mano reggeva un tridente di corallo e alghe, piu alto di un uomo.</p>
+<p>La creatura li guardo dall&#39;alto.</p>
+<p>&quot;Creature della superficie,&quot; disse in Comune, &quot;salve. Io sono Sharavin, padrone di queste acque. Capo degli Sharavis, miei figli.&quot;</p>
+<p>Igor si raddrizzo quanto poteva su una scialuppa ancora instabile. &quot;Parli dei mostri che ci hanno attaccato la nave?&quot;</p>
+<p>Sharavin non cambio espressione.</p>
+<p>&quot;Parlo di alcuni membri della mia tribu che sono stati cosi audaci da sfidare una nave. Avete dato loro una fine. Il minimo che si possa fare per una tribu di guerrieri. Del vostro calibro, per di piu.&quot;</p>
+<p>Igor apri bocca. Anivar lo vide farlo e gia si preparo al peggio.</p>
+<p>&quot;In questi casi,&quot; disse il bardo, &quot;a volte una ricompensa aiuta la diplomazia.&quot;</p>
+<p>&quot;Nulla,&quot; rispose Sharavin.</p>
+<p>Olorik diede a Igor una gomitata abbastanza secca da valere come trattato.</p>
+<p>La mano di Sharavin si strinse sul tridente. L&#39;acqua intorno alla scialuppa parve farsi piu pesante. Anivar sollevo la mazza, non in minaccia ma come bastone di equilibrio, e parlo prima che il mare decidesse per tutti.</p>
+<p>&quot;Risolviamo tutto con il dialogo, per favore. Cosa vuole un sovrano tanto potente?&quot;</p>
+<p>Sharavin lo osservo. La sua voce rimase solenne, ma nelle scaglie del volto Luther noto macchie piu scure, rovinate, simili alle ferite gia viste in altri toccati dal Canto.</p>
+<p>&quot;Volevo semplicemente ringraziarvi. Cio che mi e sfuggito al controllo e tornato al mare. Quello che vi concedo e il passaggio. Sono qui per assicurare che il vostro viaggio sia tranquillo lungo queste acque. E se mai avrete bisogno, sappiate che un favore vi e dovuto.&quot;</p>
+<p>&quot;I suoi sottoposti sono stati esposti al Canto?&quot; chiese Anivar.</p>
+<p>&quot;Si. La voce, quella che viene dal basso, dal profondo, quella che veniva da questo luogo, non la sento piu. Ed e un bene.&quot;</p>
+<p>Sharavin alzo il tridente. Attorno alla scialuppa affiorarono altre sagome, decine di forme appena sotto il pelo dell&#39;acqua. Non si avvicinavano. Non attaccavano. Aspettavano.</p>
+<p>&quot;Quello che combattete,&quot; disse Sharavin, &quot;e quello che combatto.&quot;</p>
+<p>Poi lancio qualcosa nella barca.</p>
+<p>Una conchiglia rotolo sul fondo bagnato. Igor la prese prima che l&#39;acqua potesse reclamarla.</p>
+<p>&quot;Soffiate presso l&#39;acqua,&quot; disse Sharavin. &quot;E il favore sapra dove trovarvi.&quot;</p>
+<p>Con lo stesso fragore con cui era arrivato, il capo degli Sharavis rientro nel mare. Le figure intorno alla scialuppa rimasero al loro posto, scorta silenziosa e inquietante.</p>
+<p>Olorik immerse il remo.</p>
+<p>&quot;Abbiamo una scorta, a quanto pare.&quot;</p>
+<p>&quot;Non c&#39;e bisogno che mi ringraziate,&quot; disse Igor, stringendo la conchiglia.</p>
+<p>&quot;Non lo faro,&quot; rispose Olorik.</p>
+<p>Il viaggio verso la nave fu breve e stranamente sicuro.</p>
+<p>Igor rimase a prua, o nel punto piu vicino a una prua che una scialuppa potesse offrire, con lo sguardo perso sulla lanterna di Luther. La scintilla dorata gli tornava in mente. Non come bottino. Non come trucco. Come una cosa che aveva voluto essere vista.</p>
+<p>Nella sua testa, flebile e umana, una voce sembro attraversare il rumore dell&#39;acqua.</p>
+<p>Vi ho mentito. Vi ho spinti. Vi e stato chiesto piu di quanto sarebbe dovuto. Ma ogni colpa che ho portato addosso l&#39;ho scelta io, perche nessuno di voi dovesse portarla al mio posto.</p>
+<p>Igor non disse nulla. Per una volta, tenne la frase per se.</p>
+<p>Forse un&#39;ombra poteva essere strappata al Canto se conservava un motivo abbastanza forte per tornare. Forse la voglia di essere ricordati era una luce piccola, ma reale. Forse Padre Danik non era salvo nel modo in cui i preti raccontano la salvezza, ma era stato recuperato abbastanza da dire addio.</p>
+<p>La nave della flotta accese una luce. Una campana suono. Mani di marinai lanciarono una scala e issarono la scialuppa a bordo.</p>
+<p>Kaelira li aspettava sul ponte.</p>
+<p>La giovane donna dai capelli bianchi li guardo uno per uno come se dovesse assicurarsi che fossero ancora le stesse persone scese nel relitto. Poi il suo volto, per un istante, si addolci.</p>
+<p>&quot;Ce l&#39;avete fatta quindi,&quot; disse. &quot;Pensavo di dover passare un&#39;altra notte qui.&quot;</p>
+<p>Luther appoggio una mano alla lanterna. &quot;Quanto tempo e passato da quando siamo partiti?&quot;</p>
+<p>&quot;Tre giorni.&quot;</p>
+<p>Il silenzio che segui peso piu della parola.</p>
+<p>&quot;Per noi e stata mezza giornata,&quot; disse Anivar. &quot;Forse meno.&quot;</p>
+<p>Kaelira non parve sorpresa quanto avrebbe dovuto. Questo non rassicuro nessuno.</p>
+<p>Anivar guardo i marinai intorno a lei. &quot;Abbiamo informazioni. Il Canto sembra collegato a Shar e ai suoi seguaci.&quot;</p>
+<p>Al nome di Shar, alcuni marinai si scambiarono sguardi tesi. Uomini e donne abituati a navigare con le stelle non amavano sentire nominare cio che odiava la luce della notte.</p>
+<p>&quot;Il Canto Notturno potrebbe fare al caso nostro,&quot; aggiunse Anivar, piu piano, cercando lo sguardo di Luther.</p>
+<p>Kaelira inspiro dal naso. Non era scherno. Era stanchezza.</p>
+<p>&quot;Se avessimo potere su quanto Ao ha creato e sulle sue figlie, probabilmente non vi avremmo accompagnato fin qui,&quot; disse. &quot;Rispetto la vostra fede. Ma preferisco sentire gli stivali sul ponte di questa nave piuttosto che immaginarli sulle nuvole.&quot;</p>
+<p>&quot;Potrebbe guidarci,&quot; insistette Anivar.</p>
+<p>&quot;Non ho mai guidato una nave volante.&quot;</p>
+<p>Igor sollevo un dito. &quot;C&#39;e sempre una prima volta.&quot;</p>
+<p>Kaelira lo ignoro con l&#39;eleganza di chi ha gia comandato uomini peggiori.</p>
+<p>&quot;Sarebbe estremamente entusiasmante,&quot; continuo, &quot;se non dovessi preoccuparmi di una guerra, di un&#39;altra guerra e di mille altre battaglie. Una alla volta. E non sarebbe comunque abbastanza. Non stiamo curando il sintomo. Stiamo cercando la malattia e la sua origine. Forse, grazie a cio che avete capito la sotto, siamo piu vicini.&quot;</p>
+<p>Poi guardo le loro ferite, il sale sui vestiti, il sangue secco, gli occhi che non riuscivano ancora a staccarsi dal buio.</p>
+<p>&quot;Le vostre stanze sono pronte. Riposate. Parleremo sotto una luce migliore.&quot;</p>
+<p>Nessuno ebbe la forza di opporsi.</p>
+<p>Luther si tolse l&#39;armatura nella propria stanza con movimenti lenti, quasi rituali. Gli spallacci scivolarono su uno straccio, i lacci cedettero uno dopo l&#39;altro. La lanterna era appoggiata poco distante. La guardava ogni pochi respiri.</p>
+<p>Padre Danik era stato ombra. Poi volto. Poi scintilla.</p>
+<p>Un uomo di fede poteva cadere. Poteva resistere nella direzione sbagliata. Poteva trascinare altri per paura di lasciarli raggiungere cio che lui non era riuscito a proteggere. Luther senti rabbia, ma sotto la rabbia c&#39;era qualcosa di piu scomodo: la consapevolezza che la fede non bastava se nessuno la custodiva quando iniziava a pesare.</p>
+<p>Olorik, nella sua stanza, puliva le asce.</p>
+<p>Il metallo non aveva trattenuto sangue d&#39;ombra, ma lui sfrego lo stesso. Bevve una sorsata di birra e senti ancora il punto al centro del petto dove Danik gli aveva infilato la mano. Aveva colpito senza esitazione un&#39;immagine di qualcuno che considerava buono. Forse perche sapeva che non era davvero lui. Forse perche era piu facile crederlo.</p>
+<p>Un tempo le asce calate senza pensare lo avevano allontanato dal suo clan. Ora gli avevano permesso di sopravvivere un altro giorno.</p>
+<p>Non sapeva ancora se fosse cambiato davvero.</p>
+<p>Anivar rimase seduto con il simbolo sacro tra le mani. Le mani congiunte di Ilmater, il rosario spinato, la promessa di soffrire perche altri non dovessero farlo. Strinse troppo. Quando il sangue gli bagno le dita, non allento subito la presa.</p>
+<p>Da quando aveva raggiunto il gruppo, aveva visto sofferenza in ogni forma. Non era riuscito a prenderla tutta su di se. Non era riuscito a toglierla agli altri. Serviva un campione, penso. Qualcuno capace di portare il peso abbastanza a lungo da spezzare il ciclo.</p>
+<p>Non era certo di voler essere lui.</p>
+<p>Era certo soltanto che qualcuno doveva esserlo.</p>
+<p>Igor, invece, si getto sul letto con l&#39;aria di chi aveva personalmente salvato la spedizione e stava valutando se concedere al mondo il privilegio di saperlo. Poi tiro fuori il proprio diario.</p>
+<p>La penna rimase sospesa piu del solito.</p>
+<p>Scrisse di Luther che era tornato indietro per aiutarlo. Di Olorik che aveva tirato Anivar fuori dall&#39;acqua con una corda e una testardaggine da argano. Di Anivar che continuava a curare anche quando la propria fede gli pesava addosso come catena.</p>
+<p>Non esagero troppo con i complimenti. Sarebbe stato sconveniente.</p>
+<p>Ma li scrisse.</p>
+<p>Fuori dalla nave, il mare non dormiva.</p>
+<p>Da qualche parte sotto la superficie, il Faro Sommerso stava morendo o era gia morto. Nella lanterna nera, una scintilla dorata era rimasta.</p>
+<p>E per la prima volta da quando avevano visto Padre Danik in cima al faro, il buio non sembrava aver tenuto tutto per se.</p>
+<p>---</p>
+  </div>
+</article>
+<article class="chapter" id="capitolo-05-verso-la-cattedrale-delle-ombre">
+  <div class="chapter-kicker">Capitolo 05</div>
+  <h2>Verso La Cattedrale Delle Ombre</h2>
+  <div class="ornament"></div>
+  <div class="prose">
+<p>All&#39;alba, Igor Mito porto musica sul ponte.</p>
+<p>Non fu un inno solenne, ne una preghiera. Fu prima un accordo cercato a dita ancora intorpidite dal sonno, poi una melodia che prese coraggio tra sale, corde e legno bagnato. Il mare stava basso e chiaro oltre il parapetto; l&#39;aria del mattino entrava fredda nella gola e sapeva di pece, grog aspro e vele umide. Igor si sedette su un barile come se fosse un palco e lascio che il liuto trovasse il ritmo della nave.</p>
+<p>La nave rispose.</p>
+<p>Prima un marinaio, poi un altro. Una voce ruvida si aggiunse alla sua, poi un coro piu largo, stonato in due punti e perfetto proprio per quello. I mozzi continuarono a tirare funi, gli uomini di coperta continuarono a controllare nodi e vele, ma intanto cantavano. Per un poco la guerra rimase sotto la linea dell&#39;orizzonte.</p>
+<p>Sottocoperta, Anivar apri gli occhi a quel canto e rimase un momento immobile, ascoltando. Non era abituato a fidarsi del sollievo. Si alzo con calma, raccolse le proprie cose, sistemo i gesti quotidiani come si sistemano le parole di una preghiera. Luther fece lo stesso, piu silenzioso: armatura, armi, scudo, mano che tornava per abitudine verso cio che pesava alla cintura.</p>
+<p>Olorik, invece, si sveglio sotto un giudizio.</p>
+<p>Un gatto arancione dagli occhi verdi gli stava seduto addosso, con le zampe affondate nella sua barba e la lingua ruvida sulla guancia. Il nano sbatte le palpebre, poi fisso l&#39;animale.</p>
+<p>&quot;Da dove sei entrato, tu?&quot;</p>
+<p>Il gatto si lecco una zampa e fece le fusa con l&#39;aria di chi non doveva spiegazioni a nessuno.</p>
+<p>&quot;Gia. E reciproco.&quot;</p>
+<p>Quando Olorik provo ad alzarsi, il gatto scivolo sul pavimento, guardo la porta, guardo lui, e rimase fermo. Non voleva uscire. Voleva che uscisse l&#39;intruso.</p>
+<p>Poco dopo, i tre raggiunsero la scala verso il ponte. Il canto diventava piu forte a ogni passo. Olorik si fermo ad ascoltare.</p>
+<p>&quot;Si festeggia qualcosa?&quot;</p>
+<p>Anivar inclino il capo. &quot;Forse ricordano chi hanno buttato in mare. I marinai hanno modi strani per tenere insieme dolore e sopravvivenza.&quot;</p>
+<p>&quot;Anche noi nani facciamo banchetti ai funerali,&quot; disse Olorik, accarezzandosi la barba. &quot;Ma dubito che su questa nave trovero un bel coscio d&#39;agnello.&quot;</p>
+<p>Luther non sorrise davvero. Prima di uscire aveva guardato dall&#39;oblo e il mare gli era sembrato diverso. Non piu torbido, non piu agitato come nei giorni precedenti. Placido. Quasi illuminato da sotto, da una luce dorata che non apparteneva al sole.</p>
+<p>&quot;Il Faro non ha finito di avere conseguenze,&quot; disse piano.</p>
+<p>Sul ponte, Igor si volto verso di loro senza smettere di suonare. La sua faccia diceva che, se qualcuno era responsabile dell&#39;umore migliore della nave, quel qualcuno meritava almeno una statua.</p>
+<p>Luther si appoggio al parapetto, ma lo sguardo gli rimase lontano. &quot;Spero che non si debba arrivare all&#39;Underdark. Durante la prigionia ho sentito abbastanza per temerlo. Il Canto viene sempre descritto come qualcosa che viene dal profondo. Mare, caverne, oscurita sotto la terra. E solo una teoria.&quot;</p>
+<p>Olorik sputo di lato quando il discorso tocco drow e duergar, poi strinse la mascella. &quot;Se quello che abbiamo affrontato era un antipasto, allora il cuoco ha una pessima idea di ospitalita.&quot;</p>
+<p>&quot;Lasciamo questa teoria al futuro,&quot; disse Anivar. &quot;Abbiamo obiettivi davanti a noi, e il mare non sembra intenzionato a farci deviare.&quot;</p>
+<p>Kaelira li aspettava presso il timone, una pipa lunga tra le labbra e una carta fissata al legno davanti a se. Il vento era favorevole, o almeno la nave sembrava crederlo: scivolava con una docilita che non rassicurava nessuno.</p>
+<p>&quot;Buongiorno,&quot; disse Anivar.</p>
+<p>Kaelira rispose con un cenno. &quot;Vi vedo riposati. O almeno piu interi di ieri.&quot;</p>
+<p>&quot;Ci stavamo domandando quale fosse il prossimo obiettivo,&quot; disse Luther.</p>
+<p>&quot;Dovremo fare scalo in un piccolo villaggio costiero qua vicino. Cade a fagiolo, per usare una vostra espressione: sorge vicino a una delle vostre mete. La Cattedrale delle Ombre.&quot;</p>
+<p>Il nome cambio il peso dell&#39;aria.</p>
+<p>Anivar sollevo lo sguardo. &quot;La Cattedrale.&quot;</p>
+<p>&quot;Tra qualche ora sara possibile vederla all&#39;orizzonte,&quot; continuo Kaelira. &quot;A quanto so, era una cattedrale consacrata a Ilmater. Legata a Targos, gestita da uno dei suoi uomini di fede. Poi il mare l&#39;ha resa sempre piu difficile da raggiungere. Ghiaccio, tempeste, rotte spezzate. Alla fine e rimasta isolata.&quot;</p>
+<p>Anivar si passo una mano sul volto. Conosceva quel genere di storia: un luogo sacro lasciato alla distanza, non per mancanza di fede, ma perche anche la fede deve fare i conti con vele, scafi e stagioni.</p>
+<p>&quot;La piccola chiesa di Targos ha ereditato molto di quel peso,&quot; disse. &quot;La Cattedrale era raggiungibile solo via mare. Se e caduta in disuso, non significa che sia vuota. Significa soltanto che nessuno ha piu saputo cosa accadesse li.&quot;</p>
+<p>Luther guardo verso prua. &quot;Se qualcuno e rimasto, potrebbe non essere piu un alleato.&quot;</p>
+<p>&quot;Non piu,&quot; confermo Anivar.</p>
+<p>Kaelira fece uscire fumo dalla pipa. &quot;Il villaggio sorge sulla stessa isola. Poche anime. Pescatori, probabilmente. E molto che non vi attracchiamo. Se il Canto ha fatto di quel luogo un fulcro, e possibile che anche il villaggio ne abbia subito gli effetti.&quot;</p>
+<p>&quot;O gli effetti di qualcun altro,&quot; disse Luther.</p>
+<p>&quot;Al peggio non c&#39;e mai fine,&quot; rispose lei.</p>
+<p>Igor, che fino a quel momento aveva ascoltato con un&#39;attenzione piu seria di quanto volesse mostrare, si frugo nelle tasche. La conchiglia di Sharavin era li, liscia e dura, memoria di una promessa emersa dall&#39;acqua.</p>
+<p>Kaelira la noto subito. &quot;Posso?&quot;</p>
+<p>Igor la sollevo, ma non gliela consegno davvero. &quot;Con attenzione.&quot;</p>
+<p>La capitana la sfioro appena. &quot;Corallo. Lavorato bene. In superficie e raro vedere oggetti simili.&quot;</p>
+<p>&quot;Prezioso?&quot; chiese Igor, gia con mezzo sorriso.</p>
+<p>&quot;Non lo venderesti per piu di qualche moneta di rame, immagino. Non e quello il suo valore.&quot; Kaelira indico una piccola apertura. &quot;Puoi soffiarci dentro. Non emette un suono diretto. Produce vibrazioni che l&#39;orecchio di creature terrestri non puo comprendere. Un richiamo. Per creature del mare.&quot;</p>
+<p>Igor ritrasse la conchiglia e se la mise via. &quot;Ottima osservazione.&quot;</p>
+<p>Lei lo guardo. &quot;Non era un&#39;osservazione.&quot;</p>
+<p>Olorik, poco distante, diede al gatto un pezzo di carne salata. L&#39;animale scarto il pane con disprezzo e accetto solo cio che gli sembrava degno. Anivar lo osservo con una stanchezza quasi affettuosa. Luther, invece, continuava a tornare con gli occhi alla lanterna.</p>
+<p>Piu tardi, quando la mattina si allungo e il sole comincio a scaldare il ponte, Igor provo a fare conversazione con Kaelira. Lo fece come faceva molte cose: cominciando male, correggendo in corsa, e confidando che il fascino riempisse i buchi.</p>
+<p>&quot;Non se ne vedono molte di donne capitane,&quot; disse.</p>
+<p>Il sopracciglio di Kaelira sali.</p>
+<p>Igor cambio rotta. &quot;Intendo, capitane capaci. Con una nave cosi, un equipaggio cosi. Si vede che hai il pugno di ferro.&quot;</p>
+<p>&quot;Sono la persona che deve essere qui,&quot; rispose lei. &quot;A prescindere dal fatto che sia donna, uomo, o qualcosa nel mezzo.&quot;</p>
+<p>Olorik si sedette con la pipa e l&#39;aria di chi aveva appena comprato un biglietto per uno spettacolo. Anivar passandogli vicino mormoro: &quot;Quanto scommetti che finisce in mare?&quot;</p>
+<p>&quot;Tre monete che almeno uno schiaffo arriva,&quot; rispose il nano.</p>
+<p>Igor, miracolosamente, sopravvisse. Fece domande sul mare, sulle origini di Kaelira, sulla flotta.</p>
+<p>La capitana guardo per un momento il giovane marinaio che prima aveva suonato. &quot;Non volevo essere capitana. Non all&#39;inizio. Vengo da un luogo che non e stato di pace. Il Canto e il Coro lo hanno aggredito molto tempo fa. Viaggiando mi sono unita alla flotta di Numcalad. Sono partita da li.&quot; Indico il marinaio. &quot;Da pulire i ponti. Era l&#39;unica cosa che potevo fare. E l&#39;unica che servisse in quel momento.&quot;</p>
+<p>Sulle sue mani e sul volto c&#39;erano cicatrici sottili. Alcune non avevano la forma delle ferite da battaglia. Igor le vide e per un battito smise di recitare.</p>
+<p>&quot;Ora sei qui,&quot; disse, piu piano. &quot;Capitana di una nave. Con gente che ti seguirebbe in capo al mondo.&quot;</p>
+<p>Kaelira sorrise, ma nel sorriso non c&#39;era vittoria. &quot;Chi ha paura di seguire il proprio viaggio da solo ha bisogno di un seguito.&quot;</p>
+<p>Igor rimase zitto un istante. L&#39;istante basto a renderlo vero. Poi torno a sorridere, perche alcune maschere si indossano anche per respirare.</p>
+<p>La mattina scivolo via in manutenzioni, ciotole calde, armi ripulite dal sale e da cio che il Faro aveva lasciato addosso. Olorik passo olio sulle asce con cura quasi tenera. Luther studio ancora la lanterna: la luce nera e violacea sembrava piu intensa, come se qualcuno avesse alzato il volume del buio.</p>
+<p>Verso l&#39;una, il Faro alle loro spalle brillo.</p>
+<p>Non era piu che una piccola luce lontana, eppure per un attimo divenne feroce. Oro contro il giorno. Oro sulla superficie del mare.</p>
+<p>La lanterna di Luther si spense.</p>
+<p>Solo per un battito.</p>
+<p>Fu abbastanza. Il freddo gli entro nelle ossa come un coltello sottile. La mano corse alla cintura. Il mondo perse consistenza, come se qualcuno avesse tirato via da sotto i suoi piedi non il legno della nave, ma la certezza stessa che il legno fosse li. Poi la luce torno, nera e viva, e lui respiro di nuovo.</p>
+<p>Kaelira si avvicino con una ciotola tra le mani e lo sguardo duro. &quot;Credo che qualcuno abbia percepito le vostre gesta.&quot;</p>
+<p>&quot;Ha sentito qualcosa?&quot; chiese Luther.</p>
+<p>&quot;Sentito, no. Ragionato, si.&quot; La capitana guardo il Faro lontano. &quot;Questa mattina molti del mio equipaggio hanno riposato stranamente bene. Alcuni mi hanno detto di non aver sognato. Altri avevano una tranquillita disarmante. Io non sogno, e per me e naturale. Chi vive in battaglia o fa incubi, o non sogna. Ma loro dovrebbero.&quot;</p>
+<p>Anivar si fece piu attento. &quot;Dovreste fare domande semplici. Famiglia, nomi, ricordi ordinari. Se non rispondono come dovrebbero, il problema e gia qui.&quot;</p>
+<p>&quot;Penso, padre, che il problema sia gia qui.&quot; Kaelira abbasso la voce. &quot;Il Canto attecchisce piu qui che nel resto del corpo. Non sono le ombre a ferire quanto l&#39;effetto che hanno sulla testa: ricordi, emozioni, sensazioni, attaccamento alla realta.&quot;</p>
+<p>Alzo il braccio sinistro. Il pugno si chiuse.</p>
+<p>L&#39;equipaggio cambio senza che lei dovesse urlare. Uomini ai cannoni. Passi sottocoperta. Sportelli aperti. Il canto del mattino si spense come una candela sotto un bicchiere.</p>
+<p>&quot;Ombre, shariti, cultisti,&quot; disse Kaelira. &quot;Non so chi stia muovendo le fila. Ma una cosa e certa: e meglio stare attenti.&quot;</p>
+<p>Luther porto la lanterna avanti. &quot;Lei ha mai visto qualcosa di simile?&quot;</p>
+<p>Kaelira la fisso. Per la prima volta la curiosita supero la prudenza, ma non la cancello.</p>
+<p>&quot;Posso toccarla?&quot;</p>
+<p>Luther irrigidi la mano. &quot;Per sicurezza e meglio che la tenga io.&quot;</p>
+<p>&quot;Non voglio prenderla. Voglio sfiorarla.&quot;</p>
+<p>Luther guardo Anivar, poi Olorik, poi Igor. Igor fece un cenno come a dire che il teatro non poteva fermarsi proprio adesso. Luther torno alla capitana.</p>
+<p>&quot;Con attenzione.&quot;</p>
+<p>Kaelira allungo la mano. Le sue dita non toccarono il vetro, ma le asticelle di metallo che ne separavano le facce. Fu un contatto minimo.</p>
+<p>Il colore le abbandono il volto.</p>
+<p>Cadde in ginocchio come se le avessero tagliato i fili. Olorik fu il primo a muoversi, prendendola sotto un braccio; Anivar le fu accanto subito dopo. Luther ritrasse la lanterna dentro la propria sfera, il corpo gia pronto a difenderla da qualcosa che non sapeva nominare.</p>
+<p>Kaelira, prima ancora di riprendere fiato, compi un gesto. Spalla sinistra, spalla destra, mani congiunte al petto. Anivar lo riconobbe e il riconoscimento gli passo negli occhi come una fiamma bassa.</p>
+<p>&quot;Un saluto celestiale,&quot; mormoro.</p>
+<p>&quot;Di cosa hai visto?&quot; chiese Luther.</p>
+<p>Kaelira chiuse gli occhi. Quando parlo, la voce non era piu del tutto sua: era di qualcuno che aveva guardato una porta chiusa da secoli e l&#39;aveva sentita aprirsi per un respiro.</p>
+<p>&quot;E stato bello,&quot; disse. &quot;Se devo dire il vero. Per me... e stato come tornare a casa.&quot;</p>
+<p>Il mare batte contro lo scafo. Nessuno fece battute.</p>
+<p>&quot;Cio che porti cosi liberamente alla cintura e un retaggio molto vecchio,&quot; continuo Kaelira. &quot;Il Canto, prima di attecchire qui, ha attecchito altrove. Ha avuto un&#39;origine. E c&#39;e stato qualcuno che tento di sigillarlo.&quot;</p>
+<p>Luther le tenne lo sguardo addosso. &quot;Un celestiale?&quot;</p>
+<p>Lei si morse la lingua su una parola che non volle dire. &quot;Una persona. Un nome dimenticato. Volutamente cancellato dai nostri libri. Etichettato come traditore. Come fallimento.&quot;</p>
+<p>&quot;Chi?&quot;</p>
+<p>Kaelira allungo una mano tremante verso carta e penna. La calligrafia usci incerta, ma leggibile.</p>
+<p>Seraph.</p>
+<p>&quot;Un campione votato alla lotta contro il Canto,&quot; disse. &quot;Diede la propria essenza per sigillarlo. Da molto tempo non abbiamo tracce di qualcosa che lo ricordi. Eppure l&#39;ho percepito li dentro.&quot;</p>
+<p>Anivar guardo la lanterna come si guarda una reliquia che non ha deciso se essere benedizione o ferita. &quot;Quindi Seraph e nella lanterna?&quot;</p>
+<p>&quot;Dubito che un oggetto cosi piccolo possa contenere un&#39;entita cosi grande,&quot; rispose Kaelira. &quot;Un frammento e piu probabile. Qualcosa che gli fu vicino. Qualcosa su cui lascio una traccia.&quot;</p>
+<p>Luther penso al gelo provato quando il Faro aveva brillato. &quot;Quando la lanterna si e spenta ho sentito il vuoto. Come se mi avessero tolto un appoggio.&quot;</p>
+<p>&quot;Allora non trattatela come una lampada,&quot; disse Kaelira. &quot;E non trattatela come innocua.&quot;</p>
+<p>Anivar provo a leggere la magia che le correva addosso. La sua percezione trovo potenza, e dentro quella potenza una forma chiara solo a meta: divinazione. Oltre, il vetro taceva.</p>
+<p>&quot;C&#39;e magia divina,&quot; disse. &quot;Forte. Ma non capisco quale incantesimo sia stato imprigionato qui.&quot;</p>
+<p>Luther sfioro a sua volta la lanterna con il ciondolo vicino. Il metallo nero vibro contro il petto, non come allarme ma come risposta. Non lo guariva, non lo illuminava; gli dava una spinta morale, una certezza che non sapeva spiegare.</p>
+<p>Olorik li osservo studiare, le mani sui fianchi, e sperava sinceramente che qualcuno arrivasse alla fine di quell&#39;enigma prima che l&#39;enigma arrivasse alla fine di loro.</p>
+<p>Igor, che fino a quel momento aveva girato attorno alla scena come una mosca attratta dalla luce, ebbe una delle sue illuminazioni improvvise. Estrasse lo specchio di Edmorin.</p>
+<p>&quot;Proviamo a far parlare due cose strane tra loro,&quot; disse.</p>
+<p>Lo pose davanti alla lanterna.</p>
+<p>Nel vetro, l&#39;ombra che di solito seguiva il movimento dello specchio si addenso. La luce nera non illumino: rivelo. Uno sfondo scuro prese profondita. Un trono dorato apparve, con schienale blu. Una figura elfica vi sedeva sopra: capelli bianchi, corona d&#39;oro, mantello verde scuro, stivali da guerra, mani strette sui pomoli del trono.</p>
+<p>Re Edmorin, o qualcosa che gli somigliava abbastanza da far male.</p>
+<p>Guardava oltre loro.</p>
+<p>&quot;Ci puo sentire?&quot; chiese Igor.</p>
+<p>La figura non rispose. Le labbra si mossero. Rapide, precise, in una lingua che sembrava voler restare nel vetro.</p>
+<p>Luther si avvicino, cercando di leggere. Anivar gli pose una mano sulla spalla, non per guidarlo ma per tenerlo dentro il momento. Olorik trattenne il respiro.</p>
+<p>&quot;Una parola,&quot; disse Luther infine.</p>
+<p>Kaelira non si mosse.</p>
+<p>&quot;Shar.&quot;</p>
+<p>Il nome cadde sul tavolato come ferro.</p>
+<p>Igor provo a parlare ancora, poi a scrivere. Quando un foglio si mise tra specchio e lanterna, la figura perse consistenza e torno quasi ombra. Tolto il foglio, il re torno reale, o quanto poteva esserlo qualcosa chiusa in un riflesso.</p>
+<p>Olorik indico il vetro. &quot;Vi ricordate nel Faro? Quando la lanterna mostrava cio che le ombre nascondevano? Qui succede il contrario e la stessa cosa insieme. Senza la luce, resta ombra. Con la luce, diventa... questo.&quot;</p>
+<p>Nessuno trovo una risposta migliore.</p>
+<p>Fu Inca a strapparli via.</p>
+<p>Dal bordo della nave arrivo un suono strozzato, non un vero grido. Una mano sulla bocca. Lo sguardo fisso sul mare.</p>
+<p>Luther chiuse la mano sulla lanterna. Olorik si volto gia pronto a muoversi. Anivar senti il peso di Ilmater come una cinghia sulle spalle. Igor rimise lo specchio al sicuro, ma non abbastanza in fretta da non guardare un&#39;ultima volta il re nel vetro.</p>
+<p>Poi il gruppo corse verso il parapetto.</p>
+<p>---</p>
+  </div>
+</article>
+<article class="chapter" id="capitolo-06-approdo-alla-cattedrale-delle-ombre">
+  <div class="chapter-kicker">Capitolo 06</div>
+  <h2>Approdo Alla Cattedrale Delle Ombre</h2>
+  <div class="ornament"></div>
+  <div class="prose">
+<p>Prima che la Cattedrale avesse un volto, la lanterna torno a essere un problema di bordo.</p>
+<p>Kaelira li lascio salire, ma non li lascio passare davvero. La nave li accolse con funi tese, mani esperte e una disciplina cosi liscia da sembrare una paratia. Alle spalle della capitana, due o tre marinai non impugnavano armi, ma stavano dove avrebbero dovuto stare se un ordine fosse cambiato. Cortesi abbastanza da non essere una minaccia. Presenti abbastanza da esserlo.</p>
+<p>Il Faro Sommerso era alle loro spalle. Non come un luogo finito, ma come una pressione ancora sulle ossa.</p>
+<p>Kaelira osservo il gruppo, poi si fermo sulla cintura di Luther. La lanterna nera pendeva li, con la propria luce sbagliata, come se non sapesse decidere se rivelare o inghiottire.</p>
+<p>&quot;Ce l&#39;avete fatta, quindi,&quot; disse.</p>
+<p>&quot;Aveva dubbi?&quot; chiese Igor, con la stanchezza trasformata in sorriso.</p>
+<p>&quot;Salite. E ditemi cosa avete trovato li dentro.&quot;</p>
+<p>Olorik si passo una mano sulla fronte, dove una scheggia ricordava piu una porta che un&#39;ombra. &quot;Ghoul. Mostri di mare. Ombre che ci hanno fatto penare.&quot;</p>
+<p>&quot;E Padre Danik,&quot; aggiunse Anivar. &quot;O cio che ne era rimasto.&quot;</p>
+<p>Kaelira si irrigidi appena. &quot;In che senso, cio che ne era rimasto?&quot;</p>
+<p>&quot;Un&#39;eco,&quot; disse Anivar. &quot;Un&#39;ombra consumata dal Canto. Ma non vuota. Non del tutto.&quot;</p>
+<p>&quot;Quindi un&#39;ombra vivente?&quot;</p>
+<p>&quot;Per poco,&quot; rispose Luther.</p>
+<p>Il vento passo tra loro senza alleggerire nulla. Kaelira guardo di nuovo la lanterna.</p>
+<p>&quot;Dal Faro sono usciti fasci violacei. Una luce simile a quella. Una luce che non illumina.&quot; La sua voce rimase bassa, ma l&#39;equipaggio la senti lo stesso. &quot;Mi chiedo cosa faccia quella lanterna. E se sia sicuro portarla sulla mia nave.&quot;</p>
+<p>&quot;E lecito il suo timore,&quot; disse Luther. &quot;Ci ha permesso di procedere nel Faro. Non so come, ma e potente. Preferisco tenerla io per sicurezza. Se vuole vederla piu da vicino, puo farlo. Con estrema attenzione.&quot;</p>
+<p>Anivar intervenne prima che la tensione diventasse solo possesso. &quot;L&#39;abbiamo usata per illuminare alcune zone. Non illuminare come una torcia. Era come se il luogo tornasse indietro. Stanze crollate si ricostruivano. Abbiamo visto il capitano della nave, morto eppure seduto li. Un ricordo in forma fisica. O un&#39;essenza.&quot;</p>
+<p>L&#39;interesse cambio il volto di Kaelira. Non lo rese piu morbido; lo rese piu vivo.</p>
+<p>&quot;Questo e interessante,&quot; disse. &quot;Luther, vorrei chiederti in prestito la lanterna per osservarla meglio. O venite voi a osservare la mia analisi.&quot;</p>
+<p>Luther esito. La nave era sua. La lanterna no. O forse, piu precisamente, nessuno sapeva di chi fosse davvero.</p>
+<p>&quot;Va bene,&quot; disse infine. &quot;Ma vorrei esserci.&quot;</p>
+<p>&quot;Non e un problema. Anzi.&quot; Kaelira immerse un braccio nella borsa a tracolla fino al gomito e ne estrasse un sacco di iuta. Sembrava comune solo a guardarlo. &quot;Ti chiedo soltanto di tenerla qui dentro, cosi possiamo stare tutti piu tranquilli.&quot;</p>
+<p>Luther prese il sacco. Le dita sentirono cio che l&#39;occhio non diceva: uno strato liscio, quasi impermeabile, materiali cuciti con cura, un vuoto sottile attorno alla trama. Non era semplice stoffa. Era contenimento.</p>
+<p>&quot;Antimagia,&quot; mormoro.</p>
+<p>Kaelira non nego.</p>
+<p>Luther mise la lanterna nel sacco e lo chiuse come si chiude una ferita che potrebbe riaprirsi. &quot;Dove ci saro io, ci sara anche questo sacco. E la lanterna.&quot;</p>
+<p>&quot;E tua responsabilita adesso,&quot; disse Kaelira.</p>
+<p>La parola responsabilita non gli scivolo addosso. Gli rimase.</p>
+<p>Gli altri stavano per scendere sottocoperta quando la capitana poggio una mano sulla spalla di Olorik.</p>
+<p>&quot;Mastro nano. Posso rubarle un attimo?&quot;</p>
+<p>Olorik annui e lascio che gli altri si allontanassero. Il ponte divenne piu grande e piu vuoto intorno a loro. Kaelira attese che il rumore dei passi si perdesse nella scala.</p>
+<p>&quot;Quelle ombre,&quot; disse. &quot;Avevano movenze particolari? Riuscivano a comunicare con le creature intorno a loro? Qualsiasi dettaglio e essenziale.&quot;</p>
+<p>Olorik si accarezzo la barba. &quot;Non ho grande esperienza di ombre. Di solito i nemici che affronto sono piu tangibili. Orchi, goblin, lupi. Cose che quando le colpisci fanno rumore. Quelle, pero... sembravano capirsi. Muoversi insieme. E Danik ci ha parlato. O qualcosa che era Danik. Questo mi ha lasciato turbato.&quot;</p>
+<p>Sollevava l&#39;ascia mentre parlava, quasi per ricordare a se stesso quale fosse il confine tra paura e azione. &quot;Alla fine e bastata lei. Ma non posso dire che fosse normale.&quot;</p>
+<p>Kaelira guardo l&#39;arma. &quot;E difficile colpire un&#39;ombra. La sua natura e elusiva, sottile. Se quell&#39;ascia riesce a trovare qualcosa che non e materiale, la tenga stretta.&quot;</p>
+<p>Poi la sua voce cambio. &quot;Ma cio che mi preoccupa e altro. Le ombre non parlano. Non ricordano gli incanti imparati in vita. E quelle generate dal Canto non ricordano affatto. Il Canto estirpa la memoria. La traduce in energia. In cio che gli serve. Spero per tutti voi che non abbiate sentito la sua melodia.&quot;</p>
+<p>Olorik penso a Danik, al Faro, alla luce, all&#39;acqua che premeva da ogni parte. Poi gli torno in mente la campana.</p>
+<p>&quot;C&#39;era una campana,&quot; disse. &quot;Vicino a Danik. Circondata da rune, simboli arcani. Ho provato a capirci qualcosa prima che tutto venisse giu.&quot;</p>
+<p>Kaelira guardo il mare come se la risposta potesse affiorare li. &quot;Sono molti i misteri all&#39;origine di questa guerra. Voi affrontate il viaggio; altri, come me, affrontano il campo. Quello che piu ci manca e la conoscenza. Simboli simili sono stati visti. Non sempre compresi. Sono retaggi di un passato molto antico, memorie perse con coloro che le costruirono.&quot;</p>
+<p>Fece una pausa.</p>
+<p>&quot;Non e la prima volta che vediamo una campana simile. Circondata da rune. E non ha mai portato conforto.&quot;</p>
+<p>Olorik abbasso appena il capo. &quot;Credo che andro a riposare anch&#39;io.&quot;</p>
+<p>&quot;Vi faro portare cibo caldo e birra. Per quanto le scorte permettano.&quot;</p>
+<p>Il nano scese. Dietro di se, mentre la scala gli scricchiolava sotto gli stivali, senti la voce di Kaelira interrompersi su un respiro troppo corto. Non era un pianto. Non ancora. Era la stanchezza di chi aveva continuato a stare in piedi solo perche qualcuno doveva farlo.</p>
+<p>Sottocoperta, il sonno prese il gruppo a pezzi.</p>
+<p>Igor svuoto la tazza autoricaricabile e provo ad accordare il liuto, ma le palpebre gli caddero prima della seconda melodia. Anivar rivolse poche parole a Ilmater, asciutte e private, poi si lascio alla necessita del corpo. Olorik puli le armi con movimenti lenti, piu per abitudine che per bisogno.</p>
+<p>Luther rimase seduto davanti al sacco chiuso.</p>
+<p>Aveva tolto l&#39;armatura. Uno spallaccio ammaccato riposava ai piedi del letto, con sale e segni di colpi ancora addosso. La cabina era stretta, umida, attraversata da scricchiolii. Il sacco sembrava banalissimo nella penombra, ma Luther non riusciva a guardarlo come un oggetto comune.</p>
+<p>La mano gli ando al collo. Il frammento di metallo nero era freddo nonostante il calore del corpo. Lo aveva accompagnato da sempre, da prima che i ricordi avessero confini affidabili. Non ricevette una visione. Nessuna voce. Nessuna certezza divina.</p>
+<p>Solo una cosa piu intima e piu difficile da respingere.</p>
+<p>Le sue cose erano vicine.</p>
+<p>Il mattino seguente, nella cabina del capitano, la lanterna torno sul tavolo.</p>
+<p>La stanza di Kaelira era piccola, quasi offensiva per qualcuno con il suo grado: un tavolo, alcune sedie, legno ovunque, una finestrella che dava sulla coda della nave piu che sul mare. Lei ci viveva poco. Il suo vero posto era presso il timone, sotto vento e pioggia.</p>
+<p>Il gruppo si raccolse attorno al tavolo. Il sacco venne aperto. La luce nera non si allargo come una fiamma; rimase raccolta, ma l&#39;aria parve accorgersene.</p>
+<p>Kaelira giro attorno alla lanterna senza toccarla. &quot;Dunque. Questo e l&#39;oggetto che dite aver ricreato l&#39;essenza passata delle cose. L&#39;edificio. La campana. Il rituale. L&#39;uomo morto seduto nella propria cabina.&quot;</p>
+<p>&quot;Si,&quot; disse Anivar. &quot;O qualcosa di abbastanza vicino da spaventarci.&quot;</p>
+<p>&quot;E prezioso,&quot; disse lei. &quot;Non abbiamo mai avuto modo di osservare direttamente cio che e successo in certi luoghi. Uno strumento del genere potrebbe essere fondamentale. Dove esattamente l&#39;avete trovato?&quot;</p>
+<p>Igor si sporse, le dita gia pronte a disegnare nell&#39;aria una scena. &quot;Sulla scrivania del capitano, mi pare. C&#39;erano documenti. Un diario. Simboli strani. E un pugnale.&quot;</p>
+<p>Olorik aggrotto la fronte. &quot;Il pugnale era infilato sul testo. Mi sembra sulla parola mare.&quot;</p>
+<p>&quot;Si,&quot; disse Igor, toccandosi il mento con aria improvvisamente convinta. &quot;Proprio mare.&quot;</p>
+<p>Kaelira rimase in silenzio un momento. &quot;Molto interessante. Approfittero del tempo che passerete nella Cattedrale per continuare a indagare su questo.&quot;</p>
+<p>Fu allora che notarono l&#39;assenza.</p>
+<p>Non subito tutti insieme. Prima Luther, perche era abituato a guardare cio che la luce sbagliata mostrava. Poi Anivar, che senti qualcosa nel proprio stomaco contrarsi. Infine Olorik e Igor, seguendo gli occhi degli altri.</p>
+<p>Kaelira non proiettava ombra.</p>
+<p>La lanterna si posava sul tavolo, il sole filtrava dalla piccola finestra, i corpi degli altri lasciavano segni scuri sul legno. Lei no. Stava li, concreta, abbronzata dal mare, viva nel respiro e nella voce, ma senza quell&#39;accompagnamento minimo che persino gli oggetti morti concedevano alla luce.</p>
+<p>Kaelira non se ne accorse.</p>
+<p>&quot;Durante la notte,&quot; continuo, &quot;gli attacchi degli Sharavis sono stati quasi nulli. Forse il Faro li ha calmati. Forse li ha spaventati. Forse e solo la vicinanza della Cattedrale.&quot;</p>
+<p>Igor si schiari la voce. &quot;In fondo, non sono tutti cosi cattivi. Ci sono storie secondo cui potrebbero anche essere alleati in questa battaglia. Se ce ne fosse bisogno, magari potremmo entrare in contatto con loro.&quot;</p>
+<p>Non disse Sharavin. Non disse patto. Non disse conchiglia.</p>
+<p>Kaelira inclino il capo. &quot;Le storie hanno fondi di verita. La realta tende a contraddirle. Quelle volte che abbiamo battagliato contro i loro gruppi non ho visto una gerarchia vera. Sono creature tribali, semplici.&quot; Nella voce non c&#39;era odio. C&#39;era fastidio. Che, a volte, e piu difficile da contraddire.</p>
+<p>Igor senti la conchiglia nella tasca. La strinse senza mostrarla. Gli diede fastidio, e il fastidio non gli piacque: gli ricordava tutte le volte in cui qualcuno aveva visto in lui prima la razza, poi il sospetto, e solo dopo, forse, la persona.</p>
+<p>&quot;Forse serve arte per comprenderli,&quot; disse, col suo sorriso piu leggero.</p>
+<p>&quot;E molta pazienza,&quot; rispose Kaelira.</p>
+<p>Da sopra arrivo il grido della vedetta.</p>
+<p>&quot;Terra!&quot;</p>
+<p>La nave si mosse verso l&#39;isola.</p>
+<p>La Cattedrale delle Ombre emerse dal mare come qualcosa che non era stato costruito per confortare nessuno.</p>
+<p>All&#39;inizio fu una massa alta sopra l&#39;acqua, una sagoma di pietra, corallo e materiale traslucido che prendeva luce senza restituirla davvero. Poi vennero i dettagli: una scalinata che pareva fatta con ossa di qualche enorme animale marino; una grande porta chiusa, pallida e lucida; contrafforti laterali spessi come costole; guglie che tagliavano il cielo; stendardi mossi da un vento troppo lento.</p>
+<p>La nave le giro attorno prendendo largo. L&#39;aria si fece pesante, come se qualcuno avesse cambiato il peso del respiro.</p>
+<p>Sulla fiancata apparve il tridente su sfondo bianco.</p>
+<p>Anivar lo riconobbe. Igor anche.</p>
+<p>&quot;Umberlee,&quot; disse Anivar. &quot;La Regina delle Profondita.&quot;</p>
+<p>Igor guardo il simbolo con meno teatralita del solito. &quot;Non proprio il genere di culto in cui si entra per sentirsi amati.&quot;</p>
+<p>&quot;No,&quot; disse il chierico. &quot;La si placa. La si teme. Le si offrono tributi per sopravvivere al mare.&quot;</p>
+<p>Le vetrate della Cattedrale non mostravano santi, martiri o mani in preghiera. Mostravano maree, tempeste, cicli lunari, correnti, stagioni marine. La torre principale non sembrava un campanile. Sembrava un occhio rivolto all&#39;acqua.</p>
+<p>Olorik, con la faccia di chi stava concedendo molto, disse: &quot;Poco a che vedere con le sale naniche. Pero fa un certo effetto. Forse un tempo era anche meglio.&quot;</p>
+<p>Kaelira non sorrise. &quot;Sembra una struttura che porta con se molto. Piu di quanto io possa comprendere.&quot;</p>
+<p>&quot;Quanto e antica?&quot; chiese Olorik.</p>
+<p>&quot;Tanto. Molto piu di me, e di chi e venuto prima di me. A guardarla, sembra nata con il mare stesso.&quot;</p>
+<p>Piu osservavano, piu la forma diventava chiara. La Cattedrale era uno scafo capovolto, inchiodato alla costa. I contrafforti erano costole che affondavano verso il fondale. Non un edificio che dominava il mare, ma qualcosa che cercava di farsi proteggere da esso o di proteggerne altri.</p>
+<p>&quot;Il Canto non l&#39;ha creata,&quot; disse Anivar, lentamente. &quot;O almeno non sembra.&quot;</p>
+<p>&quot;Forse l&#39;ha scelta,&quot; aggiunse Igor.</p>
+<p>Luther rimase in silenzio. La mano era alla cintura, vicino al sacco. Guardava la Cattedrale come si guarda una ferita che ha imparato a somigliare a un simbolo sacro.</p>
+<p>Anche l&#39;equipaggio guardava. Alcuni marinai facevano gesti di rispetto mentre continuavano i compiti. Altri si limitavano a fissare la pietra, sopraffatti da una riverenza che non sapevano nominare.</p>
+<p>&quot;Il problema,&quot; disse Olorik, &quot;e quello che troveremo dentro.&quot;</p>
+<p>Kaelira gli rispose senza staccare gli occhi dalla costa. &quot;La precauzione che adotterei io ve l&#39;ho gia suggerita. Mano alla cintura. Ma non estraete le armi. Magari chi incontrerete vorra offrirvi caramelle. Io non le accetterei.&quot;</p>
+<p>Luther guardo lo scafo, poi l&#39;acqua intorno. &quot;Queste acque sono cambiate.&quot;</p>
+<p>&quot;Sono contaminate,&quot; disse Kaelira. &quot;Sporche. Qualcosa rode lo scafo ogni secondo che restiamo qui. Il legno marcisce in fretta. Questa nave e protetta quanto puo esserlo, ma stanotte piu di una riparazione e stata necessaria. Numcalad ha ordinato di destinare una parte della stiva a legname di scorta. Piu del necessario. Piu del buon senso. Mai scelta fu piu saggia.&quot;</p>
+<p>&quot;L&#39;effetto e solo sulla nave?&quot; chiese Olorik.</p>
+<p>&quot;Finche la nave tiene, ci mantiene separati da cio che le acque decidono. Ma e un equilibrio labile. Una bilancia che pende piu dal lato sbagliato che dal nostro.&quot;</p>
+<p>&quot;Come se anche l&#39;acqua fosse corrotta,&quot; disse Luther.</p>
+<p>&quot;Lo e.&quot;</p>
+<p>Il silenzio che segui aveva il rumore del legno sotto pressione.</p>
+<p>Kaelira riprese il comando. &quot;Ormeggeremo il tempo necessario a lasciarvi. Poi torneremo a Targos per rifornimenti e riparazioni. Rientreremo qui.&quot;</p>
+<p>&quot;Quanto resteremo senza supporto?&quot; chiese Olorik.</p>
+<p>&quot;Una notte. Non di piu. La via e diretta, le correnti sono favorevoli.&quot;</p>
+<p>Una notte, pensarono tutti. Abbastanza poco da sembrare una promessa. Abbastanza tanto da diventare una condanna.</p>
+<p>Luther recupero la lanterna e la mise nel sacco antimagia. &quot;Questa viene con noi.&quot;</p>
+<p>&quot;E piu utile a voi che a me,&quot; disse Kaelira. &quot;Le mie considerazioni le ho fatte.&quot;</p>
+<p>Igor si assicuro di avere lo specchio. Poi, con un gesto che nessuno doveva notare e tutti avrebbero potuto capire se avessero guardato, controllo anche la conchiglia.</p>
+<p>La nave prese la costa piu bassa.</p>
+<p>Il villaggio apparve dietro una curva di spiaggia e scogli: una trentina di case o palizzate, basse, fatiscenti, con reti appese lungo i bordi come pelli lasciate ad asciugare troppo a lungo. C&#39;erano luci all&#39;interno, e proprio per questo il luogo sembrava meno vivo. Alle nove del mattino nessuna barca era in mare. Nessun pescatore rientrava. Nessuno usciva.</p>
+<p>Sulla spiaggia, un grande falo spento stava al centro di massi grossi, disposti a circoscrivere la cenere. Ceppi consumati. Nero freddo. Una bocca che aveva bruciato e poi aveva smesso.</p>
+<p>Olorik conto a occhio le case e fece i suoi calcoli da soldato, non da censitore. Anivar guardo le luci e penso ai luoghi sacri quando smettono di essere rifugio. Luther strinse la cinghia del sacco. Igor senti il corallo della conchiglia contro le dita e non disse nulla.</p>
+<p>La Cattedrale li guardava dall&#39;alto, scafo capovolto contro il cielo.</p>
+<p>La nave di Kaelira li avrebbe lasciati li.</p>
+<p>E il mare, sotto ogni cosa, non sembrava affatto avere fretta.</p>
+<p>---</p>
+  </div>
+</article>
+<article class="chapter" id="capitolo-07-la-stella-solitaria">
+  <div class="chapter-kicker">Capitolo 07</div>
+  <h2>La Stella Solitaria</h2>
+  <div class="ornament"></div>
+  <div class="prose">
+<p>La Cattedrale delle Ombre li guardava dall&#39;alto dell&#39;isola come una carcassa che avesse imparato a pregare.</p>
+<p>Dal ponte della nave, i contrafforti sembravano costole piantate nel fondale, scure contro il cielo terso e sporco di nuvole. Le vetrate azzurre portavano maree, lune, correnti e tempeste. Sui vessilli, il tridente bianco di Umberlee resisteva al vento con una pazienza ostile. Non c&#39;era luce dentro la cattedrale, eppure l&#39;interno restava visibile, come se l&#39;edificio non avesse bisogno di fuoco per farsi osservare.</p>
+<p>Il molo era piccolo, quasi una dimenticanza. Una cima venne lanciata, un marinaio scese a fissarla, e la passerella scivolo tra nave e legno marcio con un rumore piu simile a un lamento che a un attracco.</p>
+<p>Kaelira li raggiunse sul ponte. Il suo volto manteneva la stessa cortesia severa della sera prima, quando la lanterna nera era stata tra loro come una domanda che nessuno sapeva formulare fino in fondo.</p>
+<p>&quot;Ora tocca a voi,&quot; disse. &quot;Noi torneremo a Targos. Cercheremo la maniera piu rapida di rientrare. Un giorno al massimo, forse mezza giornata in piu. Per noi e uno sforzo grande, ma necessario. Siate cauti. Per quel tempo non potro assistervi.&quot;</p>
+<p>Igor inclino il capo con una gravita quasi credibile. &quot;Avete tutto cio che vi serve?&quot; Continu&#242; Kaelira</p>
+<p>&quot;Abbastanza.&quot; Rispose Igor guardando il suo equipaggiamento.</p>
+<p>&quot;Avete del grog in piu?&quot; Chiese quasi ingenuamente Anivar.</p>
+<p>Per un momento la capitana rimase immobile. Poi sospiro, infilo una mano nella giubba e ne estrasse una piccola fiaschetta. La agito: dentro rimaneva qualcosa, ma non molto. La stappo, bevve un sorso. Poi un altro. Solo allora la ritappo e gliela passo.</p>
+<p>&quot;Questa la rivoglio.&quot;</p>
+<p>Anivar la prese come fosse una reliquia. &quot;Questi due sorsi quanto male hanno fatto?&quot;</p>
+<p>&quot;Ce n&#39;e,&quot; rispose Kaelira. &quot;Non e piena, ma ce n&#39;e.&quot;</p>
+<p>Contento del nuovo bottino Anivar, guardo il mare che circondava l&#39;isola. L&#39;acqua aveva una calma troppo densa. &quot;Fate attenzione in queste acque,&quot; disse alla capitana. &quot;La dea di questo posto non perdona facilmente chi oltrepassa i limiti.&quot;</p>
+<p>Kaelira volse lo sguardo alla Cattedrale. &quot;Non e proprio famosa per la sua compassione. Lo terremo a mente.&quot;</p>
+<p>Luther le strinse la mano prima di scendere. &quot;Grazie, capitano. E prestate attenzione anche voi.&quot;</p>
+<p>Kaelira rispose con due dita alla tempia, piu saluto militare che commiato. Olorik fu l&#39;ultimo a indugiare sulla passerella. Annuso l&#39;aria che saliva dal porto e dalla spiaggia. Sale, muffa, acqua vecchia. E qualcosa sotto.</p>
+<p>&quot;Vedete di non metterci troppo,&quot; borbotto. &quot;Questo posto mi da i brividi. Sa di morto.&quot;</p>
+<p>&quot;Un giorno al massimo,&quot; ripete Kaelira.</p>
+<p>Poi il nano scese.</p>
+<p>Quando Igor mise piede sul molo, il legno scricchiolo sotto gli stivali. Non fu il normale gemito di assi vecchie, ma un cedimento umido, molle. Istintivamente afferro un palo per reggersi e lo senti cedere sotto le dita. Il legno non opponeva resistenza: si sfaldava come cosa gia vinta.</p>
+<p>Eppure Igor sorrise.</p>
+<p>La sabbia della spiaggia era chiara, quasi argentata, segnata da molte orme. Davanti a loro, le case del villaggio stavano chiuse dietro tende e pareti consumate. Qua e la, dietro le finestre, tremolavano luci pallide. Non c&#39;erano pescatori. Non c&#39;erano reti tirate a riva da mani vive. Non c&#39;erano barche in mare, solo relitti o scafi abbandonati. Per essere mattina, il villaggio sembrava aver dimenticato cosa comporta l&#39;inizio i una giornata.</p>
+<p>&quot;Signori,&quot; disse Igor, voltandosi verso gli altri con una luce forzata negli occhi, &quot;qua non c&#39;e nessuno fuori, ma fidatevi di me: dentro queste case sar&#224; sicuramente pieno di festa. Musica, gente, qualcuno che puo aiutarci. Seguitemi.&quot;</p>
+<p>Olorik si sistemo la pipa tra i denti senza accenderla davvero. &quot;Non sono convinto. Pero e meglio cercarli noi prima che vengano loro a cercarci quando abbiamo voltato le spalle.&quot;</p>
+<p>Luther cammino in silenzio. Quel posto gli stringeva lo stomaco. Non era morto, non ancora, ma aveva il colore delle cose che stanno cedendo lentamente. Gli ricordava cio che non era riuscito a proteggere. Case svuotate. Strade senza voci. La vita rimasta solo come abitudine.</p>
+<p>Igor aumento il passo verso la prima abitazione illuminata. &quot;Non fate quelle facce. Sicuramente c&#39;e una festa. O una taverna. O almeno qualcuno con cui parlare.&quot;</p>
+<p>Anivar lo guardo con tristezza quieta. &quot;Certe volte bisogna accettare che non dovunque la felicita e una garanzia.&quot;</p>
+<p>Igor non si fermo. &quot;Sono abituato a non essere benvenuto. Neanche con la mia carovana lo eravamo. Lasciate parlare me.&quot;</p>
+<p>Arrivarono davanti alla porta. Anivar, prima degli altri, colse un movimento dietro una finestra: uno spiraglio tra le tende, un tavolo, una candela, poi un volto anziano segnato da sale, vento e anni. Gli occhi dell&#39;uomo incontrarono i suoi per un battito. Subito la tenda venne tirata e la luce spari.</p>
+<p>Igor busso.</p>
+<p>&quot;Via,&quot; disse una voce dall&#39;interno. &quot;Andate via.&quot;</p>
+<p>&quot;Ci avrete presi per le persone sbagliate,&quot; rispose Igor, dolce come un attore davanti a un pubblico difficile. &quot;Siamo nuovi da queste parti. Non staremo molto. Vogliamo soltanto sapere se e in questa abitazione la festa.&quot;</p>
+<p>Un silenzio.</p>
+<p>&quot;Se cercate festa, e data in taverna. E tardi.&quot;</p>
+<p>Igor giro appena la testa. &quot;Dove si trova questa taverna, buon uomo?&quot;</p>
+<p>&quot;Di fianco a te.&quot;</p>
+<p>Alla loro sinistra, un edificio piu alto e storto degli altri sembrava tenersi insieme per testardaggine. Una vecchia insegna oscillava al vento: un pezzo di legno rovinato, una costellazione appena visibile, un nome che il sale aveva quasi mangiato.</p>
+<p>La Stella Solitaria.</p>
+<p>Olorik socchiuse gli occhi. &quot;L&#39;hai sentito anche tu quell&#39;e tardi? O me lo sono sognato?&quot;</p>
+<p>Luther strinse il sacco in cui custodiva la lanterna nera. &quot;L&#39;ho sentito.&quot;</p>
+<p>&quot;Puo avere mille significati diversi,&quot; disse Olorik. Accese finalmente la pipa. Il fumo usci breve, nervoso. &quot;E nessuno buono.&quot;</p>
+<p>Sotto le dita di Luther, pero, non fu la lanterna a rispondere. La reazione parti dal petto, all&#39;altezza della clavicola: il frammento nero che portava con se sobbalzo per un attimo, come se qualcosa nell&#39;isola lo avesse urtato da lontano.</p>
+<p>Si mossero verso la taverna.</p>
+<p>Il vento non li lascio mai. Passava tra le case, si infilava nelle assi, sfiorava le orecchie. Olorik fu il primo a irrigidirsi.</p>
+<p>&quot;Fate le orecchie,&quot; mormoro. &quot;La sentite anche voi questa litania?&quot;</p>
+<p>Gli altri si fermarono.</p>
+<p>Nessuno sentiva nulla.</p>
+<p>Solo il nano teneva lo sguardo fisso nel vuoto, come un animale prima del terremoto. Non capiva da dove arrivassero quelle voci. Non erano parole, o forse lo erano state prima che il vento le allungasse e le spezzasse. Gli ricordavano qualcosa gia incontrato, qualcosa che non voleva riconoscere.</p>
+<p>Anivar non discusse. Si avvicino e poggio una mano su Olorik. Le sue labbra si mossero in una preghiera bassa, rivolta a Ilmater. Un velo di protezione si chiuse intorno al nano.</p>
+<p>Le voci cessarono.</p>
+<p>Non la sensazione.</p>
+<p>Quella rimase: stortura, pressione, un mondo spostato di un filo dal proprio posto.</p>
+<p>Luther chiuse le dita sul simbolo sacro. Per un istante la sua attenzione si fece piu netta, piu fredda. Il tanfo del villaggio non spari. La paura non spari. Ma le ombre del dubbio arretrarono abbastanza da permettergli di guardare.</p>
+<p>Igor, davanti a loro, continuava a sorridere.</p>
+<p>Non era gioia. Luther lo vide in un labbro troppo teso, in un occhio che scappava via prima di fermarsi davvero. Igor aveva conosciuto il rifiuto abbastanza da vestirlo come costume. Forse diceva bugie per abitudine, forse per sopravvivenza. Forse per convincere gli altri che fosse facile accettarlo. La sua allegria, in quel villaggio, sembrava una candela portata in mano contro la pioggia.</p>
+<p>&quot;La musica della festa,&quot; disse Igor, indicando la taverna con una teatralita che ormai suonava incrinata. &quot;Sara sicuramente quella.&quot;</p>
+<p>Apri la porta.</p>
+<p>Il cardine cigolo a lungo.</p>
+<p>Dentro, la Stella Solitaria non era una festa. Era una stanza in penombra, bassa e fredda, dove pochi avventori sedevano ai tavoli come se qualcuno li avesse appoggiati li e dimenticati. Un piccolo gnomo, su un palco fatiscente, pizzicava uno strumento con lentezza. Un oste senza grembiule posava boccali, prendeva monete, tornava al bancone. Tutto accadeva senza fretta, senza sorpresa, senza vera voce.</p>
+<p>Igor degluti. La maschera non cadde, ma si crepo abbastanza da far vedere la stanchezza sotto.</p>
+<p>&quot;Forse non e proprio una festa,&quot; disse. &quot;Ma non e neanche cosi tremendo. Entriamo a bere qualcosa?&quot;</p>
+<p>Anivar gli passo accanto e gli poso una mano sulla spalla. &quot;Come sarebbe a dire che non e una festa? Io vedo un musico, un oste, quattro persone pronte a bere.&quot;</p>
+<p>Il gesto duro poco, ma basto. Igor si raddrizzo.</p>
+<p>Olorik, invece, guardo gli avventori. Non cercava sorrisi. Cercava ferite. I corpi erano piegati in modo sbagliato, le spalle alte verso il collo, i volti rivolti ai boccali. Alcuni portavano fasce su braccia, gambe, collo. Non mangiavano per fame. Non bevevano per sete. Si muovevano per abitudine.</p>
+<p>Quando Luther gli passo accanto, il nano mormoro: &quot;Il Canto e gia qui. Guarda quei poveracci.&quot;</p>
+<p>Luther li guardo negli occhi, quando riusci a trovarli. Vide sofferenza senza richiesta, gesti ripetuti perche forse un tempo avevano avuto senso. Portando la mano al petto, senti il frammento vibrare ancora.</p>
+<p>L&#39;oste alzo una mano. Quattro dita. Poi indico un tavolo con quattro sedie e quattro cuscini. Solo quel tavolo li aveva.</p>
+<p>Anivar si avvicino. &quot;Grazie. Cosa ha da offrirci questo luogo protetto dalla Madre delle Onde?&quot;</p>
+<p>&quot;Pesce e birra,&quot; rispose l&#39;oste. &quot;Se le giornate sono buone, birra e pesce.&quot;</p>
+<p>&quot;Io e i miei compagni siamo assetati e affamati.&quot;</p>
+<p>&quot;Avete bisogno di riposare.&quot;</p>
+<p>La frase cadde tra loro come una moneta in un pozzo.</p>
+<p>Era mattina.</p>
+<p>Anivar non cambio espressione. &quot;Quando avra tempo, vorrei chiederle qualcosa su questa locanda.&quot;</p>
+<p>&quot;Quando vi portero il piatto. Accomodatevi.&quot;</p>
+<p>Al tavolo, le voci si abbassarono.</p>
+<p>&quot;E lo stesso discorso di prima,&quot; disse Luther. &quot;E tardi. Riposare.&quot;</p>
+<p>&quot;O hanno invertito il giorno con la notte,&quot; borbotto Olorik, &quot;o devono farlo.&quot;</p>
+<p>Anivar intreccio le dita davanti a se. &quot;Cerchiamo di non far sapere al Canto che noi siamo qui.&quot;</p>
+<p>Olorik lo fisso. &quot;Sanno gia che ci sono quattro persone.&quot;</p>
+<p>&quot;Non sanno chi siano queste quattro persone.&quot; Anivar parlo piano, ma la sua voce aveva il peso delle decisioni prese prima della paura. &quot;Tutto cio che chiedo e pazienza. E un minimo di recitazione.&quot;</p>
+<p>&quot;Chiedere pazienza a un nano e come cavare sangue da una rapa.&quot;</p>
+<p>&quot;Eppure qualcosa di rosso esce sempre.&quot;</p>
+<p>La birra arrivo fresca, quasi insapore. Il pesce arrivo poco dopo, su piatti che sembravano gia previsti. Anivar apri il libro delle preghiere. Con la mano buona comincio a scrivere; con l&#39;altra mangio lentamente. Le parole che tracciava erano preghiera e precauzione insieme. Chiedeva a Ilmater protezione e presenza, ma in ogni formula riconosceva la concessione di Umberlee. Non venerava la Regina delle Profondita. Ma in quel luogo, il mare aveva un nome, e ignorarlo sarebbe stato orgoglio.</p>
+<p>Il bardo gnomo schiari la voce.</p>
+<p>La sua canzone non riempi la taverna. La svuoto.</p>
+<p>&quot;Quando il mare dormiva piu piano, e la luna contava le vele, sorse pietra sopra lo scoglio, sorse preghiera fra sale e candele.&quot;</p>
+<p>Le mani sullo strumento erano piccole e precise. Gli avventori non alzarono il capo. Forse conoscevano gia ogni parola. Forse non ne avevano piu abbastanza per reagire.</p>
+<p>&quot;Suonarono allora le campane, non per festa, ne lutto, ne gloria. Le suonarono contro quel Canto, per inchiodare i nomi alla memoria.&quot;</p>
+<p>Luther senti il peso del frammento. Olorik smise di bere. Igor, per una volta, non cerco una battuta.</p>
+<p>&quot;Una campana chiamava il ritorno, una teneva la mente allo scoglio, una scopriva cio che il mare nasconde, sotto il nero respiro nell&#39;olio.&quot;</p>
+<p>Anivar continuo a scrivere. Ogni lettera era un chiodo piccolo contro il panico.</p>
+<p>&quot;Ma il Canto non dorme, il Canto non muore. Non rompe la porta col ferro. Ti siede accanto, ti scalda la voce, ti dice: riposa. Non serve davvero.&quot;</p>
+<p>Quando l&#39;ultima nota si spense, il bardo poso lo strumento. Per un attimo fu lo strumento, non lui, a trattenere la luce. Poi lo gnomo scese dal palco e spari nel retro della locanda.</p>
+<p>Olorik riprese fiato. &quot;Ho sentito canzoni da tagliarsi le vene, ma questa entra nelle prime dieci.&quot;</p>
+<p>Igor guardo il boccale. &quot;Forse e solo perche e mattina. Si stanno ancora riscaldando.&quot;</p>
+<p>Luther non sorrise. I pezzi stavano andando al loro posto, e il disegno che formavano non gli piaceva.</p>
+<p>Anivar si alzo e raggiunse il bancone. Non ebbe il tempo di chiedere una stanza.</p>
+<p>L&#39;oste poggio quattro chiavi davanti a lui.</p>
+<p>Anivar le prese, torno al tavolo e ne depose una davanti a ciascuno. &quot;Non ho neanche dovuto chiedere. Se non me ne ha data una sola, c&#39;e un motivo.&quot;</p>
+<p>&quot;E saggio separarsi questa notte?&quot; chiese Olorik.</p>
+<p>&quot;No.&quot; Anivar guardo le chiavi. &quot;Ma e altrettanto saggio dormire con un occhio aperto... O piu che altro non dormire affatto&quot;</p>
+<p>Luther strinse la propria. &quot;Qui mi sa che tocchera dormire stamattina e svegliarci quando il sole sara calato.&quot;</p>
+<p>&quot;Quando vai a Waterdeep,&quot; disse Anivar, &quot;fai come chi l&#39;abita. Pazienza e recitazione. Potrebbe andare tutto storto molto in fretta. Cerchiamo di rallentare il processo.&quot;</p>
+<p>Poi si volto verso Igor. Non c&#39;era durezza nella voce, solo stanchezza e cura. &quot;Meno feste. Piu attenzione, per favore.&quot;</p>
+<p>Igor annui. &quot;Ci provero.&quot;</p>
+<p>Salirono verso le scale lasciando piatti e boccali sul tavolo. Nessuno aveva chiesto monete. Nessuno li fermo.</p>
+<p>Erano a meta del primo passo quando la porta della locanda si apri.</p>
+<p>Il rumore di un bastone contro il legno taglio la stanza: secco, lento, ritmico.</p>
+<p>Entro un uomo vecchio. I capelli bianchi gli cadevano in ciocche rade sul cranio. Gli occhi erano azzurri, quasi vitrei. La barba mal curata, gli abiti logori, le mani scheletriche. Non portava un bastone, ma un tridente, e sembrava che fosse quello a reggere lui. Al collo gli pendeva una collana di ossa e conchiglie.</p>
+<p>La taverna, gia silenziosa, divenne ancora piu stretta.</p>
+<p>Il Vecchio Marinaio alzo lo sguardo verso le scale.</p>
+<p>&quot;Siete arrivati finalmente,&quot; disse.</p>
+<p>Il tridente batte una volta sul pavimento.</p>
+<p>&quot;Siete arrivati.&quot;</p>
+  </div>
+</article>
+    </main>
+  </div>
+  <footer>Export HTML generato da <code>scripts/export-travelogue-html.ps1</code>. Il canon resta nelle pagine wiki del vault.</footer>
+</body>
+</html>

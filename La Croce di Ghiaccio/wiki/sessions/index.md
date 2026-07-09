@@ -14,3 +14,4 @@ tags:
 | [[wiki/sessions/2026-03-18-la-luce-di-padre-danik|S04]] | La luce di Padre Danik | 2026-03-18 | canon | `raw/archive/2026-03-18 21-41-23_trascrizione.md` |
 | [[wiki/sessions/2026-04-01-verso-la-cattedrale-delle-ombre|S05]] | Verso la Cattedrale delle Ombre | 2026-04-01 | canon | `raw/archive/2026-04-01 21-46-06_trascrizione.md` |
 | [[wiki/sessions/2026-06-17-approdo-alla-cattedrale-delle-ombre|S06]] | Approdo alla Cattedrale delle Ombre | 2026-06-17 | canon | `raw/archive/2026-06-17 21-52-46_trascrizione.txt` |
+| [[wiki/sessions/2026-07-08-la-stella-solitaria|S07]] | La Stella Solitaria | 2026-07-08 | canon | `raw/archive/2026-07-08 22-09-04_trascrizione.txt` |

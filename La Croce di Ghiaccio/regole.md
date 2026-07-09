@@ -351,6 +351,8 @@ Dopo il consolidamento canonico di ogni nuova sessione raw processata, il travel
 
 Dopo ogni creazione o revisione sostanziale di un capitolo Markdown in `wiki/travelogue/chapters/`, deve essere creato anche il relativo file Word `.docx` in `exports/travelogue/docx/`, se lo strumento di conversione e disponibile. L'export Word deve contenere il solo testo narrativo, non frontmatter, metadati, note di adattamento, continuita o collegamenti tecnici.
 
+Dopo ogni creazione o revisione sostanziale di un capitolo Markdown in `wiki/travelogue/chapters/`, deve essere rigenerato anche l'export HTML completo in `exports/travelogue/html/index.html` usando `scripts/export-travelogue-html.ps1`. L'export HTML deve contenere solo il `## Testo Narrativo` dei capitoli, con navigazione e stile leggibile/player-facing.
+
 Deve trasformare il gameplay in racconto:
 - eliminando rumore del tavolo;
 - condensando ripetizioni;
@@ -890,10 +892,11 @@ Quando viene richiesto un capitolo narrativo:
 9. Compilare note di adattamento.
 10. Compilare continuita narrativa del capitolo.
 11. Creare o aggiornare il file Word `.docx` corrispondente in `exports/travelogue/docx/`, usando solo `## Testo Narrativo`, se lo strumento e disponibile.
-12. Aggiornare `state/travelogue_status.md`.
-13. Aggiornare `wiki/travelogue/index.md`.
-14. Aggiornare `index.md` se viene creato o revisionato un capitolo rilevante.
-15. Registrare il lavoro in `log.md`.
+12. Rigenerare l'export HTML completo con `scripts/export-travelogue-html.ps1`.
+13. Aggiornare `state/travelogue_status.md`.
+14. Aggiornare `wiki/travelogue/index.md`.
+15. Aggiornare `index.md` se viene creato o revisionato un capitolo rilevante.
+16. Registrare il lavoro in `log.md`.
 
 ## 39. Log
 
@@ -922,7 +925,26 @@ Formato consigliato:
 - Archiviata fonte raw.
 ```
 
-## 40. Priorita Del Vault
+## 40. Salvataggio Git Controllato
+
+Dopo un ingest significativo o una manutenzione strutturale, il vault puo essere salvato con commit e push tramite:
+
+```powershell
+.\scripts\vault-save.ps1 -Message "Ingest S07 - La Stella Solitaria"
+```
+
+Regole operative:
+- usare lo script solo a lavoro concluso, non durante stati intermedi;
+- verificare prima che il canon, il travelogue, gli stati, gli indici e `log.md` siano aggiornati;
+- lo script blocca il salvataggio se trova trascrizioni non archiviate in `raw/sessions/`, salvo uso esplicito di `-AllowRawSessions`;
+- lo script salva solo la sottocartella del vault, esegue `git diff --check`, `git add -A`, `git diff --cached --check`, `git commit` e, salvo `-NoPush`, `git push`;
+- lo script esclude `.obsidian/` di default, salvo uso esplicito di `-AllowObsidian`;
+- lo script si ferma se trova modifiche gia staged, per evitare commit involontari di file esterni al vault;
+- per prova senza staging, commit o push usare `-DryRun`;
+- per creare il commit senza push usare `-NoPush`;
+- commit e push restano azioni esplicite: non vanno eseguite automaticamente dall'agente senza richiesta del DM.
+
+## 41. Priorita Del Vault
 
 In caso di conflitto, usare questa priorita:
 1. Decisione esplicita del DM.
@@ -936,7 +958,7 @@ In caso di conflitto, usare questa priorita:
 
 Se il conflitto resta aperto, segnalarlo invece di risolverlo arbitrariamente.
 
-## 41. Obiettivo Finale
+## 42. Obiettivo Finale
 
 Il vault deve diventare un Campaign Brain:
 - affidabile;

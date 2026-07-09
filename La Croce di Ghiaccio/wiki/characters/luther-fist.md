@@ -20,7 +20,9 @@ tags:
 - Ha abbattuto la forma corrotta di [[wiki/characters/padre-danik|Padre Danik]], permettendone la dissoluzione/liberazione.
 - Ha notato piu volte anomalie d'ombra, in particolare l'ombra incompleta di [[wiki/characters/anivar|Anivar]].
 - Reagisce con forte inquietudine spirituale alla caduta di Danik e al coinvolgimento di Shar.
+- Nel villaggio dell'isola, il frammento/ciondolo al petto reagisce mentre Luther stringe il sacco con la lanterna e poi di nuovo nella [[wiki/locations/stella-solitaria|Stella Solitaria]].
+- La desolazione del villaggio risveglia in lui memorie di perdita e fallimento nel proteggere cio che amava.
 
 ## Fonti
 
-- S01-S06, trascrizioni raw archiviate in `raw/archive/`.
+- S01-S07, trascrizioni raw archiviate in `raw/archive/`.
