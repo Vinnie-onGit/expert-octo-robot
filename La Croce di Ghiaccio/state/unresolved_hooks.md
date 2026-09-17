@@ -24,4 +24,11 @@ tags:
 | Culto di Umberlee | luogo/fazione | La Cattedrale mostra simboli di Umberlee e sembra piu antica della contaminazione attuale. | media | S06 |
 | Stella Solitaria | luogo | Taverna/locanda che offre cibo, riposo e chiavi con precisione sospetta; gli avventori appaiono spenti e fasciati. | alta | S07 |
 | Vecchio Marinaio | PNG | Entra nella Stella Solitaria e dichiara che il party e finalmente arrivato. Identita e ruolo ignoti. | alta | S07 |
-| Cantica della Casa delle Maree | lore | Il bardo collega la Cattedrale a campane suonate contro il Canto, nomi, memoria e resistenza. | alta | S07 |
+| Cantica della Casa delle Maree | lore | Il bardo collega la Cattedrale a campane suonate contro il Canto, nomi, memoria e resistenza. In S08 le campane risultano rovesciate. | alta | S07-S08 |
+| Via delle Processioni | luogo | Nomi cancellati/reincisi, nicchie 6+1, alcove fresche di Luther e Igor, loop e regola della lettura ad alta voce. | alta | S08 |
+| Alcove fresche | mistero | Solo Luther e Igor commemorati con incisioni recenti; Olorik e Anivar assenti; Erindor, Danik, Cali non trovati. | alta | S08 |
+| Scrittore nella navata | minaccia | Rumore di carbone/gesso in profondita; libro asciutto sul leggio; porte aperte ma silenzio totale. In S09 la figura scrive i nomi vivi di Anivar e Luther. | alta | S08-S09 |
+| Livello inferiore e chiave | luogo | Scala con chiave ad Anivar; messaggio di verifica; il Canto starebbe in basso. | alta | S09 |
+| Varenholt ricordato | personaggio | Marinaio della Figlia della Marea riscritto da vuoto a ricordato; effetti da verificare. | media | S09 |
+| Foglio coi nomi del party | oggetto | Strappato dallo Scrivano per Igor; esposizione o protezione ignota. | alta | S09 |
+| Uomo dello Scrivano | PNG | Lavoro a due mani tra nome, ricordo e ancora; Danni gridato in fuga; identita ignota. | alta | S09 |

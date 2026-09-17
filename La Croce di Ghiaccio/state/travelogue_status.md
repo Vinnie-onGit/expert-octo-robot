@@ -8,7 +8,7 @@ tags:
 
 ## Stato Generale
 
-Travelogue avviato. Capitoli 01-07 creati in stato bozza, basati sul canon consolidato e non sulle sole trascrizioni raw.
+Travelogue avviato. Capitoli 01-09 creati in stato bozza, basati sul canon consolidato e non sulle sole trascrizioni raw.
 
 Export HTML completo disponibile in `exports/travelogue/html/index.html`, generato dal solo `## Testo Narrativo` dei capitoli tramite `scripts/export-travelogue-html.ps1`.
 
@@ -23,6 +23,8 @@ Export HTML completo disponibile in `exports/travelogue/html/index.html`, genera
 | [[wiki/travelogue/chapters/capitolo-05-verso-la-cattedrale-delle-ombre|Capitolo 05]] | S05 | bozza revisionata | corale | Riscritto con scene-analysis, Seraph, Edmorin e rotta verso la Cattedrale |
 | [[wiki/travelogue/chapters/capitolo-06-approdo-alla-cattedrale-delle-ombre|Capitolo 06]] | S06 | bozza revisionata | corale | Riscritto con scene-analysis, Kaelira senza ombra, Umberlee e villaggio |
 | [[wiki/travelogue/chapters/capitolo-07-la-stella-solitaria|Capitolo 07]] | S07 | bozza | corale | Creato con scene-analysis, villaggio, Stella Solitaria, cantica e Vecchio Marinaio |
+| [[wiki/travelogue/chapters/capitolo-08-la-via-delle-processioni|Capitolo 08]] | S08 | bozza | corale | Creato con scene-analysis, campana, Via delle Processioni, alcove fresche e ingresso in Cattedrale |
+| [[wiki/travelogue/chapters/capitolo-09-lo-scrivano-della-cattedrale|Capitolo 09]] | S09 | bozza | corale | Creato con scene-analysis, Necrologio, Scrivano, chiave e scala |
 
 ## Sessioni Da Romanzare
 
@@ -33,7 +35,9 @@ Export HTML completo disponibile in `exports/travelogue/html/index.html`, genera
 
 - Revisionare le bozze residue per tono e continuita prima della condivisione definitiva.
 - Revisionare il Capitolo 07 per stile e continuita dopo eventuale feedback del DM.
-- Continuare con il capitolo 08 dopo la prossima trascrizione.
+- Revisionare il Capitolo 08 per stile e continuita dopo eventuale feedback del DM.
+- Revisionare il Capitolo 09 per stile e continuita dopo eventuale feedback del DM.
+- Continuare con il capitolo 10 dopo la prossima trascrizione.
 
 ## Ultimi Aggiornamenti
 
@@ -41,3 +45,5 @@ Export HTML completo disponibile in `exports/travelogue/html/index.html`, genera
 - 2026-07-08: capitoli 01-06 tutti revisionati secondo il nuovo standard: scene-analysis dedicate, dialoghi estesi, sezioni tecniche complete e continuita aggiornata. Export Word non creati per assenza di `pandoc`.
 - 2026-07-09: creato Capitolo 07 - La Stella Solitaria con scene-analysis S07. Export Word non creato per assenza di `pandoc`.
 - 2026-07-09: creato export HTML completo del travelogue in `exports/travelogue/html/index.html`.
+- 2026-09-17: creato Capitolo 08 - La Via delle Processioni con scene-analysis S08. Export Word non creato per assenza di `pandoc`. Rigenerato export HTML completo (8 capitoli).
+- 2026-09-17: creato Capitolo 09 - Lo Scrivano Della Cattedrale con scene-analysis S09. Export Word non creato per assenza di `pandoc`. Rigenerato export HTML completo (9 capitoli).

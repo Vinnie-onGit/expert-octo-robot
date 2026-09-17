@@ -10,7 +10,7 @@ tags:
 
 - **Anno corrente:** Da confermare
 - **Regione attiva:** isola della Cattedrale delle Ombre, rotta marittima da/per Targos
-- **Luogo principale:** [[wiki/locations/stella-solitaria|Stella Solitaria]], nel villaggio dell'isola della Cattedrale
+- **Luogo principale:** biblioteca e scala del livello inferiore nella [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]]; chiave in mano ad Anivar
 
 ## Situazione Generale
 
@@ -21,6 +21,10 @@ La nave della flotta di Numcalad, detto il Camminante, ha raggiunto l'isola dell
 Le acque attorno all'isola sono contaminate e fanno marcire rapidamente lo scafo. Kaelira ha lasciato il gruppo presso il villaggio ed e ripartita verso Targos per rifornimenti, con l'intenzione di rientrare entro circa un giorno.
 
 Nel villaggio, mattino e riposo risultano anomali: gli abitanti parlano come se fosse tardi, l'oste offre camere e quattro chiavi quasi prima che vengano richieste, e un bardo gnomo canta una memoria della Casa delle Maree, delle campane contro il Canto e dei nomi inchiodati alla memoria. Un Vecchio Marinaio e entrato nella Stella Solitaria dichiarando che il party e finalmente arrivato.
+
+[S08] Il Vecchio ha interrogato il party, mostrato libro e moniti e rivelato la sostituzione operata dal Canto. Un rintocco ha spinto circa dieci abitanti verso il mare: quasi tutti richiamati per nome, un uomo senza nome perduto. La marea ha rivelato la Via delle Processioni verso la Cattedrale; il party ha trovato nicchie, alcove fresche di Luther e Igor e porte di bronzo, ed e entrato nella navata silenziosa dove qualcuno scrive ancora.
+
+[S09] Nella navata il party ha letto il Necrologio con registri, tre prove e ricetta nome-oggetto-campana, piu foglietto autografo di Danik sul Canto come armonizzazione. Rito su Varenholt riscritto come ricordato, nomi di Anivar e Luther apparsi a carbone sui muri, nothic Scrivano registrato con nomi del party, chiave del livello inferiore ad Anivar e monito sulle campane.
 
 ## Minacce E Instabilita Note
 
@@ -34,3 +38,5 @@ Nel villaggio, mattino e riposo risultano anomali: gli abitanti parlano come se 
 ## Ultimo Aggiornamento
 
 2026-07-09 - Ingest canonico sessione 2026-07-08.
+2026-09-13 - Ingest canonico sessione 2026-09-13 (S08, Via delle Processioni e ingresso in Cattedrale).
+2026-09-17 - Ingest canonico sessione 2026-09-16 (S09, Necrologio, Scrivano e chiave del livello inferiore).

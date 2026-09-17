@@ -27,6 +27,7 @@ tags:
 - Gli abitanti restano chiusi in casa o nella taverna, evitano il contatto diretto e parlano come se fosse gia tardi al mattino.
 - Un abitante anonimo indica la [[wiki/locations/stella-solitaria|Stella Solitaria]] come taverna del villaggio.
 - Nella Stella Solitaria, alcuni avventori appaiono spenti, fasciati e mossi dall'abitudine piu che dal conforto.
+- [S08] Un rintocco dopo anni di silenzio immobilizza il villaggio e spinge circa dieci abitanti verso il mare; quasi tutti vengono fermati e richiamati, un uomo senza nome si perde tra le onde.
 
 ## Misteri
 

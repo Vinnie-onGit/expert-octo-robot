@@ -20,7 +20,9 @@ tags:
 - Tenta di tenere il gruppo lontano dai sigilli.
 - Prima di dissolversi, rivela che gli shariti usano il Canto come strumento ma non lo hanno forgiato.
 - Una particella dorata della sua luce entra nella lanterna di Luther.
+- [S09] La lanterna lo mostra in preghiera dall'altare del Necrologio; foglietto autografo recente lo firma come sacerdote di Ilmater addetto al contenimento, definisce il Canto e dissolve la lucidita nella ripetizione ossessiva del proprio nome.
 
 ## Fonti
 
 - S02-S04, trascrizioni raw archiviate in `raw/archive/`.
+- S09, trascrizione raw `raw/archive/2026-09-16 22-01-34_trascrizione.txt`.

@@ -25,6 +25,7 @@ tags:
 - Il gruppo non paga cibo, bevande o camere durante la sessione, e nessuno chiede pagamento.
 - Il bardo gnomo canta una cantica sulla Casa delle Maree, le campane contro il Canto, i nomi inchiodati alla memoria e il Canto che invita al riposo.
 - Alla fine della sessione entra il [[wiki/characters/vecchio-marinaio|Vecchio Marinaio]], che sembra attendere l'arrivo del party.
+- [S08] Il Vecchio conta 12 poi 11, contesta al bardo la ballata ricordata dalle sole mani, raccoglie i nomi del party e assiste alla rottura della coppia mezzelfa prima del rintocco.
 
 ## Atmosfera Narrativa
 

@@ -51,3 +51,27 @@ tags:
 - Generato `exports/travelogue/html/index.html` con i capitoli 01-07 usando solo il `## Testo Narrativo`.
 - Aggiornati `regole.md`, `AGENTS.md`, `wiki/lint/session-ingest-checklist.md`, `wiki/travelogue/index.md`, `state/travelogue_status.md` e `index.md` per includere l'export HTML nel workflow.
 - Aggiornato `scripts/vault-save.ps1` per escludere `.obsidian/` di default durante staging, salvo `-AllowObsidian`.
+
+## 2026-09-17
+
+- Ingerita la trascrizione `raw/sessions/2026-09-13 15-44-10.txt` come S08.
+- Creata la scheda canonica `wiki/sessions/2026-09-13-la-via-delle-processioni.md`.
+- Creata la scene-analysis `wiki/query/scene-analysis-2026-09-13-la-via-delle-processioni.md`.
+- Creata la nuova pagina `wiki/locations/via-delle-processioni.md`.
+- Aggiornati timeline, overview, stati operativi, Vecchio Marinaio, Canto, Cattedrale, villaggio e Stella Solitaria.
+- Creato il capitolo travelogue `wiki/travelogue/chapters/capitolo-08-la-via-delle-processioni.md` e aggiornati indice/stato/continuity travelogue.
+- Archiviata la trascrizione raw in `raw/archive/2026-09-13 15-44-10_trascrizione.txt`.
+- Export Word del Capitolo 08 non creato per assenza di `pandoc`.
+- Rigenerato `exports/travelogue/html/index.html` con gli 8 capitoli.
+
+## 2026-09-17 (S09)
+
+- Ingerita la trascrizione `raw/sessions/2026-09-16 22-01-34.txt` come S09.
+- Creata la scheda canonica `wiki/sessions/2026-09-16-lo-scrivano-della-cattedrale.md`.
+- Creata la scene-analysis `wiki/query/scene-analysis-2026-09-16-lo-scrivano-della-cattedrale.md`.
+- Create le nuove pagine `wiki/characters/scrivano-nothic.md` e `wiki/items/necrologio-della-cattedrale.md`.
+- Aggiornati timeline, overview, stati operativi, Danik, Edmorin, specchio, Canto, Cattedrale.
+- Creato il capitolo travelogue `wiki/travelogue/chapters/capitolo-09-lo-scrivano-della-cattedrale.md` e aggiornati indice/stato/continuity travelogue.
+- Archiviata la trascrizione raw in `raw/archive/2026-09-16 22-01-34_trascrizione.txt`.
+- Export Word del Capitolo 09 non creato per assenza di `pandoc`.
+- Rigenerato `exports/travelogue/html/index.html` con i 9 capitoli.

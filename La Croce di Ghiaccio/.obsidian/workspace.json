@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/travelogue/chapters/capitolo-03-l-ombra-di-padre-danik.md",
+                "file": "raw/archive/2026-04-01 21-46-06_trascrizione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "capitolo-03-l-ombra-di-padre-danik"
+              "title": "2026-04-01 21-46-06_trascrizione"
             }
           }
         ]
@@ -185,6 +185,14 @@
   },
   "active": "bbe2982e6e422c00",
   "lastOpenFiles": [
+    "wiki/characters/numcalad.md",
+    "wiki/locations/faro-sommerso.md",
+    "wiki/characters/luther-fist.md",
+    "wiki/travelogue/chapters/capitolo-07-la-stella-solitaria.md",
+    "exports/travelogue/html/index.html",
+    "exports/travelogue/html",
+    "scripts/export-travelogue-html.ps1",
+    "wiki/travelogue/chapters/capitolo-03-l-ombra-di-padre-danik.md",
     "wiki/travelogue/chapters/capitolo-02-la-porta-degli-amici.md",
     "wiki/travelogue/chapters/capitolo-01-la-lanterna-nera.md",
     "wiki/travelogue/chapters/capitolo-06-approdo-alla-cattedrale-delle-ombre.md",
@@ -202,16 +210,11 @@
     "raw/archive/La_Croce_di_ghiaccio.md",
     "wiki/characters/kaelira.md",
     "raw/sessions/La_Croce_di_ghiaccio.md",
-    "wiki/locations/faro-sommerso.md",
     "wiki/locations/cattedrale-delle-ombre.md",
     "index.md",
     "wiki/items/specchio-di-edmorin.md",
     "wiki/factions/shariti.md",
     "wiki/characters/seraph.md",
-    "wiki/travelogue/chapters/capitolo-04-la-luce-di-padre-danik.md",
-    "wiki/travelogue/chapters/capitolo-03-l-ombra-di-padre-danik.md",
-    "wiki/sessions/2026-04-01-verso-la-cattedrale-delle-ombre.md",
-    "wiki/characters/numcalad.md",
-    "raw/archive/2026-04-01 21-46-06_trascrizione.md"
+    "wiki/travelogue/chapters/capitolo-04-la-luce-di-padre-danik.md"
   ]
 }

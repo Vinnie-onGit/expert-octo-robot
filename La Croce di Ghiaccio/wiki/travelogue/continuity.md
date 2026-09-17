@@ -128,6 +128,10 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 | Quattro chiavi | Accoglienza sospetta, separazione, invito al riposo | S07 | La Stella Solitaria offre camere prima che vengano richieste |
 | Stella Solitaria | Falsa ospitalita, luogo di soglia nel villaggio | S07 | Prima taverna/locanda dell'isola, carica di segni del Canto |
 | Tridente del Vecchio Marinaio | Autorita marina, vecchiaia, Umberlee o memoria locale | S07 | Da non spiegare finche il canon non chiarisce |
+| Via delle Processioni | Memoria che chiede lettura, strada che dimentica | S08 | Nomi a terra contro nomi ricordati; loop spezzato dalla voce |
+| Libro asciutto | Scrittura in corso nel silenzio | S08 | Chi scrive nella navata resta ignoto |
+| Necrologio | Registro che cambia sotto gli occhi | S09 | Da vuoto a ricordato; tre prove come rito |
+| Chiave della scala | Verifica oltre gli scritti | S09 | Il livello inferiore attende; non scendere senza sapere |
 
 ## Callback Da Recuperare
 
@@ -141,6 +145,14 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Le campane runiche sono gia state viste nella guerra e non hanno mai portato conforto.
 - Il bardo gnomo canta campane suonate contro il Canto e nomi inchiodati alla memoria.
 - Il Vecchio Marinaio dice: "Siete arrivati finalmente. Siete arrivati."
+- Il Canto mette una voce al posto di una voce, un volto al posto di un volto, una ragione al posto di una ragione.
+- La Via prescrive: "Se li trovate, leggeteli ad alta voce."
+- La Divinazione risponde: "Non quello che calpestano, ma quello che ricordano."
+- Sulle porte: "Non chiedere al mare pieta. Chiedile di ricordare."
+- Nel Necrologio: "Tre prove indipendenti. Sempre. Nome. Ricordo. Oggetto."
+- Dal foglietto di Danik: il Canto e tendenza a smettere di essere diversi.
+- Monito dello Scrivano: "Chi suona senza sapere fa tornare qualcosa."
+- Congedo dello Scrivano: "Voi non dimenticate me."
 
 ## Promesse Narrative
 
@@ -154,6 +166,10 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 | Scoprire lo stato del villaggio dell'isola | S06-S07 | aperta | Abitanti chiusi, orario anomalo, Stella Solitaria e avventori fasciati |
 | Mostrare il rapporto tra Cattedrale, Umberlee e Canto | S06-S07 | aperta | La Cattedrale sembra scelta/reclamata, non creata dal Canto; cantica su campane e memoria |
 | Capire il Vecchio Marinaio | S07 | aperta | Figura con tridente, ossa e conchiglie; sembra aspettare il party |
+| Spezzare il silenzio della navata | S08 | aperta | Libro asciutto e scrittore ignoto; non rivelare chi scrive senza canon |
+| Chiarire le alcove fresche | S08 | aperta | Solo Luther e Igor commemorati; non banalizzare come coincidenza |
+| Scendere nel livello inferiore | S09 | aperta | Chiave ad Anivar; messaggio di verifica; non rivelare il sotto senza canon |
+| Usare foglio e nomi sui muri | S09 | aperta | Nomi vivi scritti a carbone e su quaderno; non banalizzare come inventario |
 
 ## Immagini Ricorrenti
 
@@ -184,6 +200,8 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 | [[wiki/travelogue/chapters/capitolo-05-verso-la-cattedrale-delle-ombre|Capitolo 05]] | 2026-07-08 | Riscritto scena per scena con Seraph, Kaelira, specchio di Edmorin, sogni anomali e cliffhanger sul mare. |
 | [[wiki/travelogue/chapters/capitolo-06-approdo-alla-cattedrale-delle-ombre|Capitolo 06]] | 2026-07-08 | Riscritto scena per scena con sacco antimagia, ombra assente di Kaelira, Umberlee, acque corrotte e villaggio. |
 | [[wiki/travelogue/chapters/capitolo-07-la-stella-solitaria|Capitolo 07]] | 2026-07-09 | Creato scena per scena con sbarco, villaggio chiuso, Stella Solitaria, cantica e Vecchio Marinaio. |
+| [[wiki/travelogue/chapters/capitolo-08-la-via-delle-processioni|Capitolo 08]] | 2026-09-17 | Creato scena per scena con campana, Via, nicchie, alcove fresche e ingresso in navata. |
+| [[wiki/travelogue/chapters/capitolo-09-lo-scrivano-della-cattedrale|Capitolo 09]] | 2026-09-17 | Creato scena per scena con Necrologio, Scrivano, chiave e scala. |
 
 ## Evoluzione Emotiva
 
@@ -203,6 +221,22 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Igor mantiene una facciata luminosa fino alla Stella Solitaria, dove la maschera inizia a creparsi.
 - Il Vecchio Marinaio diventa nuova figura-soglia tra villaggio, Umberlee, memoria locale e Canto.
 
+### Dopo S08
+
+- Luther trasforma il fallimento del salvataggio in rabbia morale: interroga il Vecchio e guida la Via con la lanterna in mano.
+- Anivar integra Ilmater e Umberlee in un rito di memoria: incide Terren, prega per guida e apre le porte come sacerdote.
+- Olorik fissa la data per non perdersi e usa il corpo dove la volonta magica non basta.
+- Igor trova il proprio nome inciso di fresco e la teatralita cede a paura personale e serieta.
+- Il Vecchio resta indietro come custode della soglia; la Cattedrale diventa luogo di silenzio e scrittura.
+
+### Dopo S09
+
+- Luther prova paura vera e la nasconde dietro l'ascia; cerca collegamenti tra Necrologio e libro del Vecchio.
+- Anivar si lascia sopraffare dal Necrologio e poi detta il proprio nome, riceve chiave e messaggio, nomina il basso.
+- Olorik protegge il nome vero con Birnur e fissa la posta dei ricordi di clan e casa.
+- Igor trova Varenholt, beve alla tazza annotata e riceve il foglio coi nomi.
+- Lo Scrivano resta nella biblioteca come custode che ricorda senza essere ricordato.
+
 ## Note Di Stile Consolidate
 
 - I capitoli devono essere scene narrative, non recap.
@@ -217,3 +251,5 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - 2026-07-08: revisionati i capitoli 03-04 secondo workflow Sottosuolo; create scene-analysis dedicate e rafforzate Danik, sigilli, liberazione, Sharavin e coda emotiva del party.
 - 2026-07-08: revisionati i capitoli S01-S02 con scene-analysis dedicate e nuovo standard Sottosuolo-quality.
 - 2026-07-09: aggiunti sviluppi S07 su Stella Solitaria, cantica, Vecchio Marinaio, maschera di Igor, istinto di Olorik, prudenza di Anivar e reazione del frammento di Luther.
+- 2026-09-17: aggiunti sviluppi S08 su campana rovesciata, Via, Terren, alcove fresche, Divinazione e silenzio della navata.
+- 2026-09-17: aggiunti sviluppi S09 su Necrologio, Scrivano, Varenholt, nomi sui muri, chiave e armonizzazione.

@@ -14,7 +14,7 @@ tags:
 - [[state/unresolved_hooks|Agganci non risolti]]
 - [[state/npc_status|Stato PNG]]
 - [[wiki/timeline/timeline-canonica|Timeline canonica]]
-- [[wiki/sessions/2026-07-08-la-stella-solitaria|Ultima sessione - La Stella Solitaria]]
+- [[wiki/sessions/2026-09-16-lo-scrivano-della-cattedrale|Ultima sessione - Lo Scrivano Della Cattedrale]]
 
 ## Campagna
 
@@ -41,7 +41,7 @@ tags:
 
 - [[wiki/travelogue/index|Indice Travelogue]]
 - [[wiki/travelogue/chapters/capitolo-01-la-lanterna-nera|Capitolo 01 - La Lanterna Nera]]
-- [[wiki/travelogue/chapters/capitolo-07-la-stella-solitaria|Ultimo capitolo - La Stella Solitaria]]
+- [[wiki/travelogue/chapters/capitolo-09-lo-scrivano-della-cattedrale|Ultimo capitolo - Lo Scrivano Della Cattedrale]]
 - [[wiki/travelogue/style-guide|Style Guide Travelogue]]
 - [[wiki/travelogue/continuity|Continuity Travelogue]]
 - [[state/travelogue_status|Stato Travelogue]]

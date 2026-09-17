@@ -8,7 +8,7 @@ tags:
 
 ## Stato
 
-Ingest canonico completato sulle trascrizioni dal 2026-02-18 al 2026-07-08.
+Ingest canonico completato sulle trascrizioni dal 2026-02-18 al 2026-09-16 (S01-S09).
 
 ## Premessa
 
