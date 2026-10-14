@@ -33,4 +33,4 @@ tags:
 - [S08] Il gruppo apre le porte di bronzo della [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]] ed entra nella navata silenziosa con libro asciutto e rumore di scrittura in profondita.
 - [S09] La lanterna mostra Danik in preghiera dall'altare; Anivar legge il Necrologio con registri navali, caso Elmar Boss e regola delle tre prove, piu ricetta nome-oggetto-campana e foglietto autografo di Danik sul Canto come armonizzazione.
 - [S09] Lo specchio mostra il re elfo in terrore muto verso la statua; il rito su Varenholt riscrive "ricordato" e scema il Canto; figura curva scrive a carbone i nomi di Anivar e Luther.
-- [S09] Nella biblioteca lo [[wiki/characters/scrivano-nothic|Scrivano nothic]] registra nomi e ricordi del party, consegna foglio dei nomi e chiave del livello inferiore e fugge gridando Danni dopo la parola Inferio.
+- [S09] Nella biblioteca lo [[wiki/characters/scrivano-nothic|Scrivano nothic]] registra nomi e ricordi del party, consegna foglio dei nomi a Luther e chiave del livello inferiore ad Anivar e fugge gridando Danni dopo la parola Inferio.

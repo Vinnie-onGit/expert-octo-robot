@@ -15,9 +15,13 @@ tags:
 - **Fonte raw:** `raw/archive/2026-09-16 22-01-34_trascrizione.txt`
 - **Scene analysis:** [[wiki/query/scene-analysis-2026-09-16-lo-scrivano-della-cattedrale|Scene analysis S09]]
 
+## Nota Retcon
+
+- **Nota retcon 2026-10-14:** su decisione esplicita del DM il foglio coi nomi del party strappato dallo Scrivano e ora in possesso di [[wiki/characters/luther-fist|Luther Fist]], non di Igor. La trascrizione raw (`raw/archive/2026-09-16 22-01-34_trascrizione.txt`, riga 1476: "Si avvicina ad Igor") e il consolidamento precedente attribuivano il foglio a Igor; il canon aggiornato sostituisce tale attribuzione.
+
 ## Recap Breve
 
-Il party esplora la navata della [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]]: architettura non terrena di oltre un millennio, barricate recenti senza armi, nomi ovunque. La [[wiki/items/lanterna-nera|lanterna nera]] mostra Danik in preghiera dall'altare. Anivar legge il Necrologio con registri navali, caso Elmar Boss e regola delle tre prove (nome, ricordo, oggetto). Il foglietto di Danik definisce il [[wiki/concepts/canto|Canto]] come tendenza a smettere di essere diversi. Lo [[wiki/items/specchio-di-edmorin|specchio]] mostra il re elfo in terrore verso la statua. Il rito su Varenholt riscrive "ricordato" nei registri. Una figura scrive sui muri i nomi pronunciati in Cattedrale. Nella biblioteca il nothic Scrivano registra i nomi del party, consegna monito sulle campane, foglio dei nomi e chiave del livello inferiore.
+Il party esplora la navata della [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]]: architettura non terrena di oltre un millennio, barricate recenti senza armi, nomi ovunque. La [[wiki/items/lanterna-nera|lanterna nera]] mostra Danik in preghiera dall'altare. Anivar legge il Necrologio con registri navali, caso Elmar Boss e regola delle tre prove (nome, ricordo, oggetto). Il foglietto di Danik definisce il [[wiki/concepts/canto|Canto]] come tendenza a smettere di essere diversi. Lo [[wiki/items/specchio-di-edmorin|specchio]] mostra il re elfo in terrore verso la statua. Il rito su Varenholt riscrive "ricordato" nei registri. Una figura scrive sui muri i nomi pronunciati in Cattedrale. Nella biblioteca il nothic Scrivano registra i nomi del party, consegna monito sulle campane, foglio dei nomi a Luther e chiave del livello inferiore ad Anivar.
 
 ## Recap Esteso
 
@@ -27,7 +31,7 @@ Anivar apre il volume asciutto con frase "il mare restituisca cio che ha preso":
 
 Igor estrae lo specchio: il re elfo urla muto fissando la statua incappucciata. Olorik fissa le date: Chess primavera, Elenit settembre, oggi 20 Elenit 1492. Un messaggio interpella Anivar: non giudicare prima del livello inferiore, verificare, non fidarsi dei soli scritti. Igor nota nicchia nuova con candela azzurra, acqua che vi scorre, coltello, cordino e tavoletta cancellata; il nome ricostruito come Varenholt viene ripetuto finche il riflesso mostra il marinaio sorridente e il registro passa da vuoto a ricordato; il rito si estende alle nicchie e il Canto scema.
 
-Tra le colonne una figura curva scrive a carbone i nomi di Anivar e Luther con punti interrogativi; solo Olorik e Luther la vedono. Il gruppo si stringe con asce e benedizioni e raggiunge la biblioteca alla base della torre: scaffali, scrivania e nothic sauagin dall'occhio centrale che chiede a ciascuno nome e ricordo, annota tazza e ciondolo, cerca invano il proprio nome, dichiara di ricordare i nomi perche qualcuno deve farlo, mostra l'ultimo registro e offre la chiave della scala. Spiega il lavoro a due mani col suo uomo (nome, ricordo, ancora) e fugge gridando Danni. Anivar nomina il basso e Inferio: lo Scrivano si fa ostile, poi ammonisce sulle campane suonate senza sapere, consegna a Igor il foglio coi nomi e ad Anivar la chiave congedandosi con "voi non dimenticate me". Il party resta davanti alla scala riflettendo su paura, memoria e sacrificio mentre il GM fissa il concetto: il Canto armonizza in un'unica voce piatta.
+Tra le colonne una figura curva scrive a carbone i nomi di Anivar e Luther con punti interrogativi; solo Olorik e Luther la vedono. Il gruppo si stringe con asce e benedizioni e raggiunge la biblioteca alla base della torre: scaffali, scrivania e nothic sauagin dall'occhio centrale che chiede a ciascuno nome e ricordo, annota tazza e ciondolo, cerca invano il proprio nome, dichiara di ricordare i nomi perche qualcuno deve farlo, mostra l'ultimo registro e offre la chiave della scala. Spiega il lavoro a due mani col suo uomo (nome, ricordo, ancora) e fugge gridando Danni. Anivar nomina il basso e Inferio: lo Scrivano si fa ostile, poi ammonisce sulle campane suonate senza sapere, consegna a Luther il foglio coi nomi e ad Anivar la chiave congedandosi con "voi non dimenticate me". Il party resta davanti alla scala riflettendo su paura, memoria e sacrificio mentre il GM fissa il concetto: il Canto armonizza in un'unica voce piatta.
 
 ## Eventi Canonici
 
@@ -42,7 +46,7 @@ Tra le colonne una figura curva scrive a carbone i nomi di Anivar e Luther con p
 9. Nicchia nuova di Varenholt: oggetti, ripetizione del nome, volto nel riflesso, registro riscritto in ricordato.
 10. Nomi di Anivar e Luther scritti a carbone sui muri con punti interrogativi; figura curva vista solo da Olorik e Luther.
 11. Biblioteca e Scrivano nothic: registrazione di nomi e ricordi del party, annotazioni su tazza e ciondolo.
-12. Chiave del livello inferiore consegnata ad Anivar; monito sulle campane; foglio coi nomi a Igor.
+12. Chiave del livello inferiore consegnata ad Anivar; monito sulle campane; foglio coi nomi a Luther.
 13. Reazione ostile a Inferio e richiamo al basso; fuga gridando Danni.
 14. Riflessioni del party e concetto di armonizzazione del Canto.
 
@@ -79,7 +83,7 @@ Tra le colonne una figura curva scrive a carbone i nomi di Anivar e Luther con p
 
 - [[wiki/items/necrologio-della-cattedrale|Necrologio]] consultato e richiuso, affidato ad Anivar.
 - Foglietto autografo di Danik letto da Luther.
-- Foglio con i nomi del party strappato dal quaderno dello Scrivano e dato a Igor.
+- Foglio con i nomi del party strappato dal quaderno dello Scrivano e dato a Luther.
 - Chiave del livello inferiore ora nelle tasche di Anivar.
 - Anello di rame di Elmar Boss noto come conservato in nicchia, non prelevato.
 - Oggetti di Varenholt (coltello, cordino, tavoletta) manipolati da Igor e lasciati in loco.

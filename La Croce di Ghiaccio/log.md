@@ -75,3 +75,16 @@ tags:
 - Archiviata la trascrizione raw in `raw/archive/2026-09-16 22-01-34_trascrizione.txt`.
 - Export Word del Capitolo 09 non creato per assenza di `pandoc`.
 - Rigenerato `exports/travelogue/html/index.html` con i 9 capitoli.
+
+## 2026-10-14
+
+- Retcon su decisione esplicita del DM: il foglio coi nomi del party dello Scrivano (S09) passa da Igor a Luther.
+- Aggiornati `wiki/sessions/2026-09-16-lo-scrivano-della-cattedrale.md` (nota retcon + destinatario), `wiki/characters/scrivano-nothic.md`, `wiki/timeline/timeline-canonica.md`, `state/unresolved_hooks.md`.
+- Aggiornati `wiki/query/scene-analysis-2026-09-16-lo-scrivano-della-cattedrale.md`, `wiki/travelogue/chapters/capitolo-09-lo-scrivano-della-cattedrale.md` (testo + note) e `wiki/travelogue/continuity.md`.
+- Raw non modificato: resta "Si avvicina ad Igor" in `raw/archive/2026-09-16 22-01-34_trascrizione.txt`.
+
+## 2026-10-14 (lettera Danik)
+
+- Creata pagina `wiki/items/lettera-di-danik-ad-anivar.md` da testo DM fornito in chat come lettera trovata in sessione corrente post-S09.
+- Trascrizione fedele integrale; sintesi punti canonici senza inferenze; collocazione raw da verificare.
+- Aggiornati `wiki/characters/padre-danik.md` e `wiki/items/index.md`.

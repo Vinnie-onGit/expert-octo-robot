@@ -30,5 +30,5 @@ tags:
 | Scrittore nella navata | minaccia | Rumore di carbone/gesso in profondita; libro asciutto sul leggio; porte aperte ma silenzio totale. In S09 la figura scrive i nomi vivi di Anivar e Luther. | alta | S08-S09 |
 | Livello inferiore e chiave | luogo | Scala con chiave ad Anivar; messaggio di verifica; il Canto starebbe in basso. | alta | S09 |
 | Varenholt ricordato | personaggio | Marinaio della Figlia della Marea riscritto da vuoto a ricordato; effetti da verificare. | media | S09 |
-| Foglio coi nomi del party | oggetto | Strappato dallo Scrivano per Igor; esposizione o protezione ignota. | alta | S09 |
+| Foglio coi nomi del party | oggetto | Strappato dallo Scrivano per Luther (retcon 2026-10-14; raw/versione precedente: Igor); esposizione o protezione ignota. | alta | S09 |
 | Uomo dello Scrivano | PNG | Lavoro a due mani tra nome, ricordo e ancora; Danni gridato in fuga; identita ignota. | alta | S09 |

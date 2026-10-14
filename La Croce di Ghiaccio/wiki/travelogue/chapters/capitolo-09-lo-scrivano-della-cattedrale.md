@@ -257,7 +257,7 @@ La creatura rispose a frammenti: andava protetto, non distrutto, Danik glielo av
 
 "Andiamo," disse Anivar.
 
-La creatura si avvicino a Igor, strappo un foglio dal proprio quaderno e glielo porse. Sopra, i loro nomi.
+La creatura si avvicino a Luther, strappo un foglio dal proprio quaderno e glielo porse. Sopra, i loro nomi.
 
 Attraversarono la porta in fila, Anivar, Olorik, Igor e infine Luther. Mentre Luther stava per chiuderla, il battito sulla pietra riprese dalla stanza lasciata e la voce della creatura li raggiunse.
 
@@ -284,6 +284,7 @@ Olorik sentiva che la posta andava oltre Targos e la vendetta della casa che lo 
 - **Dialoghi ricostruiti:** riconoscimento di Danik, lettura del Necrologio, ricetta, foglietto, specchio, dettatura dei nomi allo Scrivano, monito campane e congedo mantenuti nel senso canonico e compattati.
 - **Scene omesse:** doppi passaggi di sfoglio, ripetizioni di lettura, gestione equipaggiamento ordinario.
 - **Elementi non canonici:** nessuno rilevante; Varenholt reso come forma provvisoria senza fissare grafia; date del registro rese come incerte.
+- **Nota retcon 2026-10-14:** destinatario del foglio coi nomi corretto da Igor a Luther su decisione DM; raw diceva "Si avvicina ad Igor".
 - **Informazioni DM-only incluse:** no
 
 ---
@@ -297,8 +298,8 @@ Olorik sentiva che la posta andava oltre Targos e la vendetta della casa che lo 
   - Luther prova paura vera e la nasconde dietro l'ascia; cerca nomi nel libro per collegare i volumi.
   - Anivar si fa sopraffare dal Necrologio e poi guida: detta il nome, riceve chiave e messaggio, nomina il basso.
   - Olorik protegge il nome vero con Birnur e fissa la posta dei ricordi di clan e casa.
-  - Igor trova Varenholt, beve alla tazza annotata e riceve il foglio coi nomi.
-- **Dettagli da ricordare nei capitoli futuri:** foglio coi nomi in mano a Igor; chiave ad Anivar; nomi vivi sui muri; Danni gridato; monito sulle campane; ultimo registro 18 Chess.
+  - Igor trova Varenholt e beve alla tazza annotata; Luther riceve il foglio coi nomi.
+- **Dettagli da ricordare nei capitoli futuri:** foglio coi nomi in mano a Luther (retcon 2026-10-14; versione precedente: Igor); chiave ad Anivar; nomi vivi sui muri; Danni gridato; monito sulle campane; ultimo registro 18 Chess.
 
 ---
 

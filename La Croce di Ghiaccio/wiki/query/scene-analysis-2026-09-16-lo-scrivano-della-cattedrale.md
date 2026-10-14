@@ -13,6 +13,10 @@ tags:
 - **Sessione:** [[wiki/sessions/2026-09-16-lo-scrivano-della-cattedrale|S09 - Lo Scrivano Della Cattedrale]]
 - **Capitolo travelogue collegato:** [[wiki/travelogue/chapters/capitolo-09-lo-scrivano-della-cattedrale|Capitolo 09 - Lo Scrivano Della Cattedrale]]
 
+## Nota Retcon 2026-10-14
+
+- Su decisione esplicita del DM il foglio coi nomi e in possesso di Luther, non di Igor. Il raw (righe 1476-1480: "Si avvicina ad Igor") attribuiva la scena a Igor; il canon aggiornato sostituisce tale attribuzione.
+
 ## Mappa Speaker
 
 | Speaker raw | Identita normalizzata | Note |
@@ -343,7 +347,7 @@ tags:
 - Anivar ricorda prigionia e dice ad alta voce "Il canto si trova in basso" e "Inferio/Inferi"; lo Scrivano si blocca come colpito al petto, poi inquisitorio e pallido ripete il nome.
 - Anivar lo definisce male/strumento di sofferenza da estirpare; lo Scrivano risponde frammentario che va protetto non distrutto per compito affidato da Danik (trascrizione "Ciocco/Periu" frammentata, resa come senso con confidence bassa).
 - Monito sulle campane: chi suona senza sapere fa tornare qualcosa; Luther intende che servono ricordo e nome per sapere.
-- Lo Scrivano strappa dal quaderno un foglio con i nomi del party per Igor e propone di suonare le campane.
+- Lo Scrivano strappa dal quaderno un foglio con i nomi del party per Luther e propone di suonare le campane.
 - Sulla porta lo Scrivano detta "voi non dimenticate me"; la chiave resta nelle tasche di Anivar; davanti scala verso il basso.
 
 **Dialoghi importanti attribuiti:**
@@ -398,7 +402,7 @@ tags:
 - Lo Scrivano e il portatore o lo scrivano delle note? Chi e l'uomo che scriveva con lui?
 - Il "Danni" gridato e Danik trattenuto in equilibrio dove?
 - Cosa c'e nel livello inferiore e perche serve la chiave ora in mano ad Anivar?
-- Il foglio con i nomi del party dato a Igor ha effetti o e solo memoria?
+- Il foglio con i nomi del party dato a Luther ha effetti o e solo memoria?
 - Perche la figura scrive solo i nomi pronunciati in Cattedrale e cosa significano i punti interrogativi?
 - Varenholt e davvero ricordato o solo stabilizzato? Cosa cambia "ricordato" nei registri?
 - Lo specchio fissa la statua: Edmorin teme o accusa la figura incappucciata?

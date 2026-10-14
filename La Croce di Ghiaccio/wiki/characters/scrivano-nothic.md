@@ -22,7 +22,7 @@ tags:
 - Alla domanda da quanto sia li alza tre dita e dice trent'anni con incertezza; mostra ultimo registro datato 18 Chess 1000/400 (trascrizione incerta).
 - Custodisce la chiave del livello inferiore: "Dalle scale si scende. Serve una chiave." La consegna infine ad Anivar.
 - Descrive il lavoro a due mani: uomo cercava nome, ricordo, ancora; "Io portavo e lui scriveva. Quando dimenticavo, lui ricordava. Quando lui dimenticava, io scrivevo."
-- Ammonisce che chi suona le campane senza sapere fa tornare qualcosa; strappa per Igor un foglio coi nomi del party.
+- Ammonisce che chi suona le campane senza sapere fa tornare qualcosa; strappa per Luther un foglio coi nomi del party.
 - Fugge correndo con un libro gridando "Danni"; reagisce con ostilita inquisitoria a "Inferio/Inferi" e al richiamo del basso.
 - Congedo sulla porta: "Voi non dimenticate me."
 

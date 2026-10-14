@@ -234,7 +234,7 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Luther prova paura vera e la nasconde dietro l'ascia; cerca collegamenti tra Necrologio e libro del Vecchio.
 - Anivar si lascia sopraffare dal Necrologio e poi detta il proprio nome, riceve chiave e messaggio, nomina il basso.
 - Olorik protegge il nome vero con Birnur e fissa la posta dei ricordi di clan e casa.
-- Igor trova Varenholt, beve alla tazza annotata e riceve il foglio coi nomi.
+- Igor trova Varenholt e beve alla tazza annotata; Luther riceve il foglio coi nomi (retcon 2026-10-14).
 - Lo Scrivano resta nella biblioteca come custode che ricorda senza essere ricordato.
 
 ## Note Di Stile Consolidate
