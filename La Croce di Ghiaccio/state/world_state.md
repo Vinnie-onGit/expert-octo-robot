@@ -10,7 +10,7 @@ tags:
 
 - **Anno corrente:** Da confermare
 - **Regione attiva:** isola della Cattedrale delle Ombre, rotta marittima da/per Targos
-- **Luogo principale:** biblioteca e scala del livello inferiore nella [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]]; chiave in mano ad Anivar
+- **Luogo principale:** corridoio oltre la sala allagata del livello inferiore nella [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]]; chiave ad Anivar
 
 ## Situazione Generale
 
@@ -26,6 +26,8 @@ Nel villaggio, mattino e riposo risultano anomali: gli abitanti parlano come se 
 
 [S09] Nella navata il party ha letto il Necrologio con registri, tre prove e ricetta nome-oggetto-campana, piu foglietto autografo di Danik sul Canto come armonizzazione. Rito su Varenholt riscritto come ricordato, nomi di Anivar e Luther apparsi a carbone sui muri, nothic Scrivano registrato con nomi del party, chiave del livello inferiore ad Anivar e monito sulle campane.
 
+[S10-S11] Scesi nel livello inferiore, i quattro trovano la lettera di Danik ad Anivar e affrontano l'aboleth [[wiki/characters/abzul|Abzul]] nella sala allagata. Dopo una tregua interessata proseguono verso un corridoio; Abzul resta nella sala. Egli sostiene di essere prigioniero e fornisce spiegazioni non verificate su ferita, Inferium e Seraph. Fonti: [[wiki/sessions/2026-10-14-la-lettera-di-danik|S10]], [[wiki/sessions/2026-10-28-abzul|S11]].
+
 ## Minacce E Instabilita Note
 
 - Il [[wiki/concepts/canto|Canto]] resta attivo e colpisce mente, memoria, sogni ed emozioni.
@@ -40,3 +42,4 @@ Nel villaggio, mattino e riposo risultano anomali: gli abitanti parlano come se 
 2026-07-09 - Ingest canonico sessione 2026-07-08.
 2026-09-13 - Ingest canonico sessione 2026-09-13 (S08, Via delle Processioni e ingresso in Cattedrale).
 2026-09-17 - Ingest canonico sessione 2026-09-16 (S09, Necrologio, Scrivano e chiave del livello inferiore).
+2026-11-11 - Ingest S10-S11, tregua con Abzul e discesa oltre la sala.

@@ -12,9 +12,9 @@ tags:
 - **Tipo:** lettera/handout in-game, documento importante
 - **Mittente:** [[wiki/characters/padre-danik|Padre Danik]], sacerdote di Ilmater
 - **Destinatario:** [[wiki/characters/anivar|Anivar]]
-- **Stato:** trovata dal party in sessione corrente post-S09; testo fornito dal DM il 2026-10-14
-- **Collocazione in-game:** non confermata; contesto probabile [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]], da verificare con trascrizione raw
-- **Possessore noto:** da verificare; destinatario esplicito Anivar
+- **Stato:** trovata dal party in S10; testo fornito dal DM il 2026-10-14
+- **Collocazione in-game:** stanza asciutta nel livello inferiore della [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]].
+- **Possessore noto:** Anivar, che la mette in tasca dopo averla letta. Fonte: [[wiki/sessions/2026-10-14-la-lettera-di-danik|S10]].
 
 ## Trascrizione Fedele
 
@@ -218,7 +218,7 @@ Sintesi fedele senza inferenze, solo da testo lettera:
 
 ## Misteri E Domande Aperte
 
-- Collocazione esatta del ritrovamento in-game: da verificare con trascrizione raw.
+- Collocazione e possessore chiariti dalla trascrizione S10; resta da verificare la verita delle affermazioni di Danik.
 - Cosa è la ferita sotto e cosa tenta di raggiungerla.
 - Cosa accade quando le due cose vengono confuse.
 - Quali riti Danik modificò/creò e con quali creature condivise pane/informazioni/sangue.
@@ -227,5 +227,4 @@ Sintesi fedele senza inferenze, solo da testo lettera:
 ## Fonti
 
 - Testo fornito dal DM il 2026-10-14 come lettera trovata in sessione corrente post-S09.
-- Contesto probabile S09/biblioteca/scala, da confermare con trascrizione raw di sessione.
-- Confidence trascrizione: alta; confidence collocazione/custodia: bassa, da verificare.
+- [[wiki/sessions/2026-10-14-la-lettera-di-danik|S10]], `raw/archive/2026-10-14 21-58-06.txt`.

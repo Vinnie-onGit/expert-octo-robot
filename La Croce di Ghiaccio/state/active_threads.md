@@ -23,7 +23,8 @@ tags:
 | Cantica della Casa delle Maree | media | Il bardo gnomo canta campane contro il Canto, nomi inchiodati alla memoria e riposo come tentazione. In S08 le campane risultano rovesciate. | S08 |
 | Via delle Processioni | alta | Strada emersa con nomi, nicchie, alcove fresche di Luther e Igor e loop spezzato dalla lettura; conduce alla navata. | S08 |
 | Scrivano nothic | alta | Registra nomi e ricordi, consegna foglio e chiave, fugge gridando Danni; monito sulle campane. | S09 |
-| Livello inferiore | alta | Scala con chiave ad Anivar; messaggio di verifica oltre gli scritti; il Canto starebbe in basso. | S09 |
+| Livello inferiore | alta | Lettera di Danik, sala allagata e tregua con Abzul; il gruppo prosegue nel corridoio. | S10-S11 |
+| Abzul e la ferita | alta | Abzul dice di essere prigioniero e offre aiuto interessato; come liberarlo e natura della ferita da verificare. | S10-S11 |
 
 ## Chiusure Locali
 

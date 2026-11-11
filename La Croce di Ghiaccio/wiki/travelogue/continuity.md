@@ -237,6 +237,14 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Igor trova Varenholt e beve alla tazza annotata; Luther riceve il foglio coi nomi (retcon 2026-10-14).
 - Lo Scrivano resta nella biblioteca come custode che ricorda senza essere ricordato.
 
+### Dopo S10-S11
+
+- Anivar conserva la lettera di Danik, lo giudica con cautela e tratta con Abzul senza fidarsi; la sua proposta di scambio di potere non e accettata.
+- Luther protegge la lanterna, viene ferito nello scontro e riceve da Abzul il monito di non aprirla nella sala.
+- Olorik resiste alla pressione mentale dell'aboleth; il suo nome scompare dal foglio. Igor offre sostegno ad Anivar, cura i compagni e riflette sul possibile sacrificio di Seraph.
+- Abzul parla con superiorita, cerca una via d'uscita e offre una tregua interessata. Mani simili ma diverse e asce segnate diventano la sua immagine di Inferium, non verita verificata.
+- Fonti: [[wiki/sessions/2026-10-14-la-lettera-di-danik|S10]], [[wiki/sessions/2026-10-28-abzul|S11]].
+
 ## Note Di Stile Consolidate
 
 - I capitoli devono essere scene narrative, non recap.

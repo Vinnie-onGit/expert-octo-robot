@@ -8,7 +8,7 @@ tags:
 
 ## Stato
 
-Ingest canonico completato sulle trascrizioni dal 2026-02-18 al 2026-09-16 (S01-S09).
+Ingest canonico completato sulle trascrizioni dal 2026-02-18 al 2026-10-28 (S01-S11).
 
 ## Premessa
 
@@ -50,3 +50,4 @@ Nel faro e nel tempio sommerso collegato, il party ha scoperto che il Canto non 
 - Stato reale degli abitanti del villaggio e della Stella Solitaria.
 - Identita e ruolo del [[wiki/characters/vecchio-marinaio|Vecchio Marinaio]].
 - Significato della cantica sulla Casa delle Maree, sulle campane e sui nomi inchiodati alla memoria.
+- [S10-S11] Natura della ferita e attendibilita della lettera di Danik e delle spiegazioni di [[wiki/characters/abzul|Abzul]]; identita delle voci, vincolo di Seraph e possibile pericolo della lanterna. Fonti: [[wiki/sessions/2026-10-14-la-lettera-di-danik|S10]], [[wiki/sessions/2026-10-28-abzul|S11]].

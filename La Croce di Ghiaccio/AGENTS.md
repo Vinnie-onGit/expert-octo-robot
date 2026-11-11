@@ -168,14 +168,18 @@ Definita struttura per diario di viaggio romanzato:
 
 Predisposte regole per separare raw, canon, speculazione, conoscenza riservata e travelogue.
 
-Ingerite e consolidate le sessioni canoniche S01-S07:
+Ingerite e consolidate le sessioni canoniche S01-S11; oltre alle prime sette:
 - `wiki/sessions/2026-02-18-la-lanterna-nera.md`;
 - `wiki/sessions/2026-03-04-la-porta-e-padre-danik.md`;
 - `wiki/sessions/2026-03-11-l-ombra-di-padre-danik.md`;
 - `wiki/sessions/2026-03-18-la-luce-di-padre-danik.md`;
 - `wiki/sessions/2026-04-01-verso-la-cattedrale-delle-ombre.md`;
 - `wiki/sessions/2026-06-17-approdo-alla-cattedrale-delle-ombre.md`;
-- `wiki/sessions/2026-07-08-la-stella-solitaria.md`.
+- `wiki/sessions/2026-07-08-la-stella-solitaria.md`;
+- `wiki/sessions/2026-09-13-la-via-delle-processioni.md`;
+- `wiki/sessions/2026-09-16-lo-scrivano-della-cattedrale.md`;
+- `wiki/sessions/2026-10-14-la-lettera-di-danik.md`;
+- `wiki/sessions/2026-10-28-abzul.md`.
 
 Aggiornati:
 - `wiki/timeline/timeline-canonica.md`;
@@ -188,7 +192,7 @@ Aggiornati:
 
 Create pagine naturali per PG, PNG, luoghi, fazioni, oggetti, concetti, quest e misteri principali.
 
-Creati capitoli travelogue 01-07 in stato bozza.
+Creati capitoli travelogue 01-10 in stato bozza. Il capitolo 10 unisce S10 e S11 su istruzione esplicita del DM.
 
 Allineato il workflow del travelogue al modello qualitativo del vault **Sottosuolo**:
 - `scene-analysis` obbligatoria in `wiki/query/` prima dei capitoli;
@@ -203,7 +207,10 @@ Allineato il workflow del travelogue al modello qualitativo del vault **Sottosuo
 
 Processare eventuali nuove fonti grezze inserite in `raw/sessions/`, `raw/lore/`, `raw/character_backgrounds/` o `raw/handouts/`.
 
-Da verificare dopo S07:
+Da verificare dopo S11, oltre ai fili precedenti:
+- attendibilita di Abzul e della lettera di Danik, natura della ferita e di Inferium;
+- identita delle voci, sparizione del nome di Olorik e pericolo della lanterna;
+- vincolo di Seraph, eventuale liberazione di Abzul e conseguenze;
 - identita e ruolo del Vecchio Marinaio;
 - stato reale degli abitanti della Stella Solitaria e del villaggio;
 - motivo dell'anomalia giorno/notte, riposo e frase "e tardi";

@@ -11,7 +11,7 @@ tags:
 | Aggancio | Tipo | Descrizione | Priorita | Fonte |
 |---|---|---|---|---|
 | Origine del Canto | mistero | Shariti e Shar lo sfruttano, ma non lo hanno creato. | alta | S04-S05 |
-| Inferium | mistero | Parola sussurrata nelle profondita del Faro Sommerso, legata alla luce e alla voce dal basso ma non ancora spiegata. | media | S01 |
+| Inferium | mistero | Abzul lo descrive come cio che preserva la diversita; la spiegazione e da verificare. | alta | S01, S10-S11 |
 | Sigilli | mistero | Danik voleva tenere il gruppo lontano dai sigilli. | alta | S03 |
 | Seraph cancellato | lore | Seraph fu marchiato come traditore/fallimento, ma avrebbe sigillato il Canto con la propria essenza; identita e genere restano incerti. | alta | S05 |
 | Ombra incompleta di Anivar | personaggio | L'ombra di Anivar manca dalla vita in giu sotto la luce della lanterna. | media | S04 |
@@ -31,4 +31,6 @@ tags:
 | Livello inferiore e chiave | luogo | Scala con chiave ad Anivar; messaggio di verifica; il Canto starebbe in basso. | alta | S09 |
 | Varenholt ricordato | personaggio | Marinaio della Figlia della Marea riscritto da vuoto a ricordato; effetti da verificare. | media | S09 |
 | Foglio coi nomi del party | oggetto | Strappato dallo Scrivano per Luther (retcon 2026-10-14; raw/versione precedente: Igor); esposizione o protezione ignota. | alta | S09 |
-| Uomo dello Scrivano | PNG | Lavoro a due mani tra nome, ricordo e ancora; Danni gridato in fuga; identita ignota. | alta | S09 |
+| Uomo dello Scrivano | PNG | La lettera firmata Danik descrive un lavoro reciproco di memoria con lo Scrivano; collegamento con il Danni gridato plausibile, da verificare. | alta | S09-S10 |
+| Ferita e Abzul | mistero | Abzul e Danik distinguono ferita e Canto; identita delle voci, attendibilita e liberazione della creatura restano aperte. | alta | S10-S11 |
+| Foglio e nome di Olorik | oggetto | Il nome scompare dal foglio nella sala; causa e conseguenze ignote, passaggio del foglio ambiguo. | alta | S10 |

@@ -10,7 +10,7 @@ tags:
 
 - **Stato del progetto:** avviato
 - **POV principale:** narratore esterno corale
-- **Ultimo capitolo scritto:** [[wiki/travelogue/chapters/capitolo-09-lo-scrivano-della-cattedrale|Capitolo 09 - Lo Scrivano Della Cattedrale]]
+- **Ultimo capitolo scritto:** [[wiki/travelogue/chapters/capitolo-10-la-ferita-e-la-memoria|Capitolo 10 - La Ferita E La Memoria]]
 - **Export HTML:** `exports/travelogue/html/index.html`
 
 ## Capitoli
@@ -26,6 +26,7 @@ tags:
 | [[wiki/travelogue/chapters/capitolo-07-la-stella-solitaria|07]] | La Stella Solitaria | S07 | bozza | corale | Villaggio, taverna, cantica, Vecchio Marinaio; scene-analysis presente |
 | [[wiki/travelogue/chapters/capitolo-08-la-via-delle-processioni|08]] | La Via Delle Processioni | S08 | bozza | corale | Campana, Via, alcove fresche, porte e navata; scene-analysis presente |
 | [[wiki/travelogue/chapters/capitolo-09-lo-scrivano-della-cattedrale|09]] | Lo Scrivano Della Cattedrale | S09 | bozza | corale | Necrologio, Scrivano, chiave e scala; scene-analysis presente |
+| [[wiki/travelogue/chapters/capitolo-10-la-ferita-e-la-memoria|10]] | La Ferita E La Memoria | S10-S11 | bozza | corale | Capitolo unico per entrambe le sessioni su richiesta del DM; due scene-analysis |
 
 ## Export
 

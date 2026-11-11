@@ -11,8 +11,8 @@ tags:
 
 - **Tipo:** cattedrale/osservatorio marittimo antichissimo
 - **Culto o stratificazione nota:** Ilmater/Targos da informazioni precedenti; simboli di Umberlee osservati sul sito
-- **Stato:** raggiunta; navata e biblioteca esplorate in S09, scala verso il basso da aprire
-- **Fonte:** S05-S09
+- **Stato:** navata, biblioteca e parte del livello inferiore esplorate; party oltre la sala allagata
+- **Fonte:** S05-S11
 
 ## Canon Consolidato
 
@@ -32,3 +32,4 @@ tags:
 La nave di [[wiki/characters/kaelira|Kaelira]] ha lasciato il gruppo presso il villaggio costiero ed e ripartita verso Targos per rifornimenti. Il party sta investigando la Stella Solitaria e gli abitanti del villaggio.
 - [S08] Il party percorre la [[wiki/locations/via-delle-processioni|Via delle Processioni]], apre le porte di bronzo con bassorilievi navali e figura femminile e doppia iscrizione su pieta e memoria, ed entra nella navata: acqua alle caviglie, nomi ovunque, ex-voto umili, libro asciutto sul leggio e rumore di carbone che scrive in profondita.
 - [S09] Navata con abside e statua incappucciata a braccia aperte, stanze laterali e barricate recenti senza armi, biblioteca alla base della torre con nothic Scrivano, scala verso il livello inferiore con chiave ora ad Anivar.
+- [S10-S11] Stanza asciutta con lettera di Danik, corridoi e sala allagata con statua di Umberlee e vortice; dopo lo scontro e la tregua con [[wiki/characters/abzul|Abzul]] il party prosegue oltre. Fonti: [[wiki/sessions/2026-10-14-la-lettera-di-danik|S10]], [[wiki/sessions/2026-10-28-abzul|S11]].

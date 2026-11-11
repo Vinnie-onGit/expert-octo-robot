@@ -25,6 +25,7 @@ tags:
 - Al contatto con [[wiki/characters/kaelira|Kaelira]] provoca una reazione fisica intensa e richiama un retaggio celestiale.
 - Kaelira la considera abbastanza pericolosa da richiedere custodia nel [[wiki/items/sacco-antimagia|sacco antimagia]] a bordo della nave.
 - Mentre Kaelira la osserva nella propria cabina, il gruppo nota che la capitana non proietta alcuna ombra.
+- [S10] Rivela iscrizioni nel corridoio e una linea simile a cicatrice sotto l'acqua della sala. [S11] Abzul sostiene che i suoi servitori ne percepiscano la magia e avverte di non aprirla nella sala: il rischio evocato resta da verificare. Fonti: [[wiki/sessions/2026-10-14-la-lettera-di-danik|S10]], [[wiki/sessions/2026-10-28-abzul|S11]].
 
 ## Misteri
 

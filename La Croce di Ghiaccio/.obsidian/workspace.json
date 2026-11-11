@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3d468a558fdee906",
+        "id": "66dfd7f61507ad60",
         "type": "tabs",
         "children": [
           {
-            "id": "bbe2982e6e422c00",
+            "id": "02181f35f36a7f43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/archive/2026-04-01 21-46-06_trascrizione.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-04-01 21-46-06_trascrizione"
+              "title": "Nuova scheda"
             }
           }
         ]
@@ -183,8 +179,9 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "bbe2982e6e422c00",
+  "active": "f7f37291602965d7",
   "lastOpenFiles": [
+    "raw/archive/2026-04-01 21-46-06_trascrizione.md",
     "wiki/characters/numcalad.md",
     "wiki/locations/faro-sommerso.md",
     "wiki/characters/luther-fist.md",
@@ -214,7 +211,6 @@
     "index.md",
     "wiki/items/specchio-di-edmorin.md",
     "wiki/factions/shariti.md",
-    "wiki/characters/seraph.md",
-    "wiki/travelogue/chapters/capitolo-04-la-luce-di-padre-danik.md"
+    "wiki/characters/seraph.md"
   ]
 }

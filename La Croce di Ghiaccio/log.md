@@ -88,3 +88,10 @@ tags:
 - Creata pagina `wiki/items/lettera-di-danik-ad-anivar.md` da testo DM fornito in chat come lettera trovata in sessione corrente post-S09.
 - Trascrizione fedele integrale; sintesi punti canonici senza inferenze; collocazione raw da verificare.
 - Aggiornati `wiki/characters/padre-danik.md` e `wiki/items/index.md`.
+
+## 2026-11-11
+
+- Consolidate S10 e S11 con schede separate, analisi scena per scena, pagina di Abzul e aggiornamenti a timeline, stati, indici e pagine naturali; testimonianze e ipotesi restano distinte dai fatti osservati.
+- Creato il capitolo travelogue 10 condiviso fra le due sessioni su richiesta esplicita del DM; rigenerato l'HTML completo con dieci capitoli.
+- Archiviate senza modifiche le due trascrizioni del 14 e 28 ottobre 2026.
+- Export Word del capitolo 10 non creato: Microsoft Word non ha risposto entro il tempo limite; nessun file `.docx` risultava presente alla verifica.

@@ -21,3 +21,4 @@ tags:
 | Uomo senza nome | disperso in mare | mare dell'isola | Nome assente dal libro; destinato a essere negato. | S08 |
 | [[wiki/characters/scrivano-nothic|Scrivano nothic]] | attivo | biblioteca della Cattedrale | Registra nomi e ricordi; consegna foglio e chiave; fugge gridando Danni. | S09 |
 | Varenholt | ricordato | nicchia della navata | Marinaio della Figlia della Marea riscritto da vuoto a ricordato. | S09 |
+| [[wiki/characters/abzul|Abzul]] | vivo; dice di essere prigioniero | sala allagata inferiore | Tregua interessata; accetta di aiutare il gruppo, senza accordo definitivo di liberazione. | S10-S11 |

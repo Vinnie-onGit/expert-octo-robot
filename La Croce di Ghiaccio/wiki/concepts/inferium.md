@@ -21,7 +21,7 @@ tags:
 - Il termine compare nel contesto della visione del capitano mostrata dalla [[wiki/items/lanterna-nera|lanterna nera]], insieme alla frase: "Ho legato la luce, che il mare mi perdoni".
 - Nella stessa visione il capitano parla di una campana sotto che non smette di suonare e della possibilita che, se la luce scende ancora, non torni.
 - Il collegamento piu forte al momento e con la luce legata al mare, la struttura sotto il relitto, la voce dal basso e il primo sito del [[wiki/concepts/canto|Canto]].
-- Il termine non e ancora stato spiegato da un personaggio in fiction e non e stato identificato come lingua, luogo, sostanza, entita o rituale.
+- [S11] [[wiki/characters/abzul|Abzul]] lo descrive come cio che preserva l'unicita anche tra cose simili, contrapponendolo all'unificazione del Canto. E una spiegazione in fiction, non verificata indipendentemente; la natura precisa resta aperta. Fonte: [[wiki/sessions/2026-10-28-abzul|S11]].
 
 ## Contesto Di Scoperta
 

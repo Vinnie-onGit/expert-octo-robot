@@ -26,3 +26,4 @@ tags:
 | [[wiki/characters/re-edmorin|Re Edmorin]] | re elfico nello specchio | misterioso | S05 |
 | [[wiki/characters/numcalad|Numcalad]] | patrono della missione, detto il Camminante | attivo, fuori scena | S01-S05 |
 | [[wiki/characters/vecchio-marinaio|Vecchio Marinaio]] | figura marina del villaggio | attivo; natura ignota | S07 |
+| [[wiki/characters/abzul|Abzul]] | aboleth del livello inferiore | vivo; tregua interessata | S10-S11 |

@@ -8,7 +8,7 @@ tags:
 
 ## Stato Generale
 
-Travelogue avviato. Capitoli 01-09 creati in stato bozza, basati sul canon consolidato e non sulle sole trascrizioni raw.
+Travelogue avviato. Capitoli 01-10 creati in stato bozza, basati sul canon consolidato e non sulle sole trascrizioni raw. Il capitolo 10 unisce S10 e S11 per istruzione esplicita del DM.
 
 Export HTML completo disponibile in `exports/travelogue/html/index.html`, generato dal solo `## Testo Narrativo` dei capitoli tramite `scripts/export-travelogue-html.ps1`.
 
@@ -25,6 +25,7 @@ Export HTML completo disponibile in `exports/travelogue/html/index.html`, genera
 | [[wiki/travelogue/chapters/capitolo-07-la-stella-solitaria|Capitolo 07]] | S07 | bozza | corale | Creato con scene-analysis, villaggio, Stella Solitaria, cantica e Vecchio Marinaio |
 | [[wiki/travelogue/chapters/capitolo-08-la-via-delle-processioni|Capitolo 08]] | S08 | bozza | corale | Creato con scene-analysis, campana, Via delle Processioni, alcove fresche e ingresso in Cattedrale |
 | [[wiki/travelogue/chapters/capitolo-09-lo-scrivano-della-cattedrale|Capitolo 09]] | S09 | bozza | corale | Creato con scene-analysis, Necrologio, Scrivano, chiave e scala |
+| [[wiki/travelogue/chapters/capitolo-10-la-ferita-e-la-memoria|Capitolo 10]] | S10-S11 | bozza | corale | Capitolo condiviso su richiesta del DM; due scene-analysis |
 
 ## Sessioni Da Romanzare
 
@@ -37,7 +38,7 @@ Export HTML completo disponibile in `exports/travelogue/html/index.html`, genera
 - Revisionare il Capitolo 07 per stile e continuita dopo eventuale feedback del DM.
 - Revisionare il Capitolo 08 per stile e continuita dopo eventuale feedback del DM.
 - Revisionare il Capitolo 09 per stile e continuita dopo eventuale feedback del DM.
-- Continuare con il capitolo 10 dopo la prossima trascrizione.
+- Revisionare il capitolo 10 con il DM, in particolare dialoghi e attribuzioni incerte.
 
 ## Ultimi Aggiornamenti
 
@@ -47,3 +48,4 @@ Export HTML completo disponibile in `exports/travelogue/html/index.html`, genera
 - 2026-07-09: creato export HTML completo del travelogue in `exports/travelogue/html/index.html`.
 - 2026-09-17: creato Capitolo 08 - La Via delle Processioni con scene-analysis S08. Export Word non creato per assenza di `pandoc`. Rigenerato export HTML completo (8 capitoli).
 - 2026-09-17: creato Capitolo 09 - Lo Scrivano Della Cattedrale con scene-analysis S09. Export Word non creato per assenza di `pandoc`. Rigenerato export HTML completo (9 capitoli).
+- 2026-11-11: creato capitolo 10 condiviso per S10-S11 su richiesta del DM; HTML rigenerato. Export Word non creato: Word non ha risposto entro il tempo limite.
