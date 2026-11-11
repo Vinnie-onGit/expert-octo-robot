@@ -30,6 +30,8 @@ Il travelogue non sostituisce il canon e non introduce automaticamente nuovi fat
 
 ## 2. Struttura Del Vault
 
+`La\ Croce\ di\ Ghiaccio/` cartella principale, cerca tutto qui dentro, tutte le operazioni vanno fatte qui dentro.
+
 `.obsidian/` configurazione locale del vault.
 
 `index.md` punto di ingresso leggero verso indici e pagine chiave.
