@@ -8,11 +8,11 @@ tags:
 
 ## Stato
 
-Ingest canonico completato sulle trascrizioni dal 2026-02-18 al 2026-10-28 (S01-S11).
+Ingest canonico completato sulle trascrizioni dal 2026-02-18 al 2026-11-11 (S01-S12).
 
 ## Premessa
 
-La compagnia viaggia su incarico di [[wiki/characters/numcalad|Numcalad]], detto il Camminante, per investigare luoghi segnati dal [[wiki/concepts/canto|Canto]] e dai suoi effetti. Il primo obiettivo esplorato e stato il [[wiki/locations/faro-sommerso|Faro Sommerso]], raggiunto via mare con una nave della sua flotta; il gruppo e ora sbarcato presso il [[wiki/locations/villaggio-dell-isola-della-cattedrale|villaggio dell'isola della Cattedrale]] e ha raggiunto la [[wiki/locations/stella-solitaria|Stella Solitaria]].
+La compagnia viaggia su incarico di [[wiki/characters/numcalad|Numcalad]], detto il Camminante, per investigare luoghi segnati dal [[wiki/concepts/canto|Canto]] e dai suoi effetti. Dopo il [[wiki/locations/faro-sommerso|Faro Sommerso]] e il villaggio dell'isola, il gruppo esplora il livello inferiore della [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]]. Fonte: S01-S12.
 
 Nel faro e nel tempio sommerso collegato, il party ha scoperto che il Canto non sembra essere stato creato dagli shariti, ma viene usato da loro come strumento. La lanterna nera recuperata nel relitto porta una traccia antica collegata a [[wiki/characters/seraph|Seraph]], campione che avrebbe dato la propria essenza per sigillare il Canto.
 
@@ -51,3 +51,4 @@ Nel faro e nel tempio sommerso collegato, il party ha scoperto che il Canto non 
 - Identita e ruolo del [[wiki/characters/vecchio-marinaio|Vecchio Marinaio]].
 - Significato della cantica sulla Casa delle Maree, sulle campane e sui nomi inchiodati alla memoria.
 - [S10-S11] Natura della ferita e attendibilita della lettera di Danik e delle spiegazioni di [[wiki/characters/abzul|Abzul]]; identita delle voci, vincolo di Seraph e possibile pericolo della lanterna. Fonti: [[wiki/sessions/2026-10-14-la-lettera-di-danik|S10]], [[wiki/sessions/2026-10-28-abzul|S11]].
+- [S12] Identita della figura alata, forma tentacolare nell'ombra di Anivar, manovratore delle campane e contenuto della cassa. Fonte: [[wiki/sessions/2026-11-11-la-soglia-delle-due-maree|S12]].

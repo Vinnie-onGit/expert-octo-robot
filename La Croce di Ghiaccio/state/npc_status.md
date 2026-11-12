@@ -12,7 +12,7 @@ tags:
 |---|---|---|---|---|
 | [[wiki/characters/padre-danik|Padre Danik]] | dissolto/liberato; tracce attive | Faro Sommerso e Cattedrale | Visione in preghiera e foglietto autografo in S09; addetto al contenimento. | S02-S04, S09 |
 | [[wiki/characters/kaelira|Kaelira]] | attiva | in rotta verso Targos | Capitana; conosce Seraph, riconosce retaggio celestiale nella lanterna, non proietta ombra e ha lasciato il party al villaggio per rifornirsi. | S04-S07 |
-| [[wiki/characters/sharavin|Sharavin]] | attivo, alleato condizionale | acque del Faro Sommerso | Ha donato una conchiglia per richiamare un favore. | S04 |
+| [[wiki/characters/sharavin|Sharavin]] | attivo, alleato condizionale | posizione attuale non confermata | Risponde alla conchiglia, racconta di Danik e campane; favore non chiarito. | S04, S12 |
 | [[wiki/characters/seraph|Seraph]] | misterioso | frammento nella lanterna | Campione antico, essenza usata per sigillare il Canto. | S05 |
 | [[wiki/characters/re-edmorin|Re Edmorin]] | misterioso | specchio | In S09 urla muto verso la statua della Cattedrale. | S05, S09 |
 | [[wiki/characters/numcalad|Numcalad]] | attivo, fuori scena | non confermata | Detto il Camminante; patrono della missione e della rotta. | S01-S05 |
@@ -21,4 +21,5 @@ tags:
 | Uomo senza nome | disperso in mare | mare dell'isola | Nome assente dal libro; destinato a essere negato. | S08 |
 | [[wiki/characters/scrivano-nothic|Scrivano nothic]] | attivo | biblioteca della Cattedrale | Registra nomi e ricordi; consegna foglio e chiave; fugge gridando Danni. | S09 |
 | Varenholt | ricordato | nicchia della navata | Marinaio della Figlia della Marea riscritto da vuoto a ricordato. | S09 |
-| [[wiki/characters/abzul|Abzul]] | vivo; dice di essere prigioniero | sala allagata inferiore | Tregua interessata; accetta di aiutare il gruppo, senza accordo definitivo di liberazione. | S10-S11 |
+| [[wiki/characters/abzul|Abzul]] | vivo all'ultimo incontro; dice di essere prigioniero | posizione attuale non confermata | Tregua interessata; dopo S12 la sala non mostra acqua e Abzul non e visibile. | S10-S12 |
+| Figura alata non identificata | natura e stato ignoti | cavita oltre il varco, apparizione | Parla della ferita e della luce; identita con Seraph solo ipotesi. | S12 |

@@ -14,8 +14,8 @@ tags:
 - [[state/unresolved_hooks|Agganci non risolti]]
 - [[state/npc_status|Stato PNG]]
 - [[wiki/timeline/timeline-canonica|Timeline canonica]]
-- [[wiki/sessions/2026-10-28-abzul|Ultima sessione - Abzul]]
-- [[wiki/sessions/2026-10-14-la-lettera-di-danik|Sessione precedente - La Lettera Di Danik]]
+- [[wiki/sessions/2026-11-11-la-soglia-delle-due-maree|Ultima sessione - La Soglia Delle Due Maree]]
+- [[wiki/sessions/2026-10-28-abzul|Sessione precedente - Abzul]]
 
 ## Campagna
 
@@ -42,7 +42,7 @@ tags:
 
 - [[wiki/travelogue/index|Indice Travelogue]]
 - [[wiki/travelogue/chapters/capitolo-01-la-lanterna-nera|Capitolo 01 - La Lanterna Nera]]
-- [[wiki/travelogue/chapters/capitolo-10-la-ferita-e-la-memoria|Ultimo capitolo - La Ferita E La Memoria]]
+- [[wiki/travelogue/chapters/capitolo-11-la-soglia-delle-due-maree|Ultimo capitolo - La Soglia Delle Due Maree]]
 - [[wiki/travelogue/style-guide|Style Guide Travelogue]]
 - [[wiki/travelogue/continuity|Continuity Travelogue]]
 - [[state/travelogue_status|Stato Travelogue]]

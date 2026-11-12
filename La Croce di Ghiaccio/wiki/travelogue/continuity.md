@@ -245,6 +245,13 @@ Questa pagina conserva la memoria narrativa del travelogue: voci, temi, simboli,
 - Abzul parla con superiorita, cerca una via d'uscita e offre una tregua interessata. Mani simili ma diverse e asce segnate diventano la sua immagine di Inferium, non verita verificata.
 - Fonti: [[wiki/sessions/2026-10-14-la-lettera-di-danik|S10]], [[wiki/sessions/2026-10-28-abzul|S11]].
 
+### Dopo S12
+
+- L'ombra di Anivar appare con forme tentacolari sotto la lanterna; lui interpreta dolore e sollievo come segno e onora anche Umberlee senza abbandonare Ilmater. Origine e significato restano aperti.
+- Luther difende la custodia della lanterna dopo che Igor la sottrae per usarla; resta dubbioso sulla sicurezza del gruppo. Igor contatta Sharavin e conserva la conchiglia, senza conferma sul consumo del favore.
+- Olorik trattiene l'impulso ad attaccare la figura; questa parla di casa e memoria. La figura alata non e identificata con certezza come Seraph e non va raccontata come rivelazione accertata.
+- Le campane sono strumenti secondo Sharavin, che parla di uso improprio senza attribuirlo. Il capitolo si chiude con cassa non aperta e ombra di lama nella sala senza acqua visibile. Fonte: [[wiki/sessions/2026-11-11-la-soglia-delle-due-maree|S12]].
+
 ## Note Di Stile Consolidate
 
 - I capitoli devono essere scene narrative, non recap.

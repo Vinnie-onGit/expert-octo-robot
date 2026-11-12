@@ -20,6 +20,7 @@ tags:
 - Sharavin concede passaggio sicuro e un favore richiamabile tramite conchiglia.
 - Dopo il collasso del Faro Sommerso, gli attacchi contro la nave di Kaelira diminuiscono quasi a zero per una notte; la causa non e confermata.
 - Kaelira non dichiara rapporti con loro e li considera creature tribali e fastidiose, giudizio che Igor percepisce come ingiusto.
+- [S12] Sharavin riferisce che i suoi sudditi combatterono con Danik e che questi chiese una tregua tra mare e terra. Attribuisce ad alcuni loro casi segni nell'ombra e giudizi di Danik: sono dichiarazioni da verificare. Fonte: [[wiki/sessions/2026-11-11-la-soglia-delle-due-maree|S12]].
 
 ## Fonti
 

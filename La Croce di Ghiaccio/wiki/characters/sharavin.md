@@ -19,6 +19,7 @@ tags:
 - Ringrazia il gruppo per aver dato loro una fine degna.
 - Concede passaggio sicuro nelle sue acque e dona una conchiglia per richiamare un favore.
 - Mostra macchie scure sulle scaglie, possibile traccia di contaminazione.
+- [S12] Risponde alla conchiglia di Igor. Chiama il sito Cattedrale delle Maree e riferisce di una tregua con Danik, di battaglie condivise, delle campane come strumenti usati male da qualcuno e di sudditi con segni d'ombra simili a quelli descritti dal party. Sono sue testimonianze; non identifica chi manovri le campane. Fonte: [[wiki/sessions/2026-11-11-la-soglia-delle-due-maree|S12]].
 
 ## Fonti
 

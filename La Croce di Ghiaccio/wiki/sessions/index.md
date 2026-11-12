@@ -19,3 +19,4 @@ tags:
 | [[wiki/sessions/2026-09-16-lo-scrivano-della-cattedrale|S09]] | Lo Scrivano della Cattedrale | 2026-09-16 | canon | vedi scheda |
 | [[wiki/sessions/2026-10-14-la-lettera-di-danik|S10]] | La lettera di Danik | 2026-10-14 | canon | `raw/archive/2026-10-14 21-58-06.txt` |
 | [[wiki/sessions/2026-10-28-abzul|S11]] | Abzul | 2026-10-28 | canon | `raw/archive/2026-10-28 22-01-13.txt` |
+| [[wiki/sessions/2026-11-11-la-soglia-delle-due-maree|S12]] | La soglia delle due maree | 2026-11-11 | canon | `raw/archive/2026-11-11 21-43-03_merged.txt` |

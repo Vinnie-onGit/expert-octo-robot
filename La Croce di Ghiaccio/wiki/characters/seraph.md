@@ -20,6 +20,7 @@ tags:
 - [[wiki/characters/numcalad|Numcalad]] aveva gia reagito in modo significativo al nome Seraph.
 - Identita e genere restano incerti: nel racconto emerge il sospetto che fosse una donna, ma il nome e l'unico dato solido.
 - [S11] Abzul sostiene che i ciondoli di Luther e Igor facciano parte del vincolo e del giuramento di Seraph, e che tale vincolo stia vacillando. Dichiarazione non verificata. Fonte: [[wiki/sessions/2026-10-28-abzul|S11]].
+- [S12] Il gruppo ipotizza che la figura alata rivelata dalla lanterna sia Seraph, ma essa non si nomina e l'identificazione non e confermata. Fonte: [[wiki/sessions/2026-11-11-la-soglia-delle-due-maree|S12]].
 
 ## Fonti
 

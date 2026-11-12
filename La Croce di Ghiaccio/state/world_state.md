@@ -10,7 +10,7 @@ tags:
 
 - **Anno corrente:** Da confermare
 - **Regione attiva:** isola della Cattedrale delle Ombre, rotta marittima da/per Targos
-- **Luogo principale:** corridoio oltre la sala allagata del livello inferiore nella [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]]; chiave ad Anivar
+- **Luogo principale:** sala di Abzul nel livello inferiore della [[wiki/locations/cattedrale-delle-ombre|Cattedrale delle Ombre]], ora senza acqua visibile; cassa chiusa e ombra di lama
 
 ## Situazione Generale
 
@@ -28,6 +28,8 @@ Nel villaggio, mattino e riposo risultano anomali: gli abitanti parlano come se 
 
 [S10-S11] Scesi nel livello inferiore, i quattro trovano la lettera di Danik ad Anivar e affrontano l'aboleth [[wiki/characters/abzul|Abzul]] nella sala allagata. Dopo una tregua interessata proseguono verso un corridoio; Abzul resta nella sala. Egli sostiene di essere prigioniero e fornisce spiegazioni non verificate su ferita, Inferium e Seraph. Fonti: [[wiki/sessions/2026-10-14-la-lettera-di-danik|S10]], [[wiki/sessions/2026-10-28-abzul|S11]].
 
+[S12] Una scala appare sopra la pozza. Il party esplora due santuari, osserva forme tentacolari nell'ombra di Anivar grazie alla lanterna e contatta Sharavin; questi racconta della tregua con Danik e sostiene che qualcuno usi male le campane. Oltre la scala appare una figura alata non identificata, che parla della ferita e della luce. I quattro si ritrovano nella sala di Abzul senza acqua o cadaveri visibili; accanto all'ombra di una lama e presente una cassa non aperta. Posizione di Abzul e causa del cambiamento ignote. Fonte: [[wiki/sessions/2026-11-11-la-soglia-delle-due-maree|S12]].
+
 ## Minacce E Instabilita Note
 
 - Il [[wiki/concepts/canto|Canto]] resta attivo e colpisce mente, memoria, sogni ed emozioni.
@@ -43,3 +45,4 @@ Nel villaggio, mattino e riposo risultano anomali: gli abitanti parlano come se 
 2026-09-13 - Ingest canonico sessione 2026-09-13 (S08, Via delle Processioni e ingresso in Cattedrale).
 2026-09-17 - Ingest canonico sessione 2026-09-16 (S09, Necrologio, Scrivano e chiave del livello inferiore).
 2026-11-11 - Ingest S10-S11, tregua con Abzul e discesa oltre la sala.
+2026-11-12 - Ingest S12, contatto con Sharavin e ritorno alla sala.

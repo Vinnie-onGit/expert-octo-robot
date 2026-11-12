@@ -95,3 +95,9 @@ tags:
 - Creato il capitolo travelogue 10 condiviso fra le due sessioni su richiesta esplicita del DM; rigenerato l'HTML completo con dieci capitoli.
 - Archiviate senza modifiche le due trascrizioni del 14 e 28 ottobre 2026.
 - Export Word del capitolo 10 non creato: Microsoft Word non ha risposto entro il tempo limite; nessun file `.docx` risultava presente alla verifica.
+
+## 2026-11-12
+
+- Ingerita S12 dell'11 novembre con analisi scena per scena, scheda sessione e aggiornamenti a timeline, stato del mondo, fili, PNG, quest, misteri e pagine naturali. Identita della figura e dichiarazioni dei PNG mantenute distinte dai fatti osservati.
+- Creato il capitolo 11 dedicato, aggiornati indici e continuity, rigenerato HTML completo a undici capitoli e creato export Word del solo testo narrativo.
+- Archiviata senza modifiche `2026-11-11 21-43-03_merged.txt`, verificando l'hash SHA-256 prima e dopo lo spostamento.

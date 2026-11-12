@@ -34,3 +34,7 @@ tags:
 | Uomo dello Scrivano | PNG | La lettera firmata Danik descrive un lavoro reciproco di memoria con lo Scrivano; collegamento con il Danni gridato plausibile, da verificare. | alta | S09-S10 |
 | Ferita e Abzul | mistero | Abzul e Danik distinguono ferita e Canto; identita delle voci, attendibilita e liberazione della creatura restano aperte. | alta | S10-S11 |
 | Foglio e nome di Olorik | oggetto | Il nome scompare dal foglio nella sala; causa e conseguenze ignote, passaggio del foglio ambiguo. | alta | S10 |
+| Figura alata | mistero | Figura senza volto e con ala incompleta; identita, rapporto con Seraph e affermazione su Ilmater da verificare. | alta | S12 |
+| Uso delle campane | mistero | Sharavin parla di uso improprio da parte di qualcuno, senza identificazione; effetti e responsabile ignoti. | alta | S08, S12 |
+| Cassa e sala asciutta | luogo | Cassa non aperta accanto all'ombra di lama; acqua e cadaveri non piu visibili, causa ignota. | alta | S12 |
+| Conchiglia dopo contatto | oggetto | Igor la conserva dopo aver chiamato Sharavin; consumo del favore non confermato. | media | S12 |

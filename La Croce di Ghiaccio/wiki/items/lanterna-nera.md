@@ -26,6 +26,7 @@ tags:
 - Kaelira la considera abbastanza pericolosa da richiedere custodia nel [[wiki/items/sacco-antimagia|sacco antimagia]] a bordo della nave.
 - Mentre Kaelira la osserva nella propria cabina, il gruppo nota che la capitana non proietta alcuna ombra.
 - [S10] Rivela iscrizioni nel corridoio e una linea simile a cicatrice sotto l'acqua della sala. [S11] Abzul sostiene che i suoi servitori ne percepiscano la magia e avverte di non aprirla nella sala: il rischio evocato resta da verificare. Fonti: [[wiki/sessions/2026-10-14-la-lettera-di-danik|S10]], [[wiki/sessions/2026-10-28-abzul|S11]].
+- [S12] Igor la punta sull'ombra di Anivar, mostrando ai compagni forme tentacolari effimere. Nella cavita vibra e rivela una figura alata non identificata, che sostiene di aver lasciato la luce per ricordare. Fonte: [[wiki/sessions/2026-11-11-la-soglia-delle-due-maree|S12]].
 
 ## Misteri
 

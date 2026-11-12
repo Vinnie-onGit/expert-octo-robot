@@ -10,7 +10,7 @@ tags:
 
 - **Stato del progetto:** avviato
 - **POV principale:** narratore esterno corale
-- **Ultimo capitolo scritto:** [[wiki/travelogue/chapters/capitolo-10-la-ferita-e-la-memoria|Capitolo 10 - La Ferita E La Memoria]]
+- **Ultimo capitolo scritto:** [[wiki/travelogue/chapters/capitolo-11-la-soglia-delle-due-maree|Capitolo 11 - La Soglia Delle Due Maree]]
 - **Export HTML:** `exports/travelogue/html/index.html`
 
 ## Capitoli
@@ -27,13 +27,14 @@ tags:
 | [[wiki/travelogue/chapters/capitolo-08-la-via-delle-processioni|08]] | La Via Delle Processioni | S08 | bozza | corale | Campana, Via, alcove fresche, porte e navata; scene-analysis presente |
 | [[wiki/travelogue/chapters/capitolo-09-lo-scrivano-della-cattedrale|09]] | Lo Scrivano Della Cattedrale | S09 | bozza | corale | Necrologio, Scrivano, chiave e scala; scene-analysis presente |
 | [[wiki/travelogue/chapters/capitolo-10-la-ferita-e-la-memoria|10]] | La Ferita E La Memoria | S10-S11 | bozza | corale | Capitolo unico per entrambe le sessioni su richiesta del DM; due scene-analysis |
+| [[wiki/travelogue/chapters/capitolo-11-la-soglia-delle-due-maree|11]] | La Soglia Delle Due Maree | S12 | bozza | corale | Ombra di Anivar, Sharavin, figura alata e cassa; scene-analysis presente |
 
 ## Export
 
 | Formato | Percorso | Stato | Note |
 |---|---|---|---|
 | HTML completo | `exports/travelogue/html/index.html` | generato | Include solo il testo narrativo dei capitoli, con navigazione e stile responsive. |
-| Word capitoli | `exports/travelogue/docx/` | non generato | Richiede `pandoc` o altro convertitore disponibile. |
+| Word capitoli | `exports/travelogue/docx/` | parziale | Capitolo 11 generato; capitoli precedenti non necessariamente disponibili. |
 
 ## Interludi
 
